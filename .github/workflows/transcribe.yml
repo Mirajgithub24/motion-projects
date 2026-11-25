@@ -1,0 +1,65 @@
+name: Transcribe voiceover
+
+# Cloud sessions cannot download speech models, so transcription runs here.
+# Writes projects/<name>/transcript.json (word-level timestamps) and commits it to main.
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder name in projects/"
+        required: true
+      model:
+        description: "Whisper model (faster-whisper name)"
+        default: "large-v3"
+      language:
+        description: "Language code (empty = auto-detect)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transcribe-${{ inputs.project }}
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check project
+        env:
+          NAME: ${{ inputs.project }}
+        run: |
+          [[ "$NAME" =~ ^[A-Za-z0-9][A-Za-z0-9-]*$ ]] || { echo "Bad project name"; exit 1; }
+          test -f "projects/$NAME/voiceover.mp3"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install faster-whisper
+        run: pip install --quiet faster-whisper
+
+      - name: Transcribe
+        env:
+          NAME: ${{ inputs.project }}
+          MODEL: ${{ inputs.model }}
+          LANG_CODE: ${{ inputs.language }}
+        run: python .github/scripts/transcribe.py "$NAME" "$MODEL" "$LANG_CODE"
+
+      - name: Commit transcript
+        env:
+          NAME: ${{ inputs.project }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "projects/$NAME/transcript.json"
+          git commit -m "Add transcript for $NAME [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
