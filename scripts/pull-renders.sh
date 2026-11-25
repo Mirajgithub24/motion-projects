@@ -5,7 +5,7 @@ set -euo pipefail
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-REPO="YOUR_USER/motion-projects"
+REPO="Mirajgithub24/motion-projects"
 ENV_FILE="/etc/renders.env"
 DEST="/var/renders"
 STATE="$DEST/.downloaded"

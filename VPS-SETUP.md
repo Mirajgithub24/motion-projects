@@ -1,6 +1,6 @@
 # VPS setup (Ubuntu / Debian)
 
-The VPS polls GitHub Releases of `YOUR_USER/motion-projects` every 5 minutes and saves
+The VPS polls GitHub Releases of `Mirajgithub24/motion-projects` every 5 minutes and saves
 each new render to `/var/renders/<tag>/`. Run everything below as root (or prefix with `sudo`).
 
 ## 1. Install the latest gh CLI
@@ -31,7 +31,7 @@ Later updates arrive with the normal `apt update && apt upgrade`.
    settings → Personal access tokens → Fine-grained tokens → Generate new token).
 2. Token name: `vps-pull-renders`. Pick an expiration and put a reminder in your calendar;
    downloads stop when it expires.
-3. Resource owner: `YOUR_USER`.
+3. Resource owner: `Mirajgithub24`.
 4. Repository access: **Only select repositories** → `motion-projects`.
 5. Permissions → Repository permissions → **Contents: Read-only**.
    (Metadata: Read-only is added automatically. Nothing else.)

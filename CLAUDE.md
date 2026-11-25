@@ -1,7 +1,7 @@
 # Motion graphics pipeline
 
 Videos are built with Remotion in cloud sessions and delivered to the VPS through
-GitHub Releases (`YOUR_USER/motion-projects`). These rules apply to every session.
+GitHub Releases (`Mirajgithub24/motion-projects`). These rules apply to every session.
 
 ## Project layout
 - Each video lives in `projects/<name>/` with `assets/`, `voiceover.mp3` and `brief.md`.
@@ -36,7 +36,7 @@ GitHub Releases (`YOUR_USER/motion-projects`). These rules apply to every sessio
 ## Publishing
 - After rendering, publish it with:
 
-      gh release create "<name>-$(date +%Y%m%d-%H%M)" out/<name>.mp4 --repo YOUR_USER/motion-projects --title "<name>" --notes "Auto render"
+      gh release create "<name>-$(date +%Y%m%d-%H%M)" out/<name>.mp4 --repo Mirajgithub24/motion-projects --title "<name>" --notes "Auto render"
 
 - Finish by reporting the release tag, video length and file size.
 - If `gh release create` fails, say so clearly (with the exact error) and don't retry in a loop.
