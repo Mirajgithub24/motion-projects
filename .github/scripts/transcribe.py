@@ -14,6 +14,9 @@ from faster_whisper import WhisperModel
 
 name, model_name = sys.argv[1], sys.argv[2]
 language = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else None
+# Optional "s0,e0,s1,e1,..." seconds: transcribe each pause-aligned chunk on its own.
+# Long continuous speech otherwise makes Whisper skip stretches.
+clips = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else None
 path = f"projects/{name}/voiceover.mp3"
 
 t0 = time.time()
@@ -31,9 +34,11 @@ segments, info = model.transcribe(
     language=language,
     word_timestamps=True,
     beam_size=5,
-    # Voice-activity chunking stops Whisper from skipping long stretches of speech.
-    vad_filter=True,
+    # Voice-activity chunking stops Whisper from skipping long stretches of speech;
+    # explicit pause-aligned clips do the same more reliably.
+    vad_filter=clips is None,
     vad_parameters={"min_silence_duration_ms": 300, "speech_pad_ms": 200},
+    clip_timestamps=clips or "0",
     condition_on_previous_text=False,
 )
 out = {
@@ -41,6 +46,7 @@ out = {
     "language_probability": round(info.language_probability, 3),
     "duration": round(info.duration, 3),
     "model": model_name,
+    "clips": clips,
     "segments": [],
 }
 for s in segments:
