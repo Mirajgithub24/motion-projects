@@ -1,0 +1,2396 @@
+{
+ "language": "bn",
+ "language_probability": 1,
+ "duration": 296.124,
+ "model": "large-v3",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.84,
+   "text": "এই মুহর্তে বাংলাদেশের কোনোয়ে দর্জায় কেউ টোকা দিছে",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.3,
+     "word": "এই",
+     "probability": 0.99
+    },
+    {
+     "start": 0.3,
+     "end": 0.78,
+     "word": "মুহর্তে",
+     "probability": 0.884
+    },
+    {
+     "start": 0.78,
+     "end": 1.62,
+     "word": "বাংলাদেশের",
+     "probability": 0.937
+    },
+    {
+     "start": 1.62,
+     "end": 2.18,
+     "word": "কোনোয়ে",
+     "probability": 0.929
+    },
+    {
+     "start": 2.18,
+     "end": 2.76,
+     "word": "দর্জায়",
+     "probability": 0.945
+    },
+    {
+     "start": 2.76,
+     "end": 2.98,
+     "word": "কেউ",
+     "probability": 0.863
+    },
+    {
+     "start": 2.98,
+     "end": 3.4,
+     "word": "টোকা",
+     "probability": 0.938
+    },
+    {
+     "start": 3.4,
+     "end": 3.84,
+     "word": "দিছে",
+     "probability": 0.953
+    }
+   ]
+  },
+  {
+   "start": 3.84,
+   "end": 5.64,
+   "text": "ভাই, আপনার পারসেল",
+   "words": [
+    {
+     "start": 3.84,
+     "end": 4.52,
+     "word": "ভাই,",
+     "probability": 0.909
+    },
+    {
+     "start": 4.68,
+     "end": 5.14,
+     "word": "আপনার",
+     "probability": 0.962
+    },
+    {
+     "start": 5.14,
+     "end": 5.64,
+     "word": "পারসেল",
+     "probability": 0.934
+    }
+   ]
+  },
+  {
+   "start": 5.85,
+   "end": 10.29,
+   "text": "আজ শারা দিনে এমন টকা পরে প্রায় শারে শাত লাখ বার",
+   "words": [
+    {
+     "start": 5.85,
+     "end": 6.45,
+     "word": "আজ",
+     "probability": 0.991
+    },
+    {
+     "start": 6.45,
+     "end": 6.87,
+     "word": "শারা",
+     "probability": 0.908
+    },
+    {
+     "start": 6.87,
+     "end": 7.15,
+     "word": "দিনে",
+     "probability": 0.986
+    },
+    {
+     "start": 7.15,
+     "end": 7.69,
+     "word": "এমন",
+     "probability": 0.991
+    },
+    {
+     "start": 7.69,
+     "end": 8.03,
+     "word": "টকা",
+     "probability": 0.899
+    },
+    {
+     "start": 8.03,
+     "end": 8.31,
+     "word": "পরে",
+     "probability": 0.916
+    },
+    {
+     "start": 8.31,
+     "end": 8.81,
+     "word": "প্রায়",
+     "probability": 0.932
+    },
+    {
+     "start": 8.81,
+     "end": 9.13,
+     "word": "শারে",
+     "probability": 0.955
+    },
+    {
+     "start": 9.13,
+     "end": 9.55,
+     "word": "শাত",
+     "probability": 0.917
+    },
+    {
+     "start": 9.55,
+     "end": 9.97,
+     "word": "লাখ",
+     "probability": 0.982
+    },
+    {
+     "start": 9.97,
+     "end": 10.29,
+     "word": "বার",
+     "probability": 0.985
+    }
+   ]
+  },
+  {
+   "start": 25.11,
+   "end": 36.4,
+   "text": "কিন্তু আপনি যে শত্তুর টাকা ডেলিভারি চার্জ দিলেন",
+   "words": [
+    {
+     "start": 25.11,
+     "end": 26.03,
+     "word": "কিন্তু",
+     "probability": 0.934
+    },
+    {
+     "start": 26.11,
+     "end": 26.69,
+     "word": "আপনি",
+     "probability": 0.979
+    },
+    {
+     "start": 26.69,
+     "end": 26.99,
+     "word": "যে",
+     "probability": 0.928
+    },
+    {
+     "start": 26.99,
+     "end": 27.45,
+     "word": "শত্তুর",
+     "probability": 0.862
+    },
+    {
+     "start": 27.45,
+     "end": 28.31,
+     "word": "টাকা",
+     "probability": 0.979
+    },
+    {
+     "start": 28.31,
+     "end": 29.47,
+     "word": "ডেলিভারি",
+     "probability": 0.929
+    },
+    {
+     "start": 29.47,
+     "end": 30.45,
+     "word": "চার্জ",
+     "probability": 0.936
+    },
+    {
+     "start": 30.56,
+     "end": 36.4,
+     "word": "দিলেন",
+     "probability": 0.986
+    }
+   ]
+  },
+  {
+   "start": 36.4,
+   "end": 44.16,
+   "text": "সেষ ধাপে যাকে বলে লাস্ট মাইল এক জন ডেলিভারি রাইডের পারসেলটা ক্রেতার হাতে দেন আর হাতে হাতে টাকা নেন",
+   "words": [
+    {
+     "start": 36.4,
+     "end": 37.76,
+     "word": "সেষ",
+     "probability": 0.751
+    },
+    {
+     "start": 37.78,
+     "end": 38.2,
+     "word": "ধাপে",
+     "probability": 0.979
+    },
+    {
+     "start": 38.2,
+     "end": 38.6,
+     "word": "যাকে",
+     "probability": 0.913
+    },
+    {
+     "start": 38.6,
+     "end": 38.84,
+     "word": "বলে",
+     "probability": 0.988
+    },
+    {
+     "start": 38.84,
+     "end": 39.26,
+     "word": "লাস্ট",
+     "probability": 0.961
+    },
+    {
+     "start": 39.26,
+     "end": 39.56,
+     "word": "মাইল",
+     "probability": 0.977
+    },
+    {
+     "start": 39.56,
+     "end": 40.04,
+     "word": "এক",
+     "probability": 0.935
+    },
+    {
+     "start": 40.04,
+     "end": 40.18,
+     "word": "জন",
+     "probability": 0.939
+    },
+    {
+     "start": 40.18,
+     "end": 40.72,
+     "word": "ডেলিভারি",
+     "probability": 0.941
+    },
+    {
+     "start": 40.72,
+     "end": 41.02,
+     "word": "রাইডের",
+     "probability": 0.943
+    },
+    {
+     "start": 41.02,
+     "end": 41.6,
+     "word": "পারসেলটা",
+     "probability": 0.882
+    },
+    {
+     "start": 41.6,
+     "end": 41.98,
+     "word": "ক্রেতার",
+     "probability": 0.973
+    },
+    {
+     "start": 41.98,
+     "end": 42.18,
+     "word": "হাতে",
+     "probability": 0.996
+    },
+    {
+     "start": 42.18,
+     "end": 42.4,
+     "word": "দেন",
+     "probability": 0.937
+    },
+    {
+     "start": 42.4,
+     "end": 42.78,
+     "word": "আর",
+     "probability": 0.95
+    },
+    {
+     "start": 42.78,
+     "end": 43.08,
+     "word": "হাতে",
+     "probability": 0.998
+    },
+    {
+     "start": 43.08,
+     "end": 43.34,
+     "word": "হাতে",
+     "probability": 0.991
+    },
+    {
+     "start": 43.34,
+     "end": 43.78,
+     "word": "টাকা",
+     "probability": 0.967
+    },
+    {
+     "start": 43.78,
+     "end": 44.16,
+     "word": "নেন",
+     "probability": 0.99
+    }
+   ]
+  },
+  {
+   "start": 44.24,
+   "end": 48.54,
+   "text": "কারন বাংলাদেশে অন্লাইন কেনা কাটার বরো অংশোই এখনো কেশান ডেলিবেরি",
+   "words": [
+    {
+     "start": 44.24,
+     "end": 44.68,
+     "word": "কারন",
+     "probability": 0.964
+    },
+    {
+     "start": 44.68,
+     "end": 45.32,
+     "word": "বাংলাদেশে",
+     "probability": 0.943
+    },
+    {
+     "start": 45.32,
+     "end": 45.84,
+     "word": "অন্লাইন",
+     "probability": 0.961
+    },
+    {
+     "start": 45.84,
+     "end": 46.04,
+     "word": "কেনা",
+     "probability": 0.996
+    },
+    {
+     "start": 46.04,
+     "end": 46.34,
+     "word": "কাটার",
+     "probability": 0.977
+    },
+    {
+     "start": 46.34,
+     "end": 46.66,
+     "word": "বরো",
+     "probability": 0.864
+    },
+    {
+     "start": 46.66,
+     "end": 47.08,
+     "word": "অংশোই",
+     "probability": 0.886
+    },
+    {
+     "start": 47.08,
+     "end": 47.56,
+     "word": "এখনো",
+     "probability": 0.954
+    },
+    {
+     "start": 47.56,
+     "end": 47.96,
+     "word": "কেশান",
+     "probability": 0.847
+    },
+    {
+     "start": 47.96,
+     "end": 48.54,
+     "word": "ডেলিবেরি",
+     "probability": 0.91
+    }
+   ]
+  },
+  {
+   "start": 48.59,
+   "end": 55.31,
+   "text": "সেই টাকা থেকে ডেলিভারি চার্জ আর 1% COD চার্জ কেটে কুরিয়ার কমপানি বাকিটা পাঠায় সেলারের কাছে",
+   "words": [
+    {
+     "start": 48.59,
+     "end": 49.17,
+     "word": "সেই",
+     "probability": 0.96
+    },
+    {
+     "start": 49.17,
+     "end": 49.47,
+     "word": "টাকা",
+     "probability": 0.976
+    },
+    {
+     "start": 49.47,
+     "end": 49.75,
+     "word": "থেকে",
+     "probability": 0.986
+    },
+    {
+     "start": 49.75,
+     "end": 50.27,
+     "word": "ডেলিভারি",
+     "probability": 0.915
+    },
+    {
+     "start": 50.27,
+     "end": 50.65,
+     "word": "চার্জ",
+     "probability": 0.969
+    },
+    {
+     "start": 50.65,
+     "end": 50.91,
+     "word": "আর",
+     "probability": 0.989
+    },
+    {
+     "start": 50.91,
+     "end": 51.23,
+     "word": "1",
+     "probability": 0.437
+    },
+    {
+     "start": 51.23,
+     "end": 51.57,
+     "word": "%",
+     "probability": 0.97
+    },
+    {
+     "start": 51.57,
+     "end": 52.01,
+     "word": "COD",
+     "probability": 0.995
+    },
+    {
+     "start": 52.01,
+     "end": 52.35,
+     "word": "চার্জ",
+     "probability": 0.991
+    },
+    {
+     "start": 52.35,
+     "end": 52.67,
+     "word": "কেটে",
+     "probability": 0.992
+    },
+    {
+     "start": 52.67,
+     "end": 53.35,
+     "word": "কুরিয়ার",
+     "probability": 0.918
+    },
+    {
+     "start": 53.35,
+     "end": 53.73,
+     "word": "কমপানি",
+     "probability": 0.919
+    },
+    {
+     "start": 53.73,
+     "end": 54.15,
+     "word": "বাকিটা",
+     "probability": 0.98
+    },
+    {
+     "start": 54.15,
+     "end": 54.51,
+     "word": "পাঠায়",
+     "probability": 0.963
+    },
+    {
+     "start": 54.51,
+     "end": 54.93,
+     "word": "সেলারের",
+     "probability": 0.988
+    },
+    {
+     "start": 54.93,
+     "end": 55.31,
+     "word": "কাছে",
+     "probability": 0.996
+    }
+   ]
+  },
+  {
+   "start": 55.36,
+   "end": 85.45,
+   "text": "অর্থাত কুরিয়ার কম্পনি সুধু ডেলিভারি নয়ে একটা চলমান বেংকের কাজো করছে",
+   "words": [
+    {
+     "start": 55.36,
+     "end": 56.08,
+     "word": "অর্থাত",
+     "probability": 0.9
+    },
+    {
+     "start": 56.08,
+     "end": 61.7,
+     "word": "কুরিয়ার",
+     "probability": 0.926
+    },
+    {
+     "start": 61.74,
+     "end": 62.56,
+     "word": "কম্পনি",
+     "probability": 0.909
+    },
+    {
+     "start": 62.56,
+     "end": 67.42,
+     "word": "সুধু",
+     "probability": 0.943
+    },
+    {
+     "start": 67.44,
+     "end": 70.82,
+     "word": "ডেলিভারি",
+     "probability": 0.918
+    },
+    {
+     "start": 70.82,
+     "end": 70.94,
+     "word": "নয়ে",
+     "probability": 0.917
+    },
+    {
+     "start": 70.94,
+     "end": 71.96,
+     "word": "একটা",
+     "probability": 0.922
+    },
+    {
+     "start": 71.96,
+     "end": 73.28,
+     "word": "চলমান",
+     "probability": 0.975
+    },
+    {
+     "start": 73.28,
+     "end": 74.7,
+     "word": "বেংকের",
+     "probability": 0.922
+    },
+    {
+     "start": 74.7,
+     "end": 76.5,
+     "word": "কাজো",
+     "probability": 0.968
+    },
+    {
+     "start": 76.55,
+     "end": 85.45,
+     "word": "করছে",
+     "probability": 0.954
+    }
+   ]
+  },
+  {
+   "start": 85.56,
+   "end": 115.56,
+   "text": "ধাকার ভেতোরে চার্জ সাধারনতো সাইট থেকে আশি টাকা, বাইরে একসো থেকে দের্শো, গোরে আশি টাকা ধরলে সারে সাত লাখ গুন আশি, দ",
+   "words": [
+    {
+     "start": 85.56,
+     "end": 86.52,
+     "word": "ধাকার",
+     "probability": 0.922
+    },
+    {
+     "start": 86.54,
+     "end": 86.9,
+     "word": "ভেতোরে",
+     "probability": 0.968
+    },
+    {
+     "start": 86.9,
+     "end": 87.26,
+     "word": "চার্জ",
+     "probability": 0.882
+    },
+    {
+     "start": 87.26,
+     "end": 87.94,
+     "word": "সাধারনতো",
+     "probability": 0.934
+    },
+    {
+     "start": 87.94,
+     "end": 88.24,
+     "word": "সাইট",
+     "probability": 0.906
+    },
+    {
+     "start": 88.24,
+     "end": 88.54,
+     "word": "থেকে",
+     "probability": 0.988
+    },
+    {
+     "start": 88.54,
+     "end": 88.82,
+     "word": "আশি",
+     "probability": 0.947
+    },
+    {
+     "start": 88.82,
+     "end": 89.12,
+     "word": "টাকা,",
+     "probability": 0.968
+    },
+    {
+     "start": 89.18,
+     "end": 89.8,
+     "word": "বাইরে",
+     "probability": 0.99
+    },
+    {
+     "start": 89.8,
+     "end": 90.2,
+     "word": "একসো",
+     "probability": 0.858
+    },
+    {
+     "start": 90.2,
+     "end": 90.42,
+     "word": "থেকে",
+     "probability": 0.995
+    },
+    {
+     "start": 90.42,
+     "end": 90.8,
+     "word": "দের্শো,",
+     "probability": 0.942
+    },
+    {
+     "start": 90.92,
+     "end": 91.5,
+     "word": "গোরে",
+     "probability": 0.949
+    },
+    {
+     "start": 91.5,
+     "end": 91.84,
+     "word": "আশি",
+     "probability": 0.996
+    },
+    {
+     "start": 91.84,
+     "end": 92.12,
+     "word": "টাকা",
+     "probability": 0.998
+    },
+    {
+     "start": 92.12,
+     "end": 92.58,
+     "word": "ধরলে",
+     "probability": 0.924
+    },
+    {
+     "start": 92.58,
+     "end": 93.3,
+     "word": "সারে",
+     "probability": 0.915
+    },
+    {
+     "start": 93.3,
+     "end": 93.58,
+     "word": "সাত",
+     "probability": 0.873
+    },
+    {
+     "start": 93.58,
+     "end": 93.96,
+     "word": "লাখ",
+     "probability": 0.954
+    },
+    {
+     "start": 93.96,
+     "end": 94.34,
+     "word": "গুন",
+     "probability": 0.975
+    },
+    {
+     "start": 94.34,
+     "end": 94.82,
+     "word": "আশি,",
+     "probability": 0.992
+    },
+    {
+     "start": 94.92,
+     "end": 115.56,
+     "word": "দ",
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "start": 115.83,
+   "end": 117.31,
+   "text": "এক কুরিয়ের রাইডের জানিয়ে ছিলেন",
+   "words": [
+    {
+     "start": 115.83,
+     "end": 115.97,
+     "word": "এক",
+     "probability": 0.82
+    },
+    {
+     "start": 115.97,
+     "end": 116.39,
+     "word": "কুরিয়ের",
+     "probability": 0.9
+    },
+    {
+     "start": 116.39,
+     "end": 116.65,
+     "word": "রাইডের",
+     "probability": 0.944
+    },
+    {
+     "start": 116.65,
+     "end": 117.05,
+     "word": "জানিয়ে",
+     "probability": 0.92
+    },
+    {
+     "start": 117.05,
+     "end": 117.31,
+     "word": "ছিলেন",
+     "probability": 0.964
+    }
+   ]
+  },
+  {
+   "start": 117.31,
+   "end": 119.35,
+   "text": "মাসে পাঁছ হাজার টাকা ফিক্স্ট",
+   "words": [
+    {
+     "start": 117.31,
+     "end": 117.99,
+     "word": "মাসে",
+     "probability": 0.924
+    },
+    {
+     "start": 117.99,
+     "end": 118.33,
+     "word": "পাঁছ",
+     "probability": 0.916
+    },
+    {
+     "start": 118.33,
+     "end": 118.57,
+     "word": "হাজার",
+     "probability": 0.954
+    },
+    {
+     "start": 118.57,
+     "end": 118.85,
+     "word": "টাকা",
+     "probability": 0.978
+    },
+    {
+     "start": 118.85,
+     "end": 119.35,
+     "word": "ফিক্স্ট",
+     "probability": 0.934
+    }
+   ]
+  },
+  {
+   "start": 119.35,
+   "end": 145.82,
+   "text": "প্রতি ডেলি঵েরিতে পনেরো টাকা",
+   "words": [
+    {
+     "start": 119.35,
+     "end": 119.97,
+     "word": "প্রতি",
+     "probability": 0.944
+    },
+    {
+     "start": 119.97,
+     "end": 120.49,
+     "word": "ডেলি঵েরিতে",
+     "probability": 0.931
+    },
+    {
+     "start": 120.49,
+     "end": 122.73,
+     "word": "পনেরো",
+     "probability": 0.95
+    },
+    {
+     "start": 122.74,
+     "end": 145.82,
+     "word": "টাকা",
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "start": 146.02,
+   "end": 157.54,
+   "text": "আক্সেস রেটের উপর রিপোর্ট অনু যেই এক মডেলে 95% ডেলিবেরি শাফল হলে প্রতি পার্সেল 16 টাকা 90% হলে 11 আর 50 শিবা কম হলে মাত্র 7 টাকা",
+   "words": [
+    {
+     "start": 146.02,
+     "end": 146.2,
+     "word": "আক্সেস",
+     "probability": 0.8
+    },
+    {
+     "start": 146.2,
+     "end": 146.52,
+     "word": "রেটের",
+     "probability": 0.974
+    },
+    {
+     "start": 146.52,
+     "end": 146.82,
+     "word": "উপর",
+     "probability": 0.858
+    },
+    {
+     "start": 146.82,
+     "end": 147.64,
+     "word": "রিপোর্ট",
+     "probability": 0.873
+    },
+    {
+     "start": 147.64,
+     "end": 147.78,
+     "word": "অনু",
+     "probability": 0.844
+    },
+    {
+     "start": 147.78,
+     "end": 148.0,
+     "word": "যেই",
+     "probability": 0.804
+    },
+    {
+     "start": 148.0,
+     "end": 148.36,
+     "word": "এক",
+     "probability": 0.97
+    },
+    {
+     "start": 148.36,
+     "end": 148.82,
+     "word": "মডেলে",
+     "probability": 0.951
+    },
+    {
+     "start": 148.82,
+     "end": 149.16,
+     "word": "95",
+     "probability": 0.525
+    },
+    {
+     "start": 149.16,
+     "end": 149.74,
+     "word": "%",
+     "probability": 0.919
+    },
+    {
+     "start": 149.74,
+     "end": 150.26,
+     "word": "ডেলিবেরি",
+     "probability": 0.912
+    },
+    {
+     "start": 150.26,
+     "end": 150.6,
+     "word": "শাফল",
+     "probability": 0.88
+    },
+    {
+     "start": 150.6,
+     "end": 150.86,
+     "word": "হলে",
+     "probability": 0.978
+    },
+    {
+     "start": 150.86,
+     "end": 151.42,
+     "word": "প্রতি",
+     "probability": 0.984
+    },
+    {
+     "start": 151.42,
+     "end": 151.8,
+     "word": "পার্সেল",
+     "probability": 0.944
+    },
+    {
+     "start": 151.8,
+     "end": 152.04,
+     "word": "16",
+     "probability": 0.668
+    },
+    {
+     "start": 152.04,
+     "end": 152.48,
+     "word": "টাকা",
+     "probability": 0.98
+    },
+    {
+     "start": 152.48,
+     "end": 153.02,
+     "word": "90",
+     "probability": 0.752
+    },
+    {
+     "start": 153.02,
+     "end": 153.52,
+     "word": "%",
+     "probability": 0.937
+    },
+    {
+     "start": 153.52,
+     "end": 153.8,
+     "word": "হলে",
+     "probability": 0.998
+    },
+    {
+     "start": 153.8,
+     "end": 154.08,
+     "word": "11",
+     "probability": 0.959
+    },
+    {
+     "start": 154.08,
+     "end": 154.74,
+     "word": "আর",
+     "probability": 0.959
+    },
+    {
+     "start": 154.74,
+     "end": 155.08,
+     "word": "50",
+     "probability": 0.953
+    },
+    {
+     "start": 155.08,
+     "end": 155.48,
+     "word": "শিবা",
+     "probability": 0.845
+    },
+    {
+     "start": 155.48,
+     "end": 155.78,
+     "word": "কম",
+     "probability": 0.965
+    },
+    {
+     "start": 155.78,
+     "end": 156.1,
+     "word": "হলে",
+     "probability": 0.996
+    },
+    {
+     "start": 156.1,
+     "end": 156.76,
+     "word": "মাত্র",
+     "probability": 0.979
+    },
+    {
+     "start": 156.76,
+     "end": 156.98,
+     "word": "7",
+     "probability": 0.854
+    },
+    {
+     "start": 156.98,
+     "end": 157.54,
+     "word": "টাকা",
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "start": 157.54,
+   "end": 163.14,
+   "text": "মানে ক্রেতা ফন না ধরলে বা পার্সেল ফেরত দিলে শাস্তিটা পরে রাইডারের ঘারে",
+   "words": [
+    {
+     "start": 157.54,
+     "end": 158.28,
+     "word": "মানে",
+     "probability": 0.988
+    },
+    {
+     "start": 158.28,
+     "end": 158.98,
+     "word": "ক্রেতা",
+     "probability": 0.958
+    },
+    {
+     "start": 158.98,
+     "end": 159.28,
+     "word": "ফন",
+     "probability": 0.906
+    },
+    {
+     "start": 159.28,
+     "end": 159.6,
+     "word": "না",
+     "probability": 0.988
+    },
+    {
+     "start": 159.6,
+     "end": 159.86,
+     "word": "ধরলে",
+     "probability": 0.944
+    },
+    {
+     "start": 159.86,
+     "end": 160.12,
+     "word": "বা",
+     "probability": 0.984
+    },
+    {
+     "start": 160.12,
+     "end": 160.5,
+     "word": "পার্সেল",
+     "probability": 0.935
+    },
+    {
+     "start": 160.5,
+     "end": 160.86,
+     "word": "ফেরত",
+     "probability": 0.941
+    },
+    {
+     "start": 160.86,
+     "end": 161.16,
+     "word": "দিলে",
+     "probability": 0.991
+    },
+    {
+     "start": 161.16,
+     "end": 161.98,
+     "word": "শাস্তিটা",
+     "probability": 0.936
+    },
+    {
+     "start": 161.98,
+     "end": 162.2,
+     "word": "পরে",
+     "probability": 0.951
+    },
+    {
+     "start": 162.2,
+     "end": 162.78,
+     "word": "রাইডারের",
+     "probability": 0.984
+    },
+    {
+     "start": 162.78,
+     "end": 163.14,
+     "word": "ঘারে",
+     "probability": 0.982
+    }
+   ]
+  },
+  {
+   "start": 163.14,
+   "end": 169.42,
+   "text": "দুহাজের বিশ্যালে কো঵িডের লক্ডাউনে একমার্স এক বছ্যরে বেরে ছিলো প্রায় একশো ছেশোটি সতাংশো",
+   "words": [
+    {
+     "start": 163.14,
+     "end": 163.88,
+     "word": "দুহাজের",
+     "probability": 0.885
+    },
+    {
+     "start": 163.88,
+     "end": 164.46,
+     "word": "বিশ্যালে",
+     "probability": 0.908
+    },
+    {
+     "start": 164.46,
+     "end": 165.02,
+     "word": "কো঵িডের",
+     "probability": 0.912
+    },
+    {
+     "start": 165.02,
+     "end": 165.58,
+     "word": "লক্ডাউনে",
+     "probability": 0.946
+    },
+    {
+     "start": 165.58,
+     "end": 166.26,
+     "word": "একমার্স",
+     "probability": 0.913
+    },
+    {
+     "start": 166.26,
+     "end": 166.56,
+     "word": "এক",
+     "probability": 0.951
+    },
+    {
+     "start": 166.56,
+     "end": 167.0,
+     "word": "বছ্যরে",
+     "probability": 0.877
+    },
+    {
+     "start": 167.0,
+     "end": 167.26,
+     "word": "বেরে",
+     "probability": 0.974
+    },
+    {
+     "start": 167.26,
+     "end": 167.5,
+     "word": "ছিলো",
+     "probability": 0.974
+    },
+    {
+     "start": 167.5,
+     "end": 167.86,
+     "word": "প্রায়",
+     "probability": 0.978
+    },
+    {
+     "start": 167.86,
+     "end": 168.3,
+     "word": "একশো",
+     "probability": 0.809
+    },
+    {
+     "start": 168.3,
+     "end": 168.8,
+     "word": "ছেশোটি",
+     "probability": 0.88
+    },
+    {
+     "start": 168.8,
+     "end": 169.42,
+     "word": "সতাংশো",
+     "probability": 0.927
+    }
+   ]
+  },
+  {
+   "start": 169.42,
+   "end": 179.22,
+   "text": "তার পর দুইহাজের একুষে ইবালি কান্ডো আস্থায় বরো ধাক্কা মানুষ ওগ্রিম টাকা দেওা প্রায় বন্ধো করে দিলো এক পর জায়ে অন�",
+   "words": [
+    {
+     "start": 169.42,
+     "end": 169.88,
+     "word": "তার",
+     "probability": 0.977
+    },
+    {
+     "start": 169.88,
+     "end": 170.2,
+     "word": "পর",
+     "probability": 0.853
+    },
+    {
+     "start": 170.2,
+     "end": 170.88,
+     "word": "দুইহাজের",
+     "probability": 0.898
+    },
+    {
+     "start": 170.88,
+     "end": 171.34,
+     "word": "একুষে",
+     "probability": 0.929
+    },
+    {
+     "start": 171.34,
+     "end": 171.88,
+     "word": "ইবালি",
+     "probability": 0.901
+    },
+    {
+     "start": 171.88,
+     "end": 172.32,
+     "word": "কান্ডো",
+     "probability": 0.964
+    },
+    {
+     "start": 172.32,
+     "end": 173.26,
+     "word": "আস্থায়",
+     "probability": 0.942
+    },
+    {
+     "start": 173.26,
+     "end": 173.64,
+     "word": "বরো",
+     "probability": 0.894
+    },
+    {
+     "start": 173.64,
+     "end": 174.06,
+     "word": "ধাক্কা",
+     "probability": 0.978
+    },
+    {
+     "start": 174.06,
+     "end": 174.78,
+     "word": "মানুষ",
+     "probability": 0.958
+    },
+    {
+     "start": 174.78,
+     "end": 175.26,
+     "word": "ওগ্রিম",
+     "probability": 0.917
+    },
+    {
+     "start": 175.26,
+     "end": 175.56,
+     "word": "টাকা",
+     "probability": 0.982
+    },
+    {
+     "start": 175.56,
+     "end": 175.8,
+     "word": "দেওা",
+     "probability": 0.886
+    },
+    {
+     "start": 175.8,
+     "end": 176.1,
+     "word": "প্রায়",
+     "probability": 0.953
+    },
+    {
+     "start": 176.1,
+     "end": 176.46,
+     "word": "বন্ধো",
+     "probability": 0.959
+    },
+    {
+     "start": 176.46,
+     "end": 176.66,
+     "word": "করে",
+     "probability": 0.997
+    },
+    {
+     "start": 176.66,
+     "end": 176.94,
+     "word": "দিলো",
+     "probability": 0.991
+    },
+    {
+     "start": 176.94,
+     "end": 177.4,
+     "word": "এক",
+     "probability": 0.983
+    },
+    {
+     "start": 177.4,
+     "end": 177.58,
+     "word": "পর",
+     "probability": 0.887
+    },
+    {
+     "start": 177.58,
+     "end": 177.98,
+     "word": "জায়ে",
+     "probability": 0.901
+    },
+    {
+     "start": 177.98,
+     "end": 179.22,
+     "word": "অন�",
+     "probability": 0.918
+    }
+   ]
+  },
+  {
+   "start": 179.22,
+   "end": 182.12,
+   "text": "97 এর বেশি পেমেন্ট হোতো কাশান ডেলিভারিতে",
+   "words": [
+    {
+     "start": 179.22,
+     "end": 179.38,
+     "word": "97",
+     "probability": 0.019
+    },
+    {
+     "start": 179.38,
+     "end": 180.1,
+     "word": "এর",
+     "probability": 0.659
+    },
+    {
+     "start": 180.1,
+     "end": 180.34,
+     "word": "বেশি",
+     "probability": 0.855
+    },
+    {
+     "start": 180.34,
+     "end": 180.74,
+     "word": "পেমেন্ট",
+     "probability": 0.963
+    },
+    {
+     "start": 180.74,
+     "end": 180.98,
+     "word": "হোতো",
+     "probability": 0.933
+    },
+    {
+     "start": 180.98,
+     "end": 181.54,
+     "word": "কাশান",
+     "probability": 0.815
+    },
+    {
+     "start": 181.54,
+     "end": 182.12,
+     "word": "ডেলিভারিতে",
+     "probability": 0.914
+    }
+   ]
+  },
+  {
+   "start": 182.12,
+   "end": 183.82,
+   "text": "বাংগাদেশ বাংগ নিয়ম করলো",
+   "words": [
+    {
+     "start": 182.12,
+     "end": 182.92,
+     "word": "বাংগাদেশ",
+     "probability": 0.86
+    },
+    {
+     "start": 182.92,
+     "end": 183.16,
+     "word": "বাংগ",
+     "probability": 0.916
+    },
+    {
+     "start": 183.16,
+     "end": 183.44,
+     "word": "নিয়ম",
+     "probability": 0.843
+    },
+    {
+     "start": 183.44,
+     "end": 183.82,
+     "word": "করলো",
+     "probability": 0.967
+    }
+   ]
+  },
+  {
+   "start": 183.82,
+   "end": 186.88,
+   "text": "COD টাকা সেলারকে দিতে হবে বাংগিন চানেলে",
+   "words": [
+    {
+     "start": 183.82,
+     "end": 184.56,
+     "word": "COD",
+     "probability": 0.68
+    },
+    {
+     "start": 184.56,
+     "end": 184.9,
+     "word": "টাকা",
+     "probability": 0.973
+    },
+    {
+     "start": 184.9,
+     "end": 185.42,
+     "word": "সেলারকে",
+     "probability": 0.955
+    },
+    {
+     "start": 185.42,
+     "end": 185.68,
+     "word": "দিতে",
+     "probability": 0.976
+    },
+    {
+     "start": 185.68,
+     "end": 185.92,
+     "word": "হবে",
+     "probability": 0.942
+    },
+    {
+     "start": 185.92,
+     "end": 186.4,
+     "word": "বাংগিন",
+     "probability": 0.931
+    },
+    {
+     "start": 186.4,
+     "end": 186.88,
+     "word": "চানেলে",
+     "probability": 0.974
+    }
+   ]
+  },
+  {
+   "start": 186.88,
+   "end": 213.84,
+   "text": "এর পারেল প্রতিজগিতার জহর, এক সমায়ের শিষ্য খালোয়ার পেপ্রফলাই বন্ধো হোয়ে গালো, রেডেক্স আকার ছোটো করলো, অন্য দি�",
+   "words": [
+    {
+     "start": 186.88,
+     "end": 187.3,
+     "word": "এর",
+     "probability": 0.984
+    },
+    {
+     "start": 187.3,
+     "end": 187.68,
+     "word": "পারেল",
+     "probability": 0.876
+    },
+    {
+     "start": 187.68,
+     "end": 188.48,
+     "word": "প্রতিজগিতার",
+     "probability": 0.97
+    },
+    {
+     "start": 188.48,
+     "end": 188.76,
+     "word": "জহর,",
+     "probability": 0.899
+    },
+    {
+     "start": 188.9,
+     "end": 189.3,
+     "word": "এক",
+     "probability": 0.96
+    },
+    {
+     "start": 189.3,
+     "end": 189.72,
+     "word": "সমায়ের",
+     "probability": 0.898
+    },
+    {
+     "start": 189.72,
+     "end": 190.06,
+     "word": "শিষ্য",
+     "probability": 0.892
+    },
+    {
+     "start": 190.06,
+     "end": 190.52,
+     "word": "খালোয়ার",
+     "probability": 0.901
+    },
+    {
+     "start": 190.52,
+     "end": 191.08,
+     "word": "পেপ্রফলাই",
+     "probability": 0.914
+    },
+    {
+     "start": 191.08,
+     "end": 191.42,
+     "word": "বন্ধো",
+     "probability": 0.936
+    },
+    {
+     "start": 191.42,
+     "end": 191.66,
+     "word": "হোয়ে",
+     "probability": 0.916
+    },
+    {
+     "start": 191.66,
+     "end": 191.88,
+     "word": "গালো,",
+     "probability": 0.989
+    },
+    {
+     "start": 191.98,
+     "end": 192.6,
+     "word": "রেডেক্স",
+     "probability": 0.931
+    },
+    {
+     "start": 192.6,
+     "end": 193.0,
+     "word": "আকার",
+     "probability": 0.993
+    },
+    {
+     "start": 193.0,
+     "end": 193.3,
+     "word": "ছোটো",
+     "probability": 0.911
+    },
+    {
+     "start": 193.3,
+     "end": 193.64,
+     "word": "করলো,",
+     "probability": 0.967
+    },
+    {
+     "start": 193.74,
+     "end": 194.1,
+     "word": "অন্য",
+     "probability": 0.943
+    },
+    {
+     "start": 194.1,
+     "end": 213.84,
+     "word": "দি�",
+     "probability": 0.924
+    }
+   ]
+  },
+  {
+   "start": 213.84,
+   "end": 222.61,
+   "text": "কিছু বাজার গোবে সনা বলছে, 2025 থেকে 2030 পরজন্তো বাংলাদেশের e-commerce বছোরে 20 সতাংশের মতো হারে বাড্তে পারে",
+   "words": [
+    {
+     "start": 213.84,
+     "end": 214.58,
+     "word": "কিছু",
+     "probability": 0.957
+    },
+    {
+     "start": 214.58,
+     "end": 214.94,
+     "word": "বাজার",
+     "probability": 0.986
+    },
+    {
+     "start": 214.94,
+     "end": 215.12,
+     "word": "গোবে",
+     "probability": 0.922
+    },
+    {
+     "start": 215.12,
+     "end": 215.38,
+     "word": "সনা",
+     "probability": 0.882
+    },
+    {
+     "start": 215.38,
+     "end": 215.78,
+     "word": "বলছে,",
+     "probability": 0.938
+    },
+    {
+     "start": 215.9,
+     "end": 216.3,
+     "word": "2025",
+     "probability": 0.623
+    },
+    {
+     "start": 216.3,
+     "end": 217.14,
+     "word": "থেকে",
+     "probability": 0.981
+    },
+    {
+     "start": 217.14,
+     "end": 217.68,
+     "word": "2030",
+     "probability": 0.918
+    },
+    {
+     "start": 217.68,
+     "end": 218.52,
+     "word": "পরজন্তো",
+     "probability": 0.942
+    },
+    {
+     "start": 218.52,
+     "end": 219.42,
+     "word": "বাংলাদেশের",
+     "probability": 0.939
+    },
+    {
+     "start": 219.42,
+     "end": 219.64,
+     "word": "e",
+     "probability": 0.792
+    },
+    {
+     "start": 219.64,
+     "end": 219.9,
+     "word": "-commerce",
+     "probability": 0.968
+    },
+    {
+     "start": 219.9,
+     "end": 220.5,
+     "word": "বছোরে",
+     "probability": 0.917
+    },
+    {
+     "start": 220.5,
+     "end": 220.74,
+     "word": "20",
+     "probability": 0.454
+    },
+    {
+     "start": 220.74,
+     "end": 221.36,
+     "word": "সতাংশের",
+     "probability": 0.911
+    },
+    {
+     "start": 221.36,
+     "end": 221.6,
+     "word": "মতো",
+     "probability": 0.961
+    },
+    {
+     "start": 221.6,
+     "end": 221.84,
+     "word": "হারে",
+     "probability": 0.995
+    },
+    {
+     "start": 221.84,
+     "end": 222.22,
+     "word": "বাড্তে",
+     "probability": 0.915
+    },
+    {
+     "start": 222.22,
+     "end": 222.61,
+     "word": "পারে",
+     "probability": 0.997
+    }
+   ]
+  },
+  {
+   "start": 222.61,
+   "end": 227.51,
+   "text": "আর দোইনিক অন্লাইন অর্ডের সারে সাথ লাক থেকে দিগুন হয়ে পোনের লাখে পংছাতে পারে",
+   "words": [
+    {
+     "start": 222.61,
+     "end": 222.81,
+     "word": "আর",
+     "probability": 0.969
+    },
+    {
+     "start": 222.81,
+     "end": 223.25,
+     "word": "দোইনিক",
+     "probability": 0.946
+    },
+    {
+     "start": 223.25,
+     "end": 223.65,
+     "word": "অন্লাইন",
+     "probability": 0.94
+    },
+    {
+     "start": 223.65,
+     "end": 224.03,
+     "word": "অর্ডের",
+     "probability": 0.888
+    },
+    {
+     "start": 224.03,
+     "end": 224.47,
+     "word": "সারে",
+     "probability": 0.893
+    },
+    {
+     "start": 224.47,
+     "end": 224.69,
+     "word": "সাথ",
+     "probability": 0.883
+    },
+    {
+     "start": 224.69,
+     "end": 224.91,
+     "word": "লাক",
+     "probability": 0.911
+    },
+    {
+     "start": 224.91,
+     "end": 225.21,
+     "word": "থেকে",
+     "probability": 0.979
+    },
+    {
+     "start": 225.21,
+     "end": 225.65,
+     "word": "দিগুন",
+     "probability": 0.959
+    },
+    {
+     "start": 225.65,
+     "end": 226.01,
+     "word": "হয়ে",
+     "probability": 0.929
+    },
+    {
+     "start": 226.01,
+     "end": 226.39,
+     "word": "পোনের",
+     "probability": 0.917
+    },
+    {
+     "start": 226.39,
+     "end": 226.71,
+     "word": "লাখে",
+     "probability": 0.913
+    },
+    {
+     "start": 226.71,
+     "end": 227.13,
+     "word": "পংছাতে",
+     "probability": 0.952
+    },
+    {
+     "start": 227.13,
+     "end": 227.51,
+     "word": "পারে",
+     "probability": 0.996
+    }
+   ]
+  },
+  {
+   "start": 227.51,
+   "end": 257.89,
+   "text": "তাহলে প্রশ্ন আরো সারে সাথ লাগ পার্সেল কে বহন করে তিমটি পরিবর্তন চোখে রাখুন",
+   "words": [
+    {
+     "start": 227.51,
+     "end": 228.05,
+     "word": "তাহলে",
+     "probability": 0.981
+    },
+    {
+     "start": 228.05,
+     "end": 228.43,
+     "word": "প্রশ্ন",
+     "probability": 0.904
+    },
+    {
+     "start": 228.43,
+     "end": 229.23,
+     "word": "আরো",
+     "probability": 0.92
+    },
+    {
+     "start": 229.34,
+     "end": 229.64,
+     "word": "সারে",
+     "probability": 0.884
+    },
+    {
+     "start": 229.64,
+     "end": 229.86,
+     "word": "সাথ",
+     "probability": 0.882
+    },
+    {
+     "start": 229.86,
+     "end": 230.06,
+     "word": "লাগ",
+     "probability": 0.925
+    },
+    {
+     "start": 230.06,
+     "end": 230.52,
+     "word": "পার্সেল",
+     "probability": 0.949
+    },
+    {
+     "start": 230.52,
+     "end": 230.9,
+     "word": "কে",
+     "probability": 0.99
+    },
+    {
+     "start": 230.9,
+     "end": 231.2,
+     "word": "বহন",
+     "probability": 0.972
+    },
+    {
+     "start": 231.2,
+     "end": 231.52,
+     "word": "করে",
+     "probability": 0.961
+    },
+    {
+     "start": 231.58,
+     "end": 245.56,
+     "word": "তিমটি",
+     "probability": 0.885
+    },
+    {
+     "start": 245.61,
+     "end": 245.97,
+     "word": "পরিবর্তন",
+     "probability": 0.939
+    },
+    {
+     "start": 245.97,
+     "end": 246.75,
+     "word": "চোখে",
+     "probability": 0.922
+    },
+    {
+     "start": 246.93,
+     "end": 257.89,
+     "word": "রাখুন",
+     "probability": 0.911
+    }
+   ]
+  },
+  {
+   "start": 257.89,
+   "end": 260.01,
+   "text": "ও ন্যাজ্যমোজুরির সুপারিশ করেছে",
+   "words": [
+    {
+     "start": 257.89,
+     "end": 258.25,
+     "word": "ও",
+     "probability": 0.662
+    },
+    {
+     "start": 258.25,
+     "end": 259.13,
+     "word": "ন্যাজ্যমোজুরির",
+     "probability": 0.872
+    },
+    {
+     "start": 259.13,
+     "end": 259.57,
+     "word": "সুপারিশ",
+     "probability": 0.942
+    },
+    {
+     "start": 259.57,
+     "end": 260.01,
+     "word": "করেছে",
+     "probability": 0.983
+    }
+   ]
+  },
+  {
+   "start": 260.05,
+   "end": 262.49,
+   "text": "যে কমপানি রাইডার্দের ভালো রাক্বে",
+   "words": [
+    {
+     "start": 260.05,
+     "end": 260.73,
+     "word": "যে",
+     "probability": 0.874
+    },
+    {
+     "start": 260.73,
+     "end": 261.13,
+     "word": "কমপানি",
+     "probability": 0.959
+    },
+    {
+     "start": 261.13,
+     "end": 261.73,
+     "word": "রাইডার্দের",
+     "probability": 0.948
+    },
+    {
+     "start": 261.73,
+     "end": 262.09,
+     "word": "ভালো",
+     "probability": 0.988
+    },
+    {
+     "start": 262.09,
+     "end": 262.49,
+     "word": "রাক্বে",
+     "probability": 0.917
+    }
+   ]
+  },
+  {
+   "start": 262.49,
+   "end": 265.29,
+   "text": "ভোবিশতের বাজার ও সম্ভভত তারাই ধর্বে",
+   "words": [
+    {
+     "start": 262.49,
+     "end": 263.35,
+     "word": "ভোবিশতের",
+     "probability": 0.897
+    },
+    {
+     "start": 263.35,
+     "end": 263.67,
+     "word": "বাজার",
+     "probability": 0.988
+    },
+    {
+     "start": 263.67,
+     "end": 263.85,
+     "word": "ও",
+     "probability": 0.83
+    },
+    {
+     "start": 263.85,
+     "end": 264.41,
+     "word": "সম্ভভত",
+     "probability": 0.908
+    },
+    {
+     "start": 264.41,
+     "end": 264.81,
+     "word": "তারাই",
+     "probability": 0.964
+    },
+    {
+     "start": 264.81,
+     "end": 265.29,
+     "word": "ধর্বে",
+     "probability": 0.929
+    }
+   ]
+  },
+  {
+   "start": 265.31,
+   "end": 274.86,
+   "text": "এই খাত এক দিকে লাখো তরুনের প্রথম আয়ের দর্জা, অন্নো দিকে বিমা নেই, নিষ্চযাতা নেই, রাস্তাই দুরঘটনার জুকি সপ্ছে বেশি",
+   "words": [
+    {
+     "start": 265.31,
+     "end": 265.81,
+     "word": "এই",
+     "probability": 0.984
+    },
+    {
+     "start": 265.81,
+     "end": 266.15,
+     "word": "খাত",
+     "probability": 0.917
+    },
+    {
+     "start": 266.15,
+     "end": 266.51,
+     "word": "এক",
+     "probability": 0.964
+    },
+    {
+     "start": 266.51,
+     "end": 266.77,
+     "word": "দিকে",
+     "probability": 0.969
+    },
+    {
+     "start": 266.77,
+     "end": 267.23,
+     "word": "লাখো",
+     "probability": 0.954
+    },
+    {
+     "start": 267.23,
+     "end": 267.69,
+     "word": "তরুনের",
+     "probability": 0.942
+    },
+    {
+     "start": 267.69,
+     "end": 268.15,
+     "word": "প্রথম",
+     "probability": 0.955
+    },
+    {
+     "start": 268.15,
+     "end": 268.57,
+     "word": "আয়ের",
+     "probability": 0.987
+    },
+    {
+     "start": 268.57,
+     "end": 268.95,
+     "word": "দর্জা,",
+     "probability": 0.949
+    },
+    {
+     "start": 269.26,
+     "end": 269.94,
+     "word": "অন্নো",
+     "probability": 0.917
+    },
+    {
+     "start": 269.94,
+     "end": 270.14,
+     "word": "দিকে",
+     "probability": 0.996
+    },
+    {
+     "start": 270.14,
+     "end": 270.78,
+     "word": "বিমা",
+     "probability": 0.966
+    },
+    {
+     "start": 270.78,
+     "end": 271.02,
+     "word": "নেই,",
+     "probability": 0.944
+    },
+    {
+     "start": 271.12,
+     "end": 271.94,
+     "word": "নিষ্চযাতা",
+     "probability": 0.901
+    },
+    {
+     "start": 271.94,
+     "end": 272.14,
+     "word": "নেই,",
+     "probability": 0.981
+    },
+    {
+     "start": 272.22,
+     "end": 273.06,
+     "word": "রাস্তাই",
+     "probability": 0.975
+    },
+    {
+     "start": 273.06,
+     "end": 273.66,
+     "word": "দুরঘটনার",
+     "probability": 0.957
+    },
+    {
+     "start": 273.66,
+     "end": 273.96,
+     "word": "জুকি",
+     "probability": 0.97
+    },
+    {
+     "start": 273.96,
+     "end": 274.5,
+     "word": "সপ্ছে",
+     "probability": 0.939
+    },
+    {
+     "start": 274.5,
+     "end": 274.86,
+     "word": "বেশি",
+     "probability": 0.97
+    }
+   ]
+  },
+  {
+   "start": 274.86,
+   "end": 282.48,
+   "text": "দুই হাজার কোটি টাকার এই অর্থনিতির চাকা ঘোরে এক জন মানুষের মোটোর সাইকেলে, সাইকেলে, কখনো পায়ে হেটে",
+   "words": [
+    {
+     "start": 274.86,
+     "end": 275.56,
+     "word": "দুই",
+     "probability": 0.957
+    },
+    {
+     "start": 275.56,
+     "end": 275.88,
+     "word": "হাজার",
+     "probability": 0.962
+    },
+    {
+     "start": 275.88,
+     "end": 276.1,
+     "word": "কোটি",
+     "probability": 0.982
+    },
+    {
+     "start": 276.1,
+     "end": 276.54,
+     "word": "টাকার",
+     "probability": 0.987
+    },
+    {
+     "start": 276.54,
+     "end": 276.7,
+     "word": "এই",
+     "probability": 0.993
+    },
+    {
+     "start": 276.7,
+     "end": 277.28,
+     "word": "অর্থনিতির",
+     "probability": 0.968
+    },
+    {
+     "start": 277.28,
+     "end": 277.66,
+     "word": "চাকা",
+     "probability": 0.991
+    },
+    {
+     "start": 277.66,
+     "end": 278.36,
+     "word": "ঘোরে",
+     "probability": 0.965
+    },
+    {
+     "start": 278.36,
+     "end": 278.58,
+     "word": "এক",
+     "probability": 0.985
+    },
+    {
+     "start": 278.58,
+     "end": 278.74,
+     "word": "জন",
+     "probability": 0.892
+    },
+    {
+     "start": 278.74,
+     "end": 279.2,
+     "word": "মানুষের",
+     "probability": 0.972
+    },
+    {
+     "start": 279.2,
+     "end": 279.56,
+     "word": "মোটোর",
+     "probability": 0.887
+    },
+    {
+     "start": 279.56,
+     "end": 280.0,
+     "word": "সাইকেলে,",
+     "probability": 0.96
+    },
+    {
+     "start": 280.08,
+     "end": 280.96,
+     "word": "সাইকেলে,",
+     "probability": 0.995
+    },
+    {
+     "start": 280.98,
+     "end": 281.6,
+     "word": "কখনো",
+     "probability": 0.944
+    },
+    {
+     "start": 281.6,
+     "end": 282.04,
+     "word": "পায়ে",
+     "probability": 0.961
+    },
+    {
+     "start": 282.04,
+     "end": 282.48,
+     "word": "হেটে",
+     "probability": 0.982
+    }
+   ]
+  },
+  {
+   "start": 282.48,
+   "end": 288.74,
+   "text": "তাই পরের বার দর্জাই টোকা পর্লে ফন্তা ধরুন, টাকাটা রেডি রাখুন আর একটা ধন্নোবাদ বোলুন",
+   "words": [
+    {
+     "start": 282.48,
+     "end": 282.9,
+     "word": "তাই",
+     "probability": 0.978
+    },
+    {
+     "start": 282.9,
+     "end": 283.22,
+     "word": "পরের",
+     "probability": 0.933
+    },
+    {
+     "start": 283.22,
+     "end": 283.46,
+     "word": "বার",
+     "probability": 0.96
+    },
+    {
+     "start": 283.46,
+     "end": 283.86,
+     "word": "দর্জাই",
+     "probability": 0.914
+    },
+    {
+     "start": 283.86,
+     "end": 284.18,
+     "word": "টোকা",
+     "probability": 0.947
+    },
+    {
+     "start": 284.18,
+     "end": 284.5,
+     "word": "পর্লে",
+     "probability": 0.916
+    },
+    {
+     "start": 284.5,
+     "end": 285.18,
+     "word": "ফন্তা",
+     "probability": 0.889
+    },
+    {
+     "start": 285.18,
+     "end": 285.54,
+     "word": "ধরুন,",
+     "probability": 0.966
+    },
+    {
+     "start": 285.62,
+     "end": 286.26,
+     "word": "টাকাটা",
+     "probability": 0.989
+    },
+    {
+     "start": 286.26,
+     "end": 286.52,
+     "word": "রেডি",
+     "probability": 0.987
+    },
+    {
+     "start": 286.52,
+     "end": 286.9,
+     "word": "রাখুন",
+     "probability": 0.96
+    },
+    {
+     "start": 286.9,
+     "end": 287.38,
+     "word": "আর",
+     "probability": 0.909
+    },
+    {
+     "start": 287.38,
+     "end": 287.68,
+     "word": "একটা",
+     "probability": 0.971
+    },
+    {
+     "start": 287.68,
+     "end": 288.38,
+     "word": "ধন্নোবাদ",
+     "probability": 0.903
+    },
+    {
+     "start": 288.38,
+     "end": 288.74,
+     "word": "বোলুন",
+     "probability": 0.918
+    }
+   ]
+  },
+  {
+   "start": 288.74,
+   "end": 295.59,
+   "text": "কারন আপনার সোত্তুর টাকার পার্সেলের পেছনে আছে একটা পুরো অর্থনিতি আর এক জন মানোষ",
+   "words": [
+    {
+     "start": 288.74,
+     "end": 289.28,
+     "word": "কারন",
+     "probability": 0.971
+    },
+    {
+     "start": 289.28,
+     "end": 289.88,
+     "word": "আপনার",
+     "probability": 0.954
+    },
+    {
+     "start": 289.88,
+     "end": 290.32,
+     "word": "সোত্তুর",
+     "probability": 0.856
+    },
+    {
+     "start": 290.32,
+     "end": 290.62,
+     "word": "টাকার",
+     "probability": 0.994
+    },
+    {
+     "start": 290.62,
+     "end": 291.14,
+     "word": "পার্সেলের",
+     "probability": 0.941
+    },
+    {
+     "start": 291.14,
+     "end": 291.54,
+     "word": "পেছনে",
+     "probability": 0.985
+    },
+    {
+     "start": 291.54,
+     "end": 291.84,
+     "word": "আছে",
+     "probability": 0.998
+    },
+    {
+     "start": 291.84,
+     "end": 292.48,
+     "word": "একটা",
+     "probability": 0.992
+    },
+    {
+     "start": 292.48,
+     "end": 292.86,
+     "word": "পুরো",
+     "probability": 0.963
+    },
+    {
+     "start": 292.86,
+     "end": 293.6,
+     "word": "অর্থনিতি",
+     "probability": 0.961
+    },
+    {
+     "start": 293.6,
+     "end": 294.12,
+     "word": "আর",
+     "probability": 0.994
+    },
+    {
+     "start": 294.29,
+     "end": 295.03,
+     "word": "এক",
+     "probability": 0.984
+    },
+    {
+     "start": 295.03,
+     "end": 295.17,
+     "word": "জন",
+     "probability": 0.877
+    },
+    {
+     "start": 295.17,
+     "end": 295.59,
+     "word": "মানোষ",
+     "probability": 0.928
+    }
+   ]
+  }
+ ]
+}
