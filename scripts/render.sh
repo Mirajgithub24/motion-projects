@@ -23,4 +23,5 @@ npx remotion render src/index.ts "$name" "$root/out/$name.mp4" \
   --codec h264 --crf 20 --x264-preset veryfast --audio-codec aac \
   --overwrite ${browser:+--browser-executable "$browser"}
 
-ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$root/out/$name.mp4" 2>/dev/null || true
+# Remotion ships its own ffprobe, so this works where ffmpeg is not installed.
+npx remotion ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$root/out/$name.mp4" || true

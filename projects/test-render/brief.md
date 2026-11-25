@@ -31,3 +31,4 @@ Calm, precise, warm and dark. A title that lands, then a small "pipeline" diagra
 
 ## Notes
 No voiceover. Length fixed at 5 seconds, 30 fps.
+Rendered and released by GitHub Actions on push to main.
