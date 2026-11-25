@@ -31,7 +31,9 @@ segments, info = model.transcribe(
     language=language,
     word_timestamps=True,
     beam_size=5,
-    vad_filter=False,
+    # Voice-activity chunking stops Whisper from skipping long stretches of speech.
+    vad_filter=True,
+    vad_parameters={"min_silence_duration_ms": 300, "speech_pad_ms": 200},
     condition_on_previous_text=False,
 )
 out = {
@@ -62,4 +64,6 @@ for s in segments:
 
 with open(f"projects/{name}/transcript.json", "w", encoding="utf-8") as f:
     json.dump(out, f, ensure_ascii=False, indent=1)
+n_words = sum(len(s["words"]) for s in out["segments"])
+print(f"words={n_words} ({n_words / max(info.duration, 1):.2f}/s)")
 print(f"language={info.language} ({info.language_probability:.2f}) took {time.time() - t0:.0f}s")
