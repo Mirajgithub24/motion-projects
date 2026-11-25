@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 2D: local hub interior</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FBE6C4; font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Inside a small courier hub: metal shelves stacked with parcels, tube lights, a whiteboard with route codes, a sorting table and a parcel trolley" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<radialGradient id="s2dTube"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></radialGradient>
+<linearGradient id="s2dDoor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></linearGradient>
+<pattern id="s2dFloor" width="160" height="80" patternUnits="userSpaceOnUse"><path d="M0 0 L160 0 M0 0 L-30 80 M80 0 L60 80" stroke="#D8C9B2" stroke-width="2" fill="none"></path></pattern>
+<symbol id="s2dBoxM" viewBox="0 0 110 70" overflow="visible"><rect x="0" y="0" width="110" height="70" fill="#C89B6D"></rect><rect x="0" y="0" width="110" height="12" fill="#D9B48A"></rect><rect x="48" y="0" width="14" height="70" fill="#EAD2AE"></rect><rect x="10" y="30" width="30" height="22" fill="#FFFFFF"></rect><path d="M14 35 L14 47 M19 35 L19 47 M24 35 L24 47 M29 35 L29 47 M34 35 L34 47" stroke="#2B2B2B" stroke-width="2"></path></symbol>
+<symbol id="s2dBoxS" viewBox="0 0 76 50" overflow="visible"><rect x="0" y="0" width="76" height="50" fill="#B98958"></rect><rect x="0" y="0" width="76" height="9" fill="#C89B6D"></rect><rect x="32" y="0" width="11" height="50" fill="#EAD2AE"></rect><rect x="50" y="22" width="20" height="14" fill="#FFFFFF"></rect></symbol>
+<symbol id="s2dBoxL" viewBox="0 0 140 96" overflow="visible"><rect x="0" y="0" width="140" height="96" fill="#D9B48A"></rect><rect x="0" y="0" width="140" height="14" fill="#EAD2AE"></rect><rect x="62" y="0" width="16" height="96" fill="#FFF8EA"></rect><rect x="90" y="44" width="38" height="28" fill="#FFFFFF"></rect><path d="M95 50 L95 66 M101 50 L101 66 M107 50 L107 66 M113 50 L113 66 M119 50 L119 66" stroke="#2B2B2B" stroke-width="2"></path></symbol>
+<symbol id="s2dBag" viewBox="0 0 96 40" overflow="visible"><path d="M4 40 C0 14 24 0 48 0 C72 0 96 14 92 40 Z" fill="#E3C39B"></path><path d="M26 18 L70 18" stroke="#FFFFFF" stroke-width="4"></path><rect x="36" y="24" width="24" height="10" fill="#FFFFFF"></rect></symbol>
+<symbol id="s2dShelf" viewBox="0 0 540 560" overflow="visible">
+<rect x="0" y="0" width="14" height="560" fill="#8B97A8"></rect><rect x="526" y="0" width="14" height="560" fill="#8B97A8"></rect><rect x="263" y="0" width="10" height="560" fill="#9AA6B8"></rect>
+<rect x="-6" y="120" width="552" height="14" fill="#B8C4D1"></rect><rect x="-6" y="260" width="552" height="14" fill="#B8C4D1"></rect><rect x="-6" y="400" width="552" height="14" fill="#B8C4D1"></rect><rect x="-6" y="540" width="552" height="14" fill="#B8C4D1"></rect>
+<rect x="-6" y="134" width="552" height="6" fill="#5A3D2B" opacity="0.14"></rect><rect x="-6" y="274" width="552" height="6" fill="#5A3D2B" opacity="0.14"></rect><rect x="-6" y="414" width="552" height="6" fill="#5A3D2B" opacity="0.14"></rect>
+<path d="M14 0 L263 120 M273 0 L526 120" stroke="#9AA6B8" stroke-width="4" opacity="0.6"></path>
+</symbol>
+<filter id="s2dGrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter>
+</defs>
+
+<g id="S2D_Hub_BG_Far">
+<rect x="0" y="0" width="1920" height="820" fill="#FBE6C4"></rect>
+<rect x="0" y="0" width="1920" height="90" fill="#FFF8EA"></rect>
+<rect x="0" y="86" width="1920" height="8" fill="#EAD9BD"></rect>
+<rect x="0" y="600" width="1920" height="220" fill="#BFE3D6"></rect>
+<rect x="0" y="594" width="1920" height="8" fill="#A5D1C2"></rect>
+<g id="S2D_Hub_Far_Doorway">
+<rect x="0" y="230" width="150" height="590" fill="#FFF8EA"></rect>
+<rect x="0" y="230" width="150" height="130" fill="#B8C4D1"></rect>
+<path d="M0 250 L150 250 M0 270 L150 270 M0 290 L150 290 M0 310 L150 310 M0 330 L150 330 M0 350 L150 350" stroke="#8B97A8" stroke-width="3"></path>
+<rect x="150" y="220" width="16" height="600" fill="#8B97A8"></rect>
+<rect x="0" y="360" width="150" height="460" fill="#FDF3DF"></rect>
+<ellipse cx="60" cy="560" rx="60" ry="80" fill="#BFE3D6" opacity="0.8"></ellipse><rect x="0" y="700" width="150" height="120" fill="#E4D8C6"></rect>
+</g>
+<g id="S2D_Hub_Far_Clock"><circle cx="1240" cy="190" r="46" fill="#FFFFFF" stroke="#3A4658" stroke-width="6"></circle><path d="M1240 190 L1240 160 M1240 190 L1262 200" stroke="#0F1B2D" stroke-width="5" stroke-linecap="round"></path><circle cx="1240" cy="190" r="4" fill="#E5484D"></circle></g>
+</g>
+
+<g id="S2D_Hub_BG_Lights">
+<rect x="300" y="52" width="360" height="16" rx="8" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="2"></rect><rect x="290" y="44" width="380" height="10" rx="4" fill="#B8C4D1"></rect>
+<rect x="900" y="52" width="360" height="16" rx="8" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="2"></rect><rect x="890" y="44" width="380" height="10" rx="4" fill="#B8C4D1"></rect>
+<rect x="1480" y="52" width="360" height="16" rx="8" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="2"></rect><rect x="1470" y="44" width="380" height="10" rx="4" fill="#B8C4D1"></rect>
+</g>
+
+<g id="S2D_Hub_BG_Floor">
+<rect x="0" y="820" width="1920" height="260" fill="#E4D8C6"></rect>
+<rect x="0" y="820" width="1920" height="260" fill="url(#s2dFloor)"></rect>
+<rect x="0" y="820" width="1920" height="14" fill="#5A3D2B" opacity="0.12"></rect>
+<path d="M0 960 L1920 960" stroke="#F0B94A" stroke-width="10" stroke-dasharray="60 30" opacity="0.8"></path>
+</g>
+
+<g id="S2D_Hub_BG_Mid_Shelf_A">
+<use href="#s2dShelf" x="210" y="270" width="540" height="560"></use>
+<use href="#s2dBoxM" x="234" y="320" width="110" height="70"></use><use href="#s2dBoxS" x="352" y="340" width="76" height="50"></use><use href="#s2dBag" x="494" y="350" width="96" height="40"></use><use href="#s2dBoxS" x="600" y="340" width="76" height="50"></use><use href="#s2dBoxS" x="610" y="290" width="76" height="50"></use>
+<use href="#s2dBoxL" x="234" y="434" width="140" height="96"></use><use href="#s2dBoxS" x="384" y="480" width="76" height="50"></use><use href="#s2dBoxM" x="494" y="460" width="110" height="70"></use><use href="#s2dBag" x="612" y="490" width="96" height="40"></use>
+<use href="#s2dBoxM" x="234" y="600" width="110" height="70"></use><use href="#s2dBoxM" x="244" y="530" width="110" height="70"></use><use href="#s2dBag" x="360" y="630" width="96" height="40"></use><use href="#s2dBoxL" x="494" y="574" width="140" height="96"></use><use href="#s2dBoxS" x="644" y="620" width="76" height="50"></use>
+<use href="#s2dBoxL" x="234" y="714" width="140" height="96"></use><use href="#s2dBoxM" x="384" y="740" width="110" height="70"></use><use href="#s2dBoxM" x="500" y="740" width="110" height="70"></use><use href="#s2dBoxS" x="620" y="760" width="76" height="50"></use><use href="#s2dBoxS" x="626" y="710" width="76" height="50"></use>
+</g>
+<g id="S2D_Hub_BG_Mid_Shelf_B">
+<use href="#s2dShelf" x="810" y="270" width="540" height="560"></use>
+<use href="#s2dBoxS" x="834" y="340" width="76" height="50"></use><use href="#s2dBoxS" x="916" y="340" width="76" height="50"></use><use href="#s2dBag" x="972" y="302" width="96" height="40" transform="translate(-60 0)"></use><use href="#s2dBoxM" x="1094" y="320" width="110" height="70"></use><use href="#s2dBag" x="1216" y="350" width="96" height="40"></use>
+<use href="#s2dBoxM" x="834" y="460" width="110" height="70"></use><use href="#s2dBag" x="952" y="490" width="96" height="40"></use><use href="#s2dBoxL" x="1094" y="434" width="140" height="96"></use><use href="#s2dBoxS" x="1244" y="480" width="76" height="50"></use>
+<use href="#s2dBoxL" x="834" y="574" width="140" height="96"></use><use href="#s2dBoxS" x="984" y="620" width="76" height="50"></use><use href="#s2dBoxM" x="1094" y="600" width="110" height="70"></use><use href="#s2dBoxS" x="1104" y="550" width="76" height="50"></use><use href="#s2dBag" x="1216" y="630" width="96" height="40"></use>
+<use href="#s2dBoxM" x="834" y="740" width="110" height="70"></use><use href="#s2dBoxM" x="950" y="740" width="110" height="70"></use><use href="#s2dBoxL" x="1094" y="714" width="140" height="96"></use><use href="#s2dBag" x="1240" y="770" width="96" height="40"></use>
+</g>
+<g id="S2D_Hub_BG_Mid_ShelfLabels" font-family="'Manrope', sans-serif" font-weight="800" font-size="20" fill="#0F1B2D">
+<rect x="226" y="262" width="70" height="30" rx="5" fill="#FFD27A"></rect><text x="261" y="284" text-anchor="middle">A-1</text>
+<rect x="486" y="262" width="70" height="30" rx="5" fill="#FFD27A"></rect><text x="521" y="284" text-anchor="middle">A-2</text>
+<rect x="826" y="262" width="70" height="30" rx="5" fill="#A9D9E0"></rect><text x="861" y="284" text-anchor="middle">B-1</text>
+<rect x="1086" y="262" width="70" height="30" rx="5" fill="#A9D9E0"></rect><text x="1121" y="284" text-anchor="middle">B-2</text>
+</g>
+
+<g id="S2D_Hub_BG_Mid_Whiteboard">
+<rect x="1420" y="170" width="440" height="340" rx="8" fill="#FFFFFF" stroke="#B8C4D1" stroke-width="12"></rect>
+<rect x="1420" y="504" width="440" height="14" fill="#8B97A8"></rect>
+<rect x="1470" y="494" width="50" height="12" rx="3" fill="#E5484D"></rect><rect x="1530" y="494" width="50" height="12" rx="3" fill="#2F7F8F"></rect><rect x="1780" y="490" width="50" height="16" rx="3" fill="#3A4658"></rect>
+<text x="1450" y="224" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="34" fill="#0F1B2D">রুট কোড</text>
+<path d="M1450 238 L1830 238" stroke="#2F7F8F" stroke-width="4" stroke-linecap="round"></path>
+<g font-family="'Manrope', sans-serif" font-weight="800" font-size="28">
+<text x="1450" y="284" fill="#C92F35">BSL-01</text><text x="1640" y="284" fill="#0F1B2D">12</text>
+<text x="1450" y="330" fill="#C92F35">BSL-02</text><text x="1640" y="330" fill="#0F1B2D">09</text>
+<text x="1450" y="376" fill="#27707F">DHK-HUB</text><text x="1640" y="376" fill="#0F1B2D">30</text>
+<text x="1450" y="422" fill="#27707F">KHL-HUB</text><text x="1640" y="422" fill="#0F1B2D">07</text>
+<text x="1450" y="468" fill="#1B7D4B">CTG-HUB</text><text x="1640" y="468" fill="#0F1B2D">05</text>
+</g>
+<path d="M1750 268 L1762 282 L1786 256 M1750 314 L1762 328 L1786 302 M1750 360 L1762 374 L1786 348" fill="none" stroke="#1B7D4B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="1768" cy="412" r="14" fill="none" stroke="#C92F35" stroke-width="5"></circle>
+</g>
+
+<g id="S2D_Hub_FG_SortingTable">
+<ellipse cx="1620" cy="1010" rx="290" ry="16" fill="#5A3D2B" opacity="0.18"></ellipse>
+<rect x="1380" y="760" width="480" height="26" rx="6" fill="#B8C4D1"></rect><rect x="1380" y="782" width="480" height="10" fill="#8B97A8"></rect>
+<rect x="1400" y="792" width="16" height="210" fill="#8B97A8"></rect><rect x="1824" y="792" width="16" height="210" fill="#8B97A8"></rect>
+<rect x="1400" y="900" width="440" height="12" fill="#9AA6B8"></rect>
+<g id="S2D_Hub_Prop_Scale"><rect x="1420" y="716" width="150" height="44" rx="6" fill="#3A4658"></rect><rect x="1410" y="702" width="170" height="16" rx="4" fill="#B8C4D1"></rect><rect x="1444" y="728" width="70" height="22" rx="3" fill="#CFEDEF"></rect><use href="#s2dBoxS" x="1456" y="652" width="76" height="50"></use></g>
+<g id="S2D_Hub_Prop_Scanner"><rect x="1620" y="724" width="70" height="36" rx="8" fill="#20242C" transform="rotate(-12 1655 742)"></rect><rect x="1668" y="738" width="22" height="44" rx="6" fill="#3A4658" transform="rotate(-12 1679 760)"></rect><rect x="1612" y="734" width="10" height="20" fill="#E5484D" transform="rotate(-12 1617 744)"></rect></g>
+<g id="S2D_Hub_Prop_TapeRoll"><circle cx="1770" cy="734" r="26" fill="#C89B6D"></circle><circle cx="1770" cy="734" r="12" fill="#FBE6C4"></circle></g>
+<use href="#s2dBoxM" x="1450" y="830" width="110" height="70"></use><use href="#s2dBag" x="1580" y="860" width="96" height="40"></use><use href="#s2dBoxS" x="1700" y="850" width="76" height="50"></use>
+</g>
+
+<g id="S2D_Hub_FG_Trolley">
+<ellipse cx="560" cy="1040" rx="260" ry="16" fill="#5A3D2B" opacity="0.18"></ellipse>
+<rect x="340" y="990" width="440" height="20" rx="6" fill="#2F7F8F"></rect>
+<path d="M350 990 L350 800 M770 990 L770 800 M350 800 L770 800 M350 890 L770 890" fill="none" stroke="#2F7F8F" stroke-width="10" stroke-linecap="round"></path>
+<path d="M454 800 L454 990 M560 800 L560 990 M666 800 L666 990" stroke="#7CC3CF" stroke-width="4"></path>
+<circle cx="390" cy="1026" r="18" fill="#20242C"></circle><circle cx="390" cy="1026" r="6" fill="#B8C4D1"></circle><circle cx="730" cy="1026" r="18" fill="#20242C"></circle><circle cx="730" cy="1026" r="6" fill="#B8C4D1"></circle>
+<use href="#s2dBoxL" x="370" y="894" width="140" height="96"></use><use href="#s2dBoxM" x="520" y="920" width="110" height="70"></use><use href="#s2dBoxM" x="640" y="920" width="110" height="70"></use>
+<use href="#s2dBoxM" x="390" y="824" width="110" height="70"></use><use href="#s2dBag" x="520" y="880" width="96" height="40"></use><use href="#s2dBoxS" x="650" y="870" width="76" height="50"></use><use href="#s2dBag" x="540" y="842" width="96" height="40"></use>
+</g>
+
+<g id="S2D_Hub_FG_FloorPile">
+<ellipse cx="1090" cy="1046" rx="190" ry="12" fill="#5A3D2B" opacity="0.18"></ellipse>
+<use href="#s2dBoxL" x="960" y="946" width="140" height="96"></use><use href="#s2dBoxM" x="1110" y="972" width="110" height="70"></use><use href="#s2dBoxS" x="1000" y="896" width="76" height="50"></use><use href="#s2dBag" x="1110" y="932" width="96" height="40"></use>
+</g>
+
+<g id="S2D_Hub_FX_LightGlow">
+<ellipse cx="480" cy="70" rx="340" ry="110" fill="url(#s2dTube)"></ellipse>
+<ellipse cx="1080" cy="70" rx="340" ry="110" fill="url(#s2dTube)"></ellipse>
+<ellipse cx="1660" cy="70" rx="340" ry="110" fill="url(#s2dTube)"></ellipse>
+<polygon points="0,360 150,360 620,1080 0,1080" fill="url(#s2dDoor)" opacity="0.45"></polygon>
+</g>
+<g id="S2D_Hub_FX_Grain"><rect x="0" y="0" width="1920" height="1080" filter="url(#s2dGrain)" opacity="0.05"></rect></g>
+</svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

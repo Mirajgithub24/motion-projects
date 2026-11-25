@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Scene 3D: calculator math</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Manrope', system-ui, sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="A large orange calculator" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3D_BG_Shapes">
+<circle cx="450" cy="560" r="430" fill="#FFEBC9" opacity="0.7"></circle>
+<circle cx="1640" cy="170" r="150" fill="#BFE3D6" opacity="0.5"></circle>
+</g>
+<g id="S3D_Calc" transform="rotate(-4 450 565)">
+<g id="S3D_Calc_Shadow"><rect x="190" y="176" width="560" height="830" rx="48" fill="#5A3D2B" opacity="0.2"></rect></g>
+<g id="S3D_Calc_Body">
+<rect x="170" y="150" width="560" height="830" rx="48" fill="#FF7A1A"></rect>
+<rect x="170" y="930" width="560" height="50" rx="24" fill="#E0640E"></rect>
+<rect x="186" y="164" width="528" height="10" rx="5" fill="#FFB05C"></rect>
+</g>
+<g id="S3D_Calc_Display">
+<rect x="214" y="200" width="472" height="170" rx="20" fill="#C9560B"></rect>
+<rect x="220" y="208" width="460" height="156" rx="16" fill="#FDF6E9"></rect>
+</g>
+<g id="S3D_Calc_Buttons" font-family="'Manrope', sans-serif" font-weight="800" font-size="40" text-anchor="middle">
+<g id="S3D_Calc_Btn_C" transform="translate(214 410)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFE2C4"></rect><text x="50" y="57" fill="#0F1B2D">C</text></g>
+<g id="S3D_Calc_Btn_Sign" transform="translate(338 410)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFE2C4"></rect><text x="50" y="57" fill="#0F1B2D">±</text></g>
+<g id="S3D_Calc_Btn_Percent" transform="translate(462 410)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFE2C4"></rect><text x="50" y="57" fill="#0F1B2D">%</text></g>
+<g id="S3D_Calc_Btn_Divide" transform="translate(586 410)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#27707F"></rect><text x="50" y="57" fill="#FFFFFF">÷</text></g>
+<g id="S3D_Calc_Btn_7" transform="translate(214 520)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">7</text></g>
+<g id="S3D_Calc_Btn_8" transform="translate(338 520)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">8</text></g>
+<g id="S3D_Calc_Btn_9" transform="translate(462 520)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">9</text></g>
+<g id="S3D_Calc_Btn_Multiply" transform="translate(586 520)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#0F5E6E"></rect><rect x="4" y="4" width="92" height="78" rx="15" fill="none" stroke="#FFFFFF" stroke-width="3"></rect><text x="50" y="57" fill="#FFFFFF">×</text></g>
+<g id="S3D_Calc_Btn_4" transform="translate(214 630)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">4</text></g>
+<g id="S3D_Calc_Btn_5" transform="translate(338 630)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">5</text></g>
+<g id="S3D_Calc_Btn_6" transform="translate(462 630)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">6</text></g>
+<g id="S3D_Calc_Btn_Minus" transform="translate(586 630)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#27707F"></rect><text x="50" y="57" fill="#FFFFFF">−</text></g>
+<g id="S3D_Calc_Btn_1" transform="translate(214 740)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">1</text></g>
+<g id="S3D_Calc_Btn_2" transform="translate(338 740)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">2</text></g>
+<g id="S3D_Calc_Btn_3" transform="translate(462 740)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">3</text></g>
+<g id="S3D_Calc_Btn_Plus" transform="translate(586 740)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#27707F"></rect><text x="50" y="57" fill="#FFFFFF">+</text></g>
+<g id="S3D_Calc_Btn_0" transform="translate(214 850)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">0</text></g>
+<g id="S3D_Calc_Btn_00" transform="translate(338 850)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">00</text></g>
+<g id="S3D_Calc_Btn_Dot" transform="translate(462 850)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#FFFFFF"></rect><text x="50" y="57" fill="#0F1B2D">.</text></g>
+<g id="S3D_Calc_Btn_Equals" transform="translate(586 850)"><rect x="0" y="6" width="100" height="86" rx="18" fill="#C9560B"></rect><rect x="0" y="0" width="100" height="86" rx="18" fill="#1F7A4D"></rect><text x="50" y="57" fill="#FFF8EA">=</text></g>
+</g>
+</g>
+<g id="S3D_Coins">
+<g id="S3D_Coin_1" transform="translate(800 900)"><ellipse cx="0" cy="10" rx="44" ry="12" fill="#5A3D2B" opacity="0.18"></ellipse><circle cx="0" cy="-20" r="40" fill="#FFD27A" stroke="#E0A93A" stroke-width="5"></circle><circle cx="0" cy="-20" r="26" fill="none" stroke="#E0A93A" stroke-width="3"></circle></g>
+<g id="S3D_Coin_2" transform="translate(120 250)"><circle cx="0" cy="0" r="30" fill="#FFD27A" stroke="#E0A93A" stroke-width="4"></circle><circle cx="0" cy="0" r="19" fill="none" stroke="#E0A93A" stroke-width="3"></circle></g>
+</g>
+</svg>
+
+<div id="S3D_DisplayText" style="position: absolute; left: 236px; top: 232px; width: 428px; height: 140px; transform: rotate(-4deg); transform-origin: 214px 333px; display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: 2px">
+<div id="S3D_Display_Line1" style="font-weight: 700; font-size: 32px; color: #3A4658">7,50,000 × ৳80</div>
+<div id="S3D_Display_Line2" style="font-weight: 800; font-size: 72px; line-height: 1; color: #0F1B2D">৳6 crore</div>
+</div>
+
+<div id="S3D_Equation" style="position: absolute; left: 880px; top: 110px; width: 960px; display: flex; flex-direction: column; gap: 30px">
+<div style="font-weight: 800; font-size: 16px; letter-spacing: 0.16em; color: #A84700">SCENE 3D · THE DAILY MATH</div>
+<div id="S3D_Eq_Row1" style="display: flex; align-items: center; gap: 28px">
+<div id="S3D_Eq_Parcels" style="background: #FFFFFF; border-radius: 22px; padding: 22px 32px; box-shadow: 0 10px 26px rgba(90,61,43,0.16); display: flex; flex-direction: column; gap: 2px">
+<div style="font-weight: 800; font-size: 92px; line-height: 1; letter-spacing: -0.02em">7,50,000</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 26px; color: #3A4658">পার্সেল প্রতিদিন</div>
+</div>
+<div id="S3D_Eq_Times" style="font-weight: 800; font-size: 84px; color: #27707F">×</div>
+<div id="S3D_Eq_Charge" style="background: #FFFFFF; border-radius: 22px; padding: 22px 32px; box-shadow: 0 10px 26px rgba(90,61,43,0.16); display: flex; flex-direction: column; gap: 2px">
+<div style="font-weight: 800; font-size: 92px; line-height: 1; letter-spacing: -0.02em">৳80</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 26px; color: #3A4658">প্রতি পার্সেল</div>
+</div>
+</div>
+<div id="S3D_Eq_Row2" style="display: flex; align-items: baseline; gap: 24px">
+<div style="font-weight: 800; font-size: 84px; color: #3A4658">=</div>
+<div style="font-weight: 800; font-size: 128px; line-height: 1; letter-spacing: -0.02em; color: #1B7D4B">৳6 crore</div>
+<div style="font-weight: 700; font-size: 44px; color: #1B7D4B">/ day</div>
+</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 30px; color: #3A4658; margin-top: -18px; padding-left: 78px">প্রতিদিন ৳৬ কোটি</div>
+<div id="S3D_Eq_Arrow" style="display: flex; align-items: center; gap: 18px; padding-left: 78px">
+<div style="width: 6px; height: 56px; border-radius: 3px; background: #FF7A1A"></div>
+<div style="font-weight: 700; font-size: 28px; color: #3A4658">× 365 days</div>
+</div>
+<div id="S3D_Eq_Row3" style="display: flex; align-items: baseline; gap: 24px; background: #FFFFFF; border-radius: 28px; padding: 30px 40px; box-shadow: 0 14px 34px rgba(90,61,43,0.18); align-self: flex-start">
+<div style="font-weight: 800; font-size: 150px; line-height: 1; letter-spacing: -0.02em; color: #D95400">৳2,190 crore</div>
+<div style="font-weight: 700; font-size: 44px; color: #D95400">/ year</div>
+</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 30px; color: #3A4658; margin-top: -14px; padding-left: 40px">বছরে ৳২,১৯০ কোটি</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

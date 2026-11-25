@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weather FX and map kit</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1080px; overflow: hidden; box-sizing: border-box; padding: 44px 48px; background: #FDF6E9; color: #0F1B2D; font-family: 'Manrope', system-ui, sans-serif; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-weight: 800; font-size: 15px; letter-spacing: 0.16em; color: #A84700">K4 · FX AND MAP</div>
+<h1 style="margin: 0; font-weight: 800; font-size: 36px; line-height: 1.1">Weather effects and map kit</h1>
+</div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 18px; flex-grow: 1">
+
+<div style="background: #E6F1F1; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Rain streaks">
+<g id="FX_Rain_Streaks" stroke-linecap="round">
+<g id="FX_Rain_Far" stroke="#7FBFCB" stroke-width="2"><path d="M30 10 L22 46 M80 30 L72 66 M130 6 L122 42 M176 40 L168 76 M226 14 L218 50 M270 36 L262 72 M52 90 L44 126 M108 104 L100 140 M158 96 L150 132 M210 110 L202 146 M256 92 L248 128"></path></g>
+<g id="FX_Rain_Near" stroke="#2F7F8F" stroke-width="4"><path d="M56 18 L42 78 M150 52 L136 112 M240 24 L226 84 M96 112 L82 172 M200 100 L186 160 M284 120 L272 172"></path></g>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Rain_Streaks (far + near)</div>
+</div>
+
+<div style="background: #E6F1F1; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Puddle with ripple rings">
+<g id="FX_Puddle_Ripple">
+<path d="M30 100 C30 70 90 58 150 60 C220 62 274 76 272 104 C270 134 200 144 140 142 C80 140 30 130 30 100 Z" fill="#A9D9E0"></path>
+<path d="M60 92 C90 78 150 74 190 78" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"></path>
+<g id="FX_Ripple_Ring1"><ellipse cx="130" cy="104" rx="16" ry="5" fill="none" stroke="#FFFFFF" stroke-width="3"></ellipse></g>
+<g id="FX_Ripple_Ring2"><ellipse cx="130" cy="104" rx="36" ry="11" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8"></ellipse></g>
+<g id="FX_Ripple_Ring3"><ellipse cx="130" cy="104" rx="60" ry="18" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.55"></ellipse></g>
+<ellipse cx="214" cy="112" rx="18" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2.5"></ellipse>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Puddle_Ripple</div>
+</div>
+
+<div style="background: #E6F1F1; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Water splash">
+<g id="FX_Splash">
+<ellipse cx="150" cy="150" rx="90" ry="12" fill="#A9D9E0"></ellipse>
+<path d="M92 150 C80 110 70 96 52 84 C76 90 96 108 110 148 Z M132 150 C124 96 122 70 112 40 C134 66 146 100 152 150 Z M168 150 C176 100 186 72 204 44 C196 80 194 110 190 150 Z M208 150 C222 116 236 100 256 90 C240 106 232 126 226 150 Z" fill="#7FBFCB"></path>
+<g fill="#2F7F8F"><circle cx="40" cy="66" r="6"></circle><circle cx="104" cy="22" r="7"></circle><circle cx="214" cy="26" r="6"></circle><circle cx="268" cy="74" r="5"></circle><circle cx="156" cy="16" r="4"></circle><circle cx="74" cy="42" r="4"></circle><circle cx="246" cy="52" r="4"></circle></g>
+<path d="M118 60 C126 82 132 104 136 132" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Splash</div>
+</div>
+
+<div style="background: #CFE4E6; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Fog layer">
+<defs><linearGradient id="k4Fog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></linearGradient></defs>
+<g id="FX_Fog_Layer">
+<g id="FX_Fog_Band_Back"><rect x="0" y="20" width="300" height="70" fill="url(#k4Fog)" opacity="0.6"></rect></g>
+<g id="FX_Fog_Band_Mid"><ellipse cx="90" cy="98" rx="120" ry="26" fill="#FFFFFF" opacity="0.7"></ellipse><ellipse cx="220" cy="88" rx="100" ry="22" fill="#FFFFFF" opacity="0.6"></ellipse></g>
+<g id="FX_Fog_Band_Front"><rect x="0" y="100" width="300" height="76" fill="url(#k4Fog)"></rect></g>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Fog_Layer (3 bands)</div>
+</div>
+
+<div style="background: #FFE9CF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Sun glare with flare circles">
+<defs><radialGradient id="k4Sun"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="0.35" stop-color="#FFF3CF" stop-opacity="0.8"></stop><stop offset="1" stop-color="#FFE2A8" stop-opacity="0"></stop></radialGradient></defs>
+<g id="FX_Sun_Glare">
+<g id="FX_Sun_Rays" fill="#FFFFFF" opacity="0.6"><path d="M90 70 L300 20 L300 50 Z M90 70 L300 110 L300 150 Z M90 70 L180 180 L130 180 Z M90 70 L0 150 L0 120 Z"></path></g>
+<circle cx="90" cy="70" r="90" fill="url(#k4Sun)"></circle>
+<circle cx="90" cy="70" r="26" fill="#FFFFFF"></circle>
+<g id="FX_Sun_Flare"><circle cx="170" cy="104" r="12" fill="#FFFFFF" opacity="0.7"></circle><circle cx="214" cy="122" r="22" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.7"></circle><circle cx="256" cy="140" r="8" fill="#FFD27A" opacity="0.8"></circle></g>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Sun_Glare</div>
+</div>
+
+<div style="background: #EDE6F2; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Headlight bloom with a soft beam">
+<defs>
+<radialGradient id="k4Bloom"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="0.3" stop-color="#FFE9A8" stop-opacity="0.8"></stop><stop offset="1" stop-color="#FFE9A8" stop-opacity="0"></stop></radialGradient>
+<linearGradient id="k4Beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.9"></stop><stop offset="1" stop-color="#FFE9A8" stop-opacity="0"></stop></linearGradient>
+</defs>
+<g id="FX_Headlight_Bloom">
+<g id="FX_Headlight_Beam"><polygon points="70,82 300,30 300,160 70,98" fill="url(#k4Beam)"></polygon></g>
+<g id="FX_Headlight_Glow"><circle cx="70" cy="90" r="70" fill="url(#k4Bloom)"></circle></g>
+<g id="FX_Headlight_Streak"><rect x="0" y="88" width="210" height="4" rx="2" fill="#FFFFFF" opacity="0.9"></rect></g>
+<ellipse cx="70" cy="90" rx="9" ry="16" fill="#FFFFFF"></ellipse>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Headlight_Bloom</div>
+</div>
+
+<div style="background: #EDE6F2; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Soft glow around a shop sign">
+<defs><radialGradient id="k4Sign" cx="0.5" cy="0.5" r="0.5"><stop offset="0.3" stop-color="#7FE0EC" stop-opacity="0.9"></stop><stop offset="1" stop-color="#7FE0EC" stop-opacity="0"></stop></radialGradient></defs>
+<g id="FX_Sign_Glow">
+<g id="FX_Sign_Glow_Halo"><ellipse cx="150" cy="90" rx="150" ry="86" fill="url(#k4Sign)"></ellipse></g>
+<g id="FX_Sign_Glow_Board"><rect x="60" y="60" width="180" height="60" rx="10" fill="#2F7F8F"></rect><rect x="66" y="66" width="168" height="48" rx="7" fill="none" stroke="#BFF1F6" stroke-width="3"></rect>
+<text x="150" y="101" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="30" fill="#FFFFFF">চা ঘর</text></g>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">FX_Sign_Glow (halo + board)</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Three map pins: origin, hub and destination">
+<g id="Map_Pin_Origin"><ellipse cx="60" cy="158" rx="18" ry="5" fill="#5A3D2B" opacity="0.2"></ellipse><path d="M60 154 C36 116 24 98 24 76 C24 54 40 38 60 38 C80 38 96 54 96 76 C96 98 84 116 60 154 Z" fill="#FF7A1A"></path><circle cx="60" cy="76" r="15" fill="#FFF8EA"></circle></g>
+<g id="Map_Pin_Hub"><ellipse cx="150" cy="158" rx="18" ry="5" fill="#5A3D2B" opacity="0.2"></ellipse><path d="M150 154 C126 116 114 98 114 76 C114 54 130 38 150 38 C170 38 186 54 186 76 C186 98 174 116 150 154 Z" fill="#2F7F8F"></path><rect x="139" y="66" width="22" height="20" rx="3" fill="#FFF8EA"></rect><path d="M139 73 H161" stroke="#2F7F8F" stroke-width="2.5"></path></g>
+<g id="Map_Pin_Destination"><ellipse cx="240" cy="158" rx="18" ry="5" fill="#5A3D2B" opacity="0.2"></ellipse><path d="M240 154 C216 116 204 98 204 76 C204 54 220 38 240 38 C260 38 276 54 276 76 C276 98 264 116 240 154 Z" fill="#1B7D4B"></path><path d="M228 76 L237 85 L253 68" fill="none" stroke="#FFF8EA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Pin_Origin / Hub / Destination</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Solid route line">
+<g id="Map_Route_Solid">
+<path d="M30 150 C70 60 120 150 160 90 S240 40 270 30" fill="none" stroke="#FFE3CC" stroke-width="14" stroke-linecap="round"></path>
+<path d="M30 150 C70 60 120 150 160 90 S240 40 270 30" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"></path>
+<circle cx="30" cy="150" r="10" fill="#FFF8EA" stroke="#FF7A1A" stroke-width="5"></circle>
+<circle cx="270" cy="30" r="10" fill="#FF7A1A"></circle>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Route_Solid</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Dashed route line with direction arrow">
+<g id="Map_Route_Dashed">
+<path d="M30 150 C70 60 120 150 160 90 S240 40 262 34" fill="none" stroke="#2F7F8F" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 12"></path>
+<circle cx="30" cy="150" r="10" fill="#FFF8EA" stroke="#2F7F8F" stroke-width="5"></circle>
+<path d="M254 20 L278 30 L258 46" fill="none" stroke="#2F7F8F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Route_Dashed (animate the dash offset)</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Local hub icon: a small shop-style depot">
+<g id="Map_Icon_Hub">
+<ellipse cx="150" cy="158" rx="70" ry="6" fill="#5A3D2B" opacity="0.15"></ellipse>
+<rect x="96" y="76" width="108" height="80" fill="#FBE6C4"></rect>
+<path d="M84 80 L100 46 L200 46 L216 80 Z" fill="#FF7A1A"></path>
+<path d="M112 46 L104 80 M136 46 L132 80 M164 46 L168 80 M188 46 L196 80" stroke="#FFF8EA" stroke-width="6"></path>
+<rect x="134" y="104" width="32" height="52" fill="#8A5A30"></rect>
+<rect x="104" y="96" width="22" height="22" fill="#A9D9E0"></rect><rect x="174" y="96" width="22" height="22" fill="#A9D9E0"></rect>
+<rect x="172" y="132" width="26" height="24" fill="#C89B6D"></rect><rect x="182" y="132" width="5" height="24" fill="#EAD2AE"></rect>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Icon_Hub</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Regional sorting-center icon with a conveyor">
+<g id="Map_Icon_SortingCenter">
+<ellipse cx="150" cy="160" rx="110" ry="6" fill="#5A3D2B" opacity="0.15"></ellipse>
+<path d="M44 158 L44 76 L92 50 L92 76 L140 50 L140 76 L188 50 L188 76 L256 76 L256 158 Z" fill="#A9D8D8"></path>
+<path d="M44 76 L92 50 L92 76 Z M92 76 L140 50 L140 76 Z M140 76 L188 50 L188 76 Z" fill="#2F7F8F"></path>
+<rect x="60" y="120" width="180" height="12" rx="6" fill="#3A4658"></rect>
+<g fill="#8B97A8"><circle cx="72" cy="126" r="4"></circle><circle cx="104" cy="126" r="4"></circle><circle cx="136" cy="126" r="4"></circle><circle cx="168" cy="126" r="4"></circle><circle cx="200" cy="126" r="4"></circle><circle cx="230" cy="126" r="4"></circle></g>
+<rect x="84" y="98" width="26" height="22" fill="#C89B6D"></rect><rect x="94" y="98" width="5" height="22" fill="#EAD2AE"></rect>
+<rect x="150" y="94" width="30" height="26" fill="#B98958"></rect><rect x="162" y="94" width="5" height="26" fill="#EAD2AE"></rect>
+<rect x="206" y="102" width="22" height="18" fill="#C89B6D"></rect>
+<rect x="206" y="86" width="40" height="8" rx="4" fill="#FF7A1A"></rect>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Icon_SortingCenter</div>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 6px">
+<svg viewBox="0 0 300 180" width="300" height="200" role="img" aria-label="Warehouse icon with a roller door and stacked boxes">
+<g id="Map_Icon_Warehouse">
+<ellipse cx="150" cy="160" rx="100" ry="6" fill="#5A3D2B" opacity="0.15"></ellipse>
+<path d="M56 158 L56 84 L150 40 L244 84 L244 158 Z" fill="#F9DC9C"></path>
+<path d="M44 90 L150 36 L256 90 L256 76 L150 22 L44 76 Z" fill="#E5484D"></path>
+<rect x="100" y="100" width="100" height="58" fill="#FFF8EA"></rect>
+<path d="M100 112 H200 M100 124 H200 M100 136 H200 M100 148 H200" stroke="#C9B595" stroke-width="3"></path>
+<circle cx="150" cy="72" r="12" fill="#FFF8EA"></circle>
+<rect x="212" y="134" width="24" height="24" fill="#C89B6D"></rect><rect x="222" y="134" width="5" height="24" fill="#EAD2AE"></rect>
+<rect x="216" y="112" width="20" height="22" fill="#B98958"></rect>
+</g>
+</svg>
+<div style="font-weight: 700; font-size: 14px; color: #3A4658">Map_Icon_Warehouse</div>
+</div>
+
+<div style="grid-column: span 2; background: #FFF8EA; border: 2px dashed #E2D5BF; border-radius: 16px; padding: 22px 28px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 8px">
+<div style="font-weight: 800; font-size: 17px; letter-spacing: 0.08em; color: #3A4658">FX NOTES</div>
+<div style="font-weight: 500; font-size: 18px; line-height: 1.5; color: #0F1B2D">Tinted tiles are preview grounds only; each effect is transparent. White effects (fog, glare, ripples) need a coloured scene behind them. Use the blooms and sign glow only in evening-glow scenes.</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

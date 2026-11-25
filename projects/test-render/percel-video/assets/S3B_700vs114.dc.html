@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 3B: 700 plus couriers, 114 licensed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+.s3b-shop{position:relative;width:44px;height:36px}
+.s3b-shop .aw{position:absolute;left:5px;top:5px;width:34px;height:9px;border-radius:4px 4px 0 0;background:#E2D5BF}
+.s3b-shop .bo{position:absolute;left:8px;top:14px;width:28px;height:18px;background:#EFE4D0}
+.s3b-shop .dr{position:absolute;left:18px;top:20px;width:8px;height:12px;background:#D9C9AE}
+.s3b-shop .bd{display:none;position:absolute;right:0;top:0;width:15px;height:15px;border-radius:50%;background:#2EAD6B;border:2px solid #FFFFFF;box-sizing:border-box}
+.s3b-shop.lit .aw{background:#FF7A1A}
+.s3b-shop.lit .bo{background:#FFFFFF;box-shadow:0 3px 8px rgba(90,61,43,0.28)}
+.s3b-shop.lit .dr{background:#2F7F8F}
+.s3b-shop.lit .bd{display:block}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Manrope', system-ui, sans-serif; color: #0F1B2D">
+
+<div id="S3B_Header" style="position: absolute; left: 190px; top: 56px; width: 1540px; display: flex; justify-content: space-between; align-items: flex-end">
+<div id="S3B_Number_700" style="display: flex; align-items: baseline; gap: 22px">
+<div style="font-weight: 800; font-size: 150px; line-height: 1; letter-spacing: -0.02em">700+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.2">কুরিয়ার প্রতিষ্ঠান</div>
+<div style="font-weight: 500; font-size: 22px; color: #3A4658">courier companies operating</div>
+</div>
+</div>
+<div style="font-weight: 800; font-size: 44px; color: #3A4658; padding-bottom: 30px">vs</div>
+<div id="S3B_Number_114" style="display: flex; align-items: baseline; gap: 22px">
+<div style="font-weight: 800; font-size: 150px; line-height: 1; letter-spacing: -0.02em; color: #1B7D4B">114</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.2; color: #1B7D4B">লাইসেন্সপ্রাপ্ত</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 20px; height: 20px; border-radius: 50%; background: #2EAD6B; border: 2px solid #FFFFFF; box-sizing: border-box; box-shadow: 0 2px 6px rgba(90,61,43,0.25)"></div>
+<div style="font-weight: 500; font-size: 22px; color: #3A4658">hold a licence</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="S3B_Grid" style="position: absolute; left: 190px; top: 296px; width: 1540px; height: 720px; display: grid; grid-template-columns: repeat(35, 44px); grid-auto-rows: 36px">
+<sc-for list="{{shops}}" as="s" hint-placeholder-count="35">
+<div class="s3b-shop {{s.cls}}"><div class="aw"></div><div class="bo"></div><div class="dr"></div><div class="bd"></div></div>
+</sc-for>
+</div>
+
+<div style="position: absolute; left: 190px; top: 1030px; font-weight: 500; font-size: 18px; color: #3A4658">Each icon is one courier company: 700 drawn, 114 lit.</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+makeShops() {
+var seed = 23;
+function r() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+var idx = [];
+for (var i = 0; i < 700; i++) { idx.push(i); }
+for (var k = idx.length - 1; k > 0; k--) {
+var j = Math.floor(r() * (k + 1));
+var t = idx[k]; idx[k] = idx[j]; idx[j] = t;
+}
+var lit = {};
+for (var n = 0; n < 114; n++) { lit[idx[n]] = true; }
+var out = [];
+for (var m = 0; m < 700; m++) { out.push({ cls: lit[m] ? 'lit' : 'off' }); }
+return out;
+}
+renderVals() {
+if (!this._shops) { this._shops = this.makeShops(); }
+return { shops: this._shops };
+}
+}
+</script>
+</body>
+</html>

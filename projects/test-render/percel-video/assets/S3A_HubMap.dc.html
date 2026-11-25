@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 3A: courier hub map</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+.s3a-dot{position:absolute;border-radius:50%;background:#FF7A1A;border:2px solid #FFFFFF;box-sizing:border-box;box-shadow:0 0 0 6px rgba(255,122,26,0.18),0 0 18px rgba(255,122,26,0.55)}
+.s3a-city{position:absolute;background:#FFFFFF;color:#0F1B2D;font-family:'Hind Siliguri',sans-serif;font-weight:700;font-size:20px;line-height:1;padding:7px 12px;border-radius:8px;box-shadow:0 4px 12px rgba(90,61,43,0.18)}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Manrope', system-ui, sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Stylised map of Bangladesh" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3A_BG_Shapes">
+<circle cx="1260" cy="540" r="470" fill="#FFEBC9" opacity="0.6"></circle>
+<circle cx="1260" cy="540" r="330" fill="#FFF8EA" opacity="0.8"></circle>
+</g>
+<g id="S3A_Map" transform="translate(820 70) scale(1.18)">
+<g id="S3A_Map_Shadow" transform="translate(10 14)"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#5A3D2B" opacity="0.16"></path></g>
+<g id="S3A_Map_Land"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="4" stroke-linejoin="round"></path></g>
+<g id="S3A_Map_Districts" fill="none" stroke="#EAD9BD" stroke-width="1.6" stroke-linejoin="round">
+<path d="M120 100 L200 160 L270 170"></path><path d="M90 160 L190 200 L250 260 L340 260"></path><path d="M100 220 L180 280 L250 260"></path><path d="M60 260 L150 330 L240 340 L330 380"></path><path d="M110 370 L200 400 L240 340"></path><path d="M90 430 L200 400 L260 460 L330 380"></path><path d="M110 500 L210 500 L260 460"></path><path d="M130 560 L210 500 L300 570 L330 640"></path><path d="M180 660 L230 590 L300 570"></path><path d="M330 380 L400 330 L470 340"></path><path d="M340 260 L400 330"></path><path d="M330 190 L340 260 L420 180"></path><path d="M400 330 L420 250 L500 290"></path><path d="M420 250 L490 220 L560 200"></path><path d="M330 380 L380 470 L480 400"></path><path d="M380 470 L420 580"></path><path d="M380 470 L300 570"></path><path d="M450 540 L520 430"></path><path d="M490 560 L560 470"></path><path d="M520 620 L590 540"></path><path d="M200 160 L190 200"></path><path d="M150 330 L180 280"></path><path d="M210 500 L200 400"></path>
+</g>
+<g id="S3A_Map_Rivers" fill="none" stroke="#A9D8D8" stroke-linecap="round" opacity="0.85">
+<path d="M170 60 C200 200 230 300 300 400 C340 460 360 540 370 600" stroke-width="6"></path>
+<path d="M70 320 C150 360 240 380 300 400" stroke-width="5"></path>
+<path d="M480 200 C440 280 400 380 350 470" stroke-width="4"></path>
+</g>
+</g>
+</svg>
+
+<div id="S3A_HubDots" style="position: absolute; left: 820px; top: 70px; width: 708px; height: 944px">
+<sc-for list="{{dots}}" as="d" hint-placeholder-count="12">
+<div class="s3a-dot" style="left: {{d.x}}px; top: {{d.y}}px; width: {{d.s}}px; height: {{d.s}}px"></div>
+</sc-for>
+</div>
+
+<div id="S3A_CityLabels">
+<div class="s3a-city" style="left: 1232px; top: 498px">ঢাকা</div>
+<div class="s3a-city" style="left: 1446px; top: 748px">চট্টগ্রাম</div>
+<div class="s3a-city" style="left: 1420px; top: 300px">সিলেট</div>
+<div class="s3a-city" style="left: 920px; top: 752px">খুলনা</div>
+<div class="s3a-city" style="left: 842px; top: 446px">রাজশাহী</div>
+<div class="s3a-city" style="left: 1044px; top: 186px">রংপুর</div>
+<div class="s3a-city" style="left: 1244px; top: 340px">ময়মনসিংহ</div>
+<div class="s3a-city" style="left: 1196px; top: 760px">বরিশাল</div>
+</div>
+
+<div id="S3A_Text" style="position: absolute; left: 72px; top: 150px; width: 640px; display: flex; flex-direction: column; gap: 20px">
+<div style="font-weight: 800; font-size: 16px; letter-spacing: 0.16em; color: #A84700">SCENE 3A · HUB MAP</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 84px; line-height: 1.15">দেশজুড়ে কুরিয়ার হাব</div>
+<div style="font-weight: 500; font-size: 26px; line-height: 1.45; color: #3A4658">Courier hubs across Bangladesh: densest around Dhaka and Chattogram, spreading outward to every division.</div>
+<div style="display: flex; align-items: center; gap: 14px; margin-top: 16px">
+<div style="width: 18px; height: 18px; border-radius: 50%; background: #FF7A1A; border: 2px solid #FFFFFF; box-shadow: 0 0 0 6px rgba(255,122,26,0.18)"></div>
+<div style="font-weight: 700; font-size: 22px">Courier hub</div>
+</div>
+<div style="font-weight: 500; font-size: 18px; color: #3A4658">Dot positions are illustrative, not surveyed locations.</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+makeDots() {
+var P = [[150,40],[200,90],[250,110],[270,170],[330,190],[420,180],[500,170],[560,200],[550,260],[500,290],[470,340],[480,400],[520,430],[560,470],[590,540],[600,640],[580,740],[555,770],[540,700],[520,620],[490,560],[450,540],[420,580],[370,600],[330,640],[280,660],[230,650],[180,660],[140,640],[130,560],[110,500],[90,430],[110,370],[70,320],[60,260],[100,220],[90,160],[120,100]];
+function inside(x, y) {
+var c = false;
+for (var i = 0, j = P.length - 1; i < P.length; j = i++) {
+var a = P[i], b = P[j];
+if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) { c = !c; }
+}
+return c;
+}
+var seed = 11;
+function r() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+var cities = [[330,380,30,60],[510,590,18,42],[490,220,7,36],[160,560,8,40],[100,300,7,30],[170,130,7,36],[340,260,8,36],[300,570,7,34],[240,420,6,60],[420,440,6,50],[230,250,5,50]];
+var out = [];
+for (var k = 0; k < cities.length; k++) {
+var c = cities[k], made = 0, guard = 0;
+while (made < c[2] && guard < 400) {
+guard++;
+var x = c[0] + (r() + r() + r() - 1.5) * c[3] * 1.4;
+var y = c[1] + (r() + r() + r() - 1.5) * c[3] * 1.4;
+if (!inside(x, y)) { continue; }
+var s = 9 + Math.floor(r() * 8);
+out.push({ x: Math.round(x * 1.18 - s / 2), y: Math.round(y * 1.18 - s / 2), s: s });
+made++;
+}
+}
+return out;
+}
+renderVals() {
+if (!this._dots) { this._dots = this.makeDots(); }
+return { dots: this._dots };
+}
+}
+</script>
+</body>
+</html>

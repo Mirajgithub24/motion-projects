@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 2J: Journey map</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Journey map: a dashed route runs from Barishal to a sorting center and on to Dhaka, shown as three stops and on a stylised map of Bangladesh" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<symbol id="j_pin" overflow="visible"><path d="M0 0 C-22 -30 -28 -44 -28 -58 A28 28 0 1 1 28 -58 C28 -44 22 -30 0 0 Z" fill="currentColor"></path><circle cx="0" cy="-58" r="11" fill="#FFFFFF"></circle></symbol>
+<symbol id="j_dot" overflow="visible"><circle cx="0" cy="0" r="9" fill="#FFFFFF" stroke="#2F7F8F" stroke-width="4"></circle></symbol>
+<symbol id="j_wave" overflow="visible"><path d="M0 0 Q12 -10 24 0 Q36 10 48 0 Q60 -10 72 0" fill="none" stroke="#7CC3CF" stroke-width="5" stroke-linecap="round"></path></symbol>
+</defs>
+
+<g id="S2J_BG">
+<circle cx="230" cy="180" r="300" fill="#FFE9C9" opacity="0.6"></circle>
+<path d="M0 860 C260 820 560 880 860 850 C1000 836 1080 860 1140 850 L1140 1080 L0 1080 Z" fill="#FBEBD0" opacity="0.8"></path>
+<rect x="1060" y="0" width="860" height="1080" fill="#E6F3F1"></rect>
+<path d="M1060 0 C1020 200 1100 420 1050 640 C1020 800 1080 940 1060 1080 L1100 1080 L1100 0 Z" fill="#E6F3F1"></path>
+<g id="S2J_BayWaves"><use href="#j_wave" x="1180" y="1010"></use><use href="#j_wave" x="1320" y="1036"></use><use href="#j_wave" x="1470" y="1008"></use><use href="#j_wave" x="1610" y="1040"></use><use href="#j_wave" x="1750" y="1012"></use><use href="#j_wave" x="1240" y="960" opacity="0.6"></use><use href="#j_wave" x="1560" y="972" opacity="0.6"></use></g>
+</g>
+
+<g id="S2J_Map" transform="translate(1090 50) scale(1.2)">
+<path id="S2J_Map_Shadow" transform="translate(10 14)" d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#5A3D2B" opacity="0.14"></path>
+<path id="S2J_Map_Land" d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#BFE3D6" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"></path>
+<g id="S2J_Map_Rivers" fill="none" stroke="#8FCBD6" stroke-linecap="round"><path d="M176 120 C220 240 262 320 318 404 C340 470 334 540 352 628" stroke-width="8"></path><path d="M96 296 C180 336 250 368 318 404" stroke-width="7"></path><path d="M470 240 C430 300 400 350 350 440" stroke-width="5"></path></g>
+<g id="S2J_Map_Patches" fill="#D3EDE3"><ellipse cx="430" cy="250" rx="60" ry="30"></ellipse><ellipse cx="180" cy="230" rx="50" ry="34"></ellipse><ellipse cx="520" cy="560" rx="34" ry="60"></ellipse><ellipse cx="200" cy="590" rx="44" ry="30"></ellipse></g>
+<g id="S2J_Map_OtherCities"><use href="#j_dot" x="510" y="590"></use><use href="#j_dot" x="490" y="220"></use><use href="#j_dot" x="160" y="560"></use><use href="#j_dot" x="100" y="300"></use><use href="#j_dot" x="170" y="130"></use><use href="#j_dot" x="340" y="260"></use></g>
+<path id="S2J_Map_Route" d="M300 570 Q226 540 250 470 Q272 404 330 380" fill="none" stroke="#D95400" stroke-width="6" stroke-linecap="round" stroke-dasharray="4 14"></path>
+</g>
+
+<g id="S2J_Map_Pins">
+<g id="S2J_Pin_Barishal" color="#FF7A1A"><ellipse cx="1450" cy="736" rx="18" ry="6" fill="#5A3D2B" opacity="0.25"></ellipse><use href="#j_pin" x="1450" y="734"></use></g>
+<g id="S2J_Pin_SortingCenter" color="#2F7F8F"><ellipse cx="1390" cy="616" rx="18" ry="6" fill="#5A3D2B" opacity="0.25"></ellipse><use href="#j_pin" x="1390" y="614"></use></g>
+<g id="S2J_Pin_Dhaka" color="#1F8A54"><ellipse cx="1486" cy="508" rx="18" ry="6" fill="#5A3D2B" opacity="0.25"></ellipse><use href="#j_pin" x="1486" y="506"></use></g>
+</g>
+
+<g id="S2J_Stops">
+<g id="S2J_Route_Leg_1"><path d="M312 560 Q370 470 428 560" fill="none" stroke="#D95400" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 18"></path><path d="M410 530 L430 562 L394 560" fill="none" stroke="#D95400" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></g>
+<g id="S2J_Route_Leg_2"><path d="M652 560 Q710 650 768 560" fill="none" stroke="#D95400" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 18"></path><path d="M734 562 L770 558 L752 590" fill="none" stroke="#D95400" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></g>
+
+<g id="S2J_Stop_Barishal">
+<ellipse cx="200" cy="676" rx="96" ry="12" fill="#5A3D2B" opacity="0.14"></ellipse>
+<circle cx="200" cy="560" r="104" fill="#FFFFFF"></circle><circle cx="200" cy="560" r="104" fill="none" stroke="#FF7A1A" stroke-width="8"></circle>
+<rect x="150" y="548" width="100" height="56" fill="#BFE3D6"></rect>
+<path d="M136 552 L200 506 L264 552 Z" fill="#B8C4D1"></path><path d="M136 552 L264 552 L264 560 L136 560 Z" fill="#8B97A8"></path>
+<rect x="188" y="566" width="26" height="38" fill="#7A4A22"></rect><rect x="160" y="566" width="20" height="18" fill="#FFF8EA"></rect><rect x="222" y="566" width="20" height="18" fill="#FFF8EA"></rect>
+<path d="M132 620 Q146 610 160 620 Q174 630 188 620 Q202 610 216 620 Q230 630 244 620 Q258 610 272 620" fill="none" stroke="#7CC3CF" stroke-width="5" stroke-linecap="round"></path>
+<rect x="234" y="582" width="36" height="26" fill="#C89B6D"></rect><rect x="249" y="582" width="6" height="26" fill="#EAD2AE"></rect>
+</g>
+
+<g id="S2J_Stop_SortingCenter">
+<ellipse cx="540" cy="676" rx="96" ry="12" fill="#5A3D2B" opacity="0.14"></ellipse>
+<circle cx="540" cy="560" r="104" fill="#FFFFFF"></circle><circle cx="540" cy="560" r="104" fill="none" stroke="#2F7F8F" stroke-width="8"></circle>
+<path d="M472 620 L472 540 L506 516 L506 540 L540 516 L540 540 L574 516 L574 540 L608 540 L608 620 Z" fill="#A9D8D8"></path>
+<rect x="472" y="606" width="136" height="14" fill="#8FC6C6"></rect>
+<rect x="486" y="584" width="108" height="10" rx="5" fill="#6C7A8F"></rect>
+<rect x="496" y="562" width="26" height="22" fill="#C89B6D"></rect><rect x="534" y="566" width="22" height="18" fill="#B98958"></rect><rect x="566" y="560" width="24" height="24" fill="#C89B6D"></rect>
+<circle cx="494" cy="598" r="5" fill="#3A4658"></circle><circle cx="586" cy="598" r="5" fill="#3A4658"></circle>
+</g>
+
+<g id="S2J_Stop_Dhaka">
+<ellipse cx="880" cy="676" rx="96" ry="12" fill="#5A3D2B" opacity="0.14"></ellipse>
+<circle cx="880" cy="560" r="104" fill="#FFFFFF"></circle><circle cx="880" cy="560" r="104" fill="none" stroke="#1F8A54" stroke-width="8"></circle>
+<rect x="812" y="540" width="40" height="80" fill="#F6B893"></rect><rect x="856" y="500" width="46" height="120" fill="#FBE6C4"></rect><rect x="906" y="524" width="42" height="96" fill="#F9DC9C"></rect>
+<g fill="#7FBFCB"><rect x="820" y="550" width="10" height="12"></rect><rect x="836" y="550" width="10" height="12"></rect><rect x="820" y="572" width="10" height="12"></rect><rect x="836" y="572" width="10" height="12"></rect><rect x="864" y="510" width="12" height="14"></rect><rect x="882" y="510" width="12" height="14"></rect><rect x="864" y="534" width="12" height="14"></rect><rect x="882" y="534" width="12" height="14"></rect><rect x="864" y="558" width="12" height="14"></rect><rect x="882" y="558" width="12" height="14"></rect><rect x="914" y="534" width="10" height="12"></rect><rect x="930" y="534" width="10" height="12"></rect><rect x="914" y="556" width="10" height="12"></rect><rect x="930" y="556" width="10" height="12"></rect></g>
+<rect x="868" y="586" width="22" height="34" fill="#2EAD6B"></rect><path d="M873 586 L873 620 M879 586 L879 620 M885 586 L885 620" stroke="#1F8A54" stroke-width="2"></path>
+<rect x="806" y="620" width="148" height="6" fill="#E2D5BF"></rect>
+</g>
+
+<g id="S2J_Icon_Bike" transform="translate(370 470)">
+<circle cx="-20" cy="0" r="13" fill="none" stroke="#2B2B2B" stroke-width="5"></circle><circle cx="22" cy="0" r="13" fill="none" stroke="#2B2B2B" stroke-width="5"></circle>
+<path d="M-20 0 L-4 -16 L14 -16 L22 0 M14 -16 L18 -26" fill="none" stroke="#3A4658" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="-30" y="-36" width="22" height="18" fill="#C89B6D"></rect>
+<circle cx="2" cy="-40" r="9" fill="#FF7A1A"></circle>
+</g>
+<g id="S2J_Icon_Van" transform="translate(710 650)">
+<rect x="-44" y="-34" width="56" height="34" rx="4" fill="#2F7F8F"></rect>
+<path d="M12 -24 L32 -24 L44 -10 L44 0 L12 0 Z" fill="#FFF8EA" stroke="#B8C4D1" stroke-width="2"></path>
+<circle cx="-24" cy="4" r="10" fill="#2B2B2B"></circle><circle cx="26" cy="4" r="10" fill="#2B2B2B"></circle>
+</g>
+</g>
+</svg>
+
+<div id="S2J_Title" style="position: absolute; left: 96px; top: 76px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 0.16em; color: #A84700">SCENE 2J · JOURNEY MAP</div>
+<div style="font-weight: 700; font-size: 60px; line-height: 1.2">একটি পার্সেলের যাত্রা</div>
+<div style="font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 22px; color: #3A4658">Barishal → Sorting center → Dhaka</div>
+</div>
+
+<div id="S2J_Step_1" style="position: absolute; left: 176px; top: 404px; width: 48px; height: 48px; border-radius: 24px; background: #0F1B2D; color: #FFFFFF; font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 24px; display: flex; align-items: center; justify-content: center">1</div>
+<div id="S2J_Step_2" style="position: absolute; left: 516px; top: 404px; width: 48px; height: 48px; border-radius: 24px; background: #0F1B2D; color: #FFFFFF; font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 24px; display: flex; align-items: center; justify-content: center">2</div>
+<div id="S2J_Step_3" style="position: absolute; left: 856px; top: 404px; width: 48px; height: 48px; border-radius: 24px; background: #0F1B2D; color: #FFFFFF; font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 24px; display: flex; align-items: center; justify-content: center">3</div>
+
+<div id="S2J_Label_Stop_Barishal" style="position: absolute; left: 60px; top: 700px; width: 280px; text-align: center"><div style="font-weight: 700; font-size: 38px; line-height: 1.25">বরিশাল</div><div style="font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 17px; color: #3A4658">Barishal · seller's home</div></div>
+<div id="S2J_Label_Stop_Sorting" style="position: absolute; left: 400px; top: 700px; width: 280px; text-align: center"><div style="font-weight: 700; font-size: 38px; line-height: 1.25">সর্টিং সেন্টার</div><div style="font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 17px; color: #3A4658">Sorting center</div></div>
+<div id="S2J_Label_Stop_Dhaka" style="position: absolute; left: 740px; top: 700px; width: 280px; text-align: center"><div style="font-weight: 700; font-size: 38px; line-height: 1.25">ঢাকা</div><div style="font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 17px; color: #3A4658">Dhaka · customer's door</div></div>
+
+<div id="S2J_Label_Pin_Dhaka" style="position: absolute; left: 1526px; top: 416px; background: #FFFFFF; border-radius: 10px; padding: 4px 14px; box-shadow: 0 6px 16px rgba(90, 61, 43, 0.16)"><div style="font-weight: 700; font-size: 26px; line-height: 1.25">ঢাকা</div><div style="font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 12px; letter-spacing: 0.08em; color: #3A4658">DHAKA</div></div>
+<div id="S2J_Label_Pin_Sorting" style="position: absolute; left: 1168px; top: 524px; background: #FFFFFF; border-radius: 10px; padding: 4px 14px; box-shadow: 0 6px 16px rgba(90, 61, 43, 0.16)"><div style="font-weight: 700; font-size: 24px; line-height: 1.25">সর্টিং সেন্টার</div><div style="font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 12px; letter-spacing: 0.08em; color: #3A4658">SORTING CENTER</div></div>
+<div id="S2J_Label_Pin_Barishal" style="position: absolute; left: 1490px; top: 690px; background: #FFFFFF; border-radius: 10px; padding: 4px 14px; box-shadow: 0 6px 16px rgba(90, 61, 43, 0.16)"><div style="font-weight: 700; font-size: 26px; line-height: 1.25">বরিশাল</div><div style="font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 12px; letter-spacing: 0.08em; color: #3A4658">BARISHAL</div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

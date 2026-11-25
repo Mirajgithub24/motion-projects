@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Scene 4B: rider monthly income bar</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; color: #0F1B2D; font-family: 'Manrope', 'Hind Siliguri', sans-serif">
+
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<pattern id="S4B_pDays" width="220" height="16.154" patternUnits="userSpaceOnUse" patternTransform="translate(0 300)"><rect x="0" y="0" width="220" height="2" fill="#FFF8EA" opacity="0.5"></rect></pattern>
+</defs>
+<g id="S4B_BG_Soft">
+<circle cx="410" cy="600" r="380" fill="#FFFFFF" opacity="0.6"></circle>
+</g>
+<g id="S4B_Bar_Shadow">
+<path d="M520 900 L640 936 L420 936 L300 900 Z" fill="#5A3D2B" opacity="0.14"></path>
+</g>
+<g id="S4B_Bar_Ground">
+<rect x="200" y="900" width="560" height="4" rx="2" fill="#E2D5BF"></rect>
+</g>
+<g id="S4B_Bar_Fixed">
+<rect x="300" y="720" width="220" height="180" fill="#2F7F8F"></rect>
+<rect x="300" y="720" width="26" height="180" fill="#FFFFFF" opacity="0.14"></rect>
+</g>
+<g id="S4B_Bar_Commission">
+<path d="M300 720 V318 A18 18 0 0 1 318 300 H502 A18 18 0 0 1 520 318 V720 Z" fill="#FF7A1A"></path>
+<rect x="300" y="316" width="220" height="404" fill="url(#S4B_pDays)"></rect>
+<path d="M300 720 V318 A18 18 0 0 1 318 300 H326 V720 Z" fill="#FFFFFF" opacity="0.16"></path>
+</g>
+<g id="S4B_Bar_SplitLine">
+<rect x="300" y="717" width="220" height="6" fill="#FDF6E9"></rect>
+</g>
+<g id="S4B_Leaders" fill="none" stroke="#3A4658" stroke-width="2.5" stroke-linecap="round">
+<path d="M532 510 H596"></path><circle cx="532" cy="510" r="5" fill="#3A4658" stroke="none"></circle>
+<path d="M532 810 H596"></path><circle cx="532" cy="810" r="5" fill="#3A4658" stroke="none"></circle>
+</g>
+<g id="S4B_Plus" fill="none" stroke="#3A4658" stroke-width="5" stroke-linecap="round">
+<path d="M236 720 H264 M250 706 V734"></path>
+</g>
+</svg>
+
+<div id="S4B_Title" style="position: absolute; left: 72px; top: 60px; display: flex; flex-direction: column; gap: 4px">
+<div style="font-weight: 800; font-size: 15px; letter-spacing: 0.16em; color: #A84700">SCENE 4B · MONTHLY INCOME</div>
+<div style="font-weight: 800; font-size: 56px; line-height: 1.1">What a rider takes home</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 34px; color: #3A4658">রাইডারের মাসিক আয়</div>
+</div>
+
+<div id="S4B_Label_Commission" style="position: absolute; left: 616px; top: 404px; width: 440px; display: flex; flex-direction: column; gap: 0px">
+<div style="display: flex; align-items: baseline; gap: 12px"><div style="font-weight: 800; font-size: 26px">Commission</div><div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 24px; color: #3A4658">কমিশন</div></div>
+<div style="font-weight: 800; font-size: 96px; line-height: 1.1; letter-spacing: -0.02em; color: #D95400">৳11,700</div>
+<div style="font-weight: 700; font-size: 20px; color: #3A4658">26 days × ৳450</div>
+</div>
+
+<div id="S4B_Label_Fixed" style="position: absolute; left: 616px; top: 744px; width: 440px; display: flex; flex-direction: column; gap: 0px">
+<div style="display: flex; align-items: baseline; gap: 12px"><div style="font-weight: 800; font-size: 26px">Fixed pay</div><div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 24px; color: #3A4658">নির্ধারিত বেতন</div></div>
+<div style="font-weight: 800; font-size: 76px; line-height: 1.1; letter-spacing: -0.02em; color: #1F5C69">৳5,000</div>
+</div>
+
+<div id="S4B_Total_Card" style="position: absolute; left: 1080px; top: 330px; width: 768px; box-sizing: border-box; padding: 52px 56px; background: #FFFFFF; border-radius: 28px; box-shadow: 0 12px 32px rgba(90, 61, 43, 0.16); display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: baseline; gap: 14px"><div style="font-weight: 800; font-size: 28px">Monthly income</div><div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 600; font-size: 26px; color: #3A4658">মাসিক আয়</div></div>
+<div id="S4B_Total_Number" style="font-weight: 800; font-size: 118px; line-height: 1.05; letter-spacing: -0.03em; white-space: nowrap; color: #D95400">≈ ৳16,700</div>
+<div id="S4B_Total_Equation" style="display: flex; align-items: center; gap: 16px; font-weight: 800; font-size: 34px; padding-top: 14px; border-top: 2px solid #E2D5BF">
+<div style="display: flex; align-items: center; gap: 10px"><div style="width: 20px; height: 20px; border-radius: 5px; background: #2F7F8F"></div><div>৳5,000</div></div>
+<div style="color: #3A4658">+</div>
+<div style="display: flex; align-items: center; gap: 10px"><div style="width: 20px; height: 20px; border-radius: 5px; background: #FF7A1A"></div><div>৳11,700</div></div>
+</div>
+<div style="font-weight: 500; font-size: 22px; color: #3A4658">per month · <span style="font-family: 'Hind Siliguri', sans-serif">প্রতি মাসে</span></div>
+</div>
+
+<div id="S4B_Note_Days" style="position: absolute; left: 72px; top: 990px; width: 900px; font-weight: 500; font-size: 16px; line-height: 1.4; color: #3A4658">Bar heights are to scale. Each thin line in the commission segment is one of 26 working days.</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

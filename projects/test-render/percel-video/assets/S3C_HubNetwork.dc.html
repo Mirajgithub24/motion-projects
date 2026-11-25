@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 3C: hub network</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+.s3c-spoke{position:absolute;height:2px;background:#2F7F8F;opacity:0.28;transform-origin:0 50%}
+.s3c-hub{position:absolute;width:14px;height:13px;background:#2F7F8F;clip-path:polygon(50% 0,100% 40%,100% 100%,0 100%,0 40%)}
+.s3c-label{position:absolute;transform:translateX(-50%);background:#FFFFFF;color:#0F1B2D;font-family:'Hind Siliguri',sans-serif;font-weight:700;font-size:18px;line-height:1;padding:6px 10px;border-radius:8px;box-shadow:0 4px 12px rgba(90,61,43,0.18);white-space:nowrap}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Manrope', system-ui, sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3C_Map" transform="translate(640 70) scale(1.18)">
+<g id="S3C_Map_Shadow" transform="translate(10 14)"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#5A3D2B" opacity="0.14"></path></g>
+<g id="S3C_Map_Land"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="4" stroke-linejoin="round"></path></g>
+<g id="S3C_Backbone" fill="none" stroke="#FF7A1A" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10">
+<path id="S3C_Link_Dhaka_Chattogram" d="M330 380 L510 590"></path>
+<path id="S3C_Link_Dhaka_Sylhet" d="M330 380 L490 220"></path>
+<path id="S3C_Link_Dhaka_Khulna" d="M330 380 L160 560"></path>
+<path id="S3C_Link_Dhaka_Rajshahi" d="M330 380 L100 300"></path>
+<path id="S3C_Link_Dhaka_Mymensingh" d="M330 380 L340 260"></path>
+<path id="S3C_Link_Dhaka_Barishal" d="M330 380 L300 570"></path>
+<path id="S3C_Link_Mymensingh_Rangpur" d="M340 260 L170 130"></path>
+<path id="S3C_Link_Rajshahi_Rangpur" d="M100 300 L170 130"></path>
+<path id="S3C_Link_Khulna_Barishal" d="M160 560 L300 570"></path>
+</g>
+</g>
+</svg>
+
+<div id="S3C_Spokes" style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px">
+<sc-for list="{{hubs}}" as="h" hint-placeholder-count="20">
+<div class="s3c-spoke" style="left: {{h.cx}}px; top: {{h.cy}}px; width: {{h.len}}px; transform: rotate({{h.ang}}deg)"></div>
+</sc-for>
+</div>
+<div id="S3C_Hubs" style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px">
+<sc-for list="{{hubs}}" as="h" hint-placeholder-count="20">
+<div class="s3c-hub" style="left: {{h.x}}px; top: {{h.y}}px"></div>
+</sc-for>
+</div>
+
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Eight regional sorting centers linked across Bangladesh" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3C_SortCenters" transform="translate(640 70) scale(1.18)">
+<g id="S3C_SortCenter_Dhaka" transform="translate(330 380) scale(1.25)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Chattogram" transform="translate(510 590)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Sylhet" transform="translate(490 220)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Khulna" transform="translate(160 560)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Rajshahi" transform="translate(100 300)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Rangpur" transform="translate(170 130)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Mymensingh" transform="translate(340 260)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+<g id="S3C_SortCenter_Barishal" transform="translate(300 570)"><circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FF7A1A" stroke-width="3"></circle><path d="M-26 -6 L0 -24 L26 -6 Z" fill="#27586B"></path><rect x="-22" y="-6" width="44" height="24" rx="3" fill="#FF7A1A"></rect><rect x="-8" y="4" width="16" height="14" fill="#FFF8EA"></rect></g>
+</g>
+</svg>
+
+<div id="S3C_Labels">
+<div class="s3c-label" style="left: 1029px; top: 574px">ঢাকা</div>
+<div class="s3c-label" style="left: 1242px; top: 812px">চট্টগ্রাম</div>
+<div class="s3c-label" style="left: 1218px; top: 376px">সিলেট</div>
+<div class="s3c-label" style="left: 829px; top: 777px">খুলনা</div>
+<div class="s3c-label" style="left: 758px; top: 470px">রাজশাহী</div>
+<div class="s3c-label" style="left: 841px; top: 270px">রংপুর</div>
+<div class="s3c-label" style="left: 1041px; top: 423px">ময়মনসিংহ</div>
+<div class="s3c-label" style="left: 994px; top: 789px">বরিশাল</div>
+</div>
+
+<div id="S3C_Title" style="position: absolute; left: 72px; top: 150px; width: 520px; display: flex; flex-direction: column; gap: 18px">
+<div style="font-weight: 800; font-size: 16px; letter-spacing: 0.16em; color: #A84700">SCENE 3C · HUB NETWORK</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 76px; line-height: 1.15">হাবের জাল</div>
+<div style="font-weight: 500; font-size: 24px; line-height: 1.45; color: #3A4658">Small local hubs feed regional sorting centers, and the sorting centers link the whole country.</div>
+</div>
+
+<div id="S3C_Legend" style="position: absolute; left: 1470px; top: 250px; width: 390px; display: flex; flex-direction: column; gap: 40px">
+<div id="S3C_Number_300" style="display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; align-items: center; gap: 18px">
+<div style="font-weight: 800; font-size: 136px; line-height: 1; letter-spacing: -0.02em">300</div>
+<div style="width: 34px; height: 32px; background: #2F7F8F; clip-path: polygon(50% 0,100% 40%,100% 100%,0 100%,0 40%)"></div>
+</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 34px">স্থানীয় হাব</div>
+<div style="font-weight: 500; font-size: 20px; color: #3A4658">local hubs</div>
+</div>
+<div id="S3C_Number_8" style="display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; align-items: center; gap: 18px">
+<div style="font-weight: 800; font-size: 136px; line-height: 1; letter-spacing: -0.02em; color: #D95400">8</div>
+<div style="width: 56px; height: 56px; border-radius: 50%; background: #FFFFFF; border: 3px solid #FF7A1A; box-sizing: border-box"></div>
+</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 34px">আঞ্চলিক সর্টিং সেন্টার</div>
+<div style="font-weight: 500; font-size: 20px; color: #3A4658">regional sorting centers</div>
+</div>
+<div style="font-weight: 500; font-size: 17px; color: #3A4658">Hub placement is illustrative.</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+makeHubs() {
+var P = [[150,40],[200,90],[250,110],[270,170],[330,190],[420,180],[500,170],[560,200],[550,260],[500,290],[470,340],[480,400],[520,430],[560,470],[590,540],[600,640],[580,740],[555,770],[540,700],[520,620],[490,560],[450,540],[420,580],[370,600],[330,640],[280,660],[230,650],[180,660],[140,640],[130,560],[110,500],[90,430],[110,370],[70,320],[60,260],[100,220],[90,160],[120,100]];
+function inside(x, y) {
+var c = false;
+for (var i = 0, j = P.length - 1; i < P.length; j = i++) {
+var a = P[i], b = P[j];
+if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) { c = !c; }
+}
+return c;
+}
+var seed = 5;
+function r() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+var cities = [[330,380,80,105],[510,590,55,90],[490,220,28,75],[160,560,30,80],[100,300,28,70],[170,130,25,75],[340,260,26,70],[300,570,28,70]];
+var out = [];
+for (var k = 0; k < cities.length; k++) {
+var c = cities[k], made = 0, guard = 0;
+while (made < c[2]) {
+guard++;
+var ang = r() * Math.PI * 2;
+var rad = 34 + r() * (c[3] - 34);
+if (guard > 4000) { rad = 34 + r() * 20; }
+var x = c[0] + Math.cos(ang) * rad;
+var y = c[1] + Math.sin(ang) * rad;
+if (guard <= 8000 && !inside(x, y)) { continue; }
+var cx = 640 + c[0] * 1.18, cy = 70 + c[1] * 1.18;
+var hx = 640 + x * 1.18, hy = 70 + y * 1.18;
+out.push({
+cx: Math.round(cx), cy: Math.round(cy),
+x: Math.round(hx - 7), y: Math.round(hy - 6),
+len: Math.round(rad * 1.18),
+ang: (ang * 180 / Math.PI).toFixed(1)
+});
+made++;
+}
+}
+return out;
+}
+renderVals() {
+if (!this._hubs) { this._hubs = this.makeHubs(); }
+return { hubs: this._hubs };
+}
+}
+</script>
+</body>
+</html>

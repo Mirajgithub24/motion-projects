@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 1A: apartment door</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FBEFD9; font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="An old green steel grill door of a Dhaka apartment with a brass number plate, a nameplate and a shoe rack, lit by a soft spotlight on a cream wall" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<radialGradient id="s1aSpot" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"></stop><stop offset="0.55" stop-color="#FFF8EA" stop-opacity="0.45"></stop><stop offset="1" stop-color="#FFF8EA" stop-opacity="0"></stop></radialGradient>
+<radialGradient id="s1aEdge" cx="0.5" cy="0.47" r="0.75"><stop offset="0.6" stop-color="#EBCB9E" stop-opacity="0"></stop><stop offset="1" stop-color="#E2B98A" stop-opacity="0.6"></stop></radialGradient>
+<linearGradient id="s1aCone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></linearGradient>
+<pattern id="s1aLattice" x="764" y="306" width="56" height="104" patternUnits="userSpaceOnUse"><path d="M0 0 L56 104 M56 0 L0 104" stroke="#2EAD6B" stroke-width="6" fill="none"></path></pattern>
+<pattern id="s1aTile" width="120" height="60" patternUnits="userSpaceOnUse"><path d="M0 0 L120 0 M0 0 L-20 60 M60 0 L46 60" stroke="#D8C3A1" stroke-width="2" fill="none"></path></pattern>
+<symbol id="s1aShoe" viewBox="0 0 90 40" overflow="visible"><path d="M0 30 L0 12 C10 0 30 0 40 12 L72 22 C82 24 86 30 86 34 L0 34 Z" fill="currentColor"></path><rect x="0" y="32" width="86" height="6" rx="3" fill="#FFF8EA"></rect></symbol>
+<symbol id="s1aSandal" viewBox="0 0 90 20" overflow="visible"><rect x="0" y="10" width="84" height="8" rx="4" fill="currentColor"></rect><path d="M20 12 C30 -4 52 -4 60 12" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path></symbol>
+<filter id="s1aGrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter>
+</defs>
+
+<g id="S1A_Door_BG_Wall">
+<rect x="0" y="0" width="1920" height="880" fill="#FBEFD9"></rect>
+<rect x="0" y="580" width="1920" height="300" fill="#CFE8DD"></rect>
+<rect x="0" y="574" width="1920" height="8" fill="#A5D1C2"></rect>
+<path d="M1232 380 L1232 60 L1920 60" fill="none" stroke="#E2D5BF" stroke-width="8"></path>
+<path d="M300 200 C330 230 320 270 350 300 M1640 250 C1660 280 1650 300 1670 330" fill="none" stroke="#EAD9BD" stroke-width="3"></path>
+<rect x="0" y="0" width="1920" height="880" fill="url(#s1aSpot)"></rect>
+</g>
+
+<g id="S1A_Door_BG_Floor">
+<rect x="0" y="880" width="1920" height="200" fill="#E9D7BA"></rect>
+<rect x="0" y="880" width="1920" height="200" fill="url(#s1aTile)"></rect>
+<rect x="0" y="868" width="1920" height="14" fill="#A5D1C2"></rect>
+<rect x="0" y="880" width="1920" height="10" fill="#5A3D2B" opacity="0.12"></rect>
+</g>
+
+<g id="S1A_Door_Mid_WoodDoor">
+<rect x="736" y="126" width="448" height="756" fill="#7A4A22"></rect>
+<rect x="764" y="154" width="392" height="728" fill="#B4875A"></rect>
+<rect x="792" y="186" width="156" height="190" fill="#A9794C"></rect><rect x="972" y="186" width="156" height="190" fill="#A9794C"></rect>
+<rect x="792" y="410" width="156" height="210" fill="#A9794C"></rect><rect x="972" y="410" width="156" height="210" fill="#A9794C"></rect>
+<rect x="792" y="654" width="156" height="200" fill="#A9794C"></rect><rect x="972" y="654" width="156" height="200" fill="#A9794C"></rect>
+<path d="M792 186 L948 186 M972 186 L1128 186 M792 410 L948 410 M972 410 L1128 410 M792 654 L948 654 M972 654 L1128 654" stroke="#D9B48A" stroke-width="4"></path>
+<circle cx="960" cy="392" r="9" fill="#3B2412"></circle><circle cx="960" cy="392" r="4" fill="#A9D9E0"></circle>
+<rect x="1100" y="520" width="18" height="70" rx="9" fill="#C9A24A"></rect>
+</g>
+
+<g id="S1A_Door_Mid_Grill">
+<rect x="764" y="306" width="392" height="208" fill="url(#s1aLattice)"></rect>
+<path d="M792 162 L792 874 M848 162 L848 874 M904 162 L904 874 M960 162 L960 874 M1016 162 L1016 874 M1072 162 L1072 874 M1128 162 L1128 874" stroke="#2EAD6B" stroke-width="10"></path>
+<path d="M794 162 L794 874 M962 162 L962 874 M1130 162 L1130 874" stroke="#7FD4A6" stroke-width="2"></path>
+<path d="M756 300 L1164 300 M756 520 L1164 520 M756 740 L1164 740" stroke="#1F8A54" stroke-width="14"></path>
+<rect x="752" y="142" width="416" height="740" fill="none" stroke="#1F8A54" stroke-width="16"></rect>
+<g id="S1A_Door_Grill_Rust" fill="#B5683A" opacity="0.65"><ellipse cx="770" cy="720" rx="6" ry="14"></ellipse><ellipse cx="1150" cy="250" rx="5" ry="12"></ellipse><ellipse cx="906" cy="842" rx="5" ry="10"></ellipse><ellipse cx="1016" cy="300" rx="14" ry="4"></ellipse></g>
+<g id="S1A_Door_Grill_Lock">
+<rect x="1120" y="506" width="70" height="28" rx="5" fill="#C9A24A"></rect>
+<path d="M1146 548 L1146 536 C1146 522 1170 522 1170 536 L1170 548" fill="none" stroke="#8B97A8" stroke-width="6"></path>
+<rect x="1136" y="546" width="44" height="40" rx="6" fill="#C9A24A"></rect><circle cx="1158" cy="564" r="5" fill="#3B2412"></circle>
+</g>
+</g>
+
+<g id="S1A_Door_Mid_NumberPlate">
+<rect x="896" y="58" width="128" height="54" rx="8" fill="#C9A24A" stroke="#A07E2E" stroke-width="3"></rect>
+<circle cx="908" cy="85" r="3" fill="#7A5F1E"></circle><circle cx="1012" cy="85" r="3" fill="#7A5F1E"></circle>
+<text x="960" y="97" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="32" fill="#3B2412">৪-বি</text>
+</g>
+
+<g id="S1A_Door_Mid_Nameplate">
+<rect x="500" y="330" width="196" height="74" rx="8" fill="#FFF8EA" stroke="#C9A24A" stroke-width="4"></rect>
+<circle cx="514" cy="367" r="3" fill="#A07E2E"></circle><circle cx="682" cy="367" r="3" fill="#A07E2E"></circle>
+<text x="598" y="379" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="34" fill="#0F1B2D">শান্তি নীড়</text>
+</g>
+
+<g id="S1A_Door_Mid_Doorbell">
+<rect x="1212" y="380" width="40" height="58" rx="6" fill="#FFF8EA" stroke="#E2D5BF" stroke-width="3"></rect>
+<circle cx="1232" cy="409" r="10" fill="#FF7A1A"></circle>
+</g>
+
+<g id="S1A_Door_FG_Doormat">
+<path d="M800 902 L1120 902 L1152 956 L768 956 Z" fill="#B5683A"></path>
+<path d="M792 916 L1128 916 M780 940 L1140 940" stroke="#FFD27A" stroke-width="5"></path>
+</g>
+
+<g id="S1A_Door_FG_ShoeRack">
+<ellipse cx="1410" cy="900" rx="190" ry="12" fill="#5A3D2B" opacity="0.18"></ellipse>
+<rect x="1260" y="650" width="14" height="246" fill="#7A4A22"></rect><rect x="1546" y="650" width="14" height="246" fill="#7A4A22"></rect>
+<rect x="1252" y="700" width="316" height="12" fill="#B4875A"></rect><rect x="1252" y="790" width="316" height="12" fill="#B4875A"></rect><rect x="1252" y="876" width="316" height="12" fill="#B4875A"></rect>
+<use href="#s1aSandal" x="1290" y="680" width="90" height="20" color="#2F7F8F"></use><use href="#s1aSandal" x="1400" y="680" width="90" height="20" color="#2F7F8F"></use>
+<use href="#s1aShoe" x="1284" y="750" width="90" height="40" color="#20242C"></use><use href="#s1aShoe" x="1388" y="750" width="90" height="40" color="#20242C"></use>
+<use href="#s1aShoe" x="1490" y="762" width="60" height="27" color="#E5484D"></use>
+<use href="#s1aShoe" x="1284" y="836" width="90" height="40" color="#8A5A30"></use><use href="#s1aShoe" x="1388" y="836" width="90" height="40" color="#8A5A30"></use>
+<use href="#s1aSandal" x="1482" y="856" width="70" height="16" color="#B86FA8"></use>
+</g>
+
+<g id="S1A_Door_FG_Plant">
+<ellipse cx="610" cy="900" rx="80" ry="10" fill="#5A3D2B" opacity="0.18"></ellipse>
+<path d="M566 896 L576 810 L644 810 L654 896 Z" fill="#B5683A"></path><rect x="568" y="800" width="84" height="16" rx="4" fill="#C98050"></rect>
+<path d="M610 804 C600 740 560 700 540 640 M610 804 C612 730 640 680 668 630 M610 804 C608 760 610 700 606 600" fill="none" stroke="#1F8A54" stroke-width="5"></path>
+<ellipse cx="538" cy="640" rx="26" ry="18" fill="#2EAD6B" transform="rotate(-30 538 640)"></ellipse><ellipse cx="560" cy="700" rx="26" ry="17" fill="#4FBF85" transform="rotate(20 560 700)"></ellipse><ellipse cx="670" cy="628" rx="27" ry="18" fill="#2EAD6B" transform="rotate(35 670 628)"></ellipse><ellipse cx="646" cy="700" rx="25" ry="17" fill="#1F8A54" transform="rotate(-25 646 700)"></ellipse><ellipse cx="606" cy="600" rx="24" ry="18" fill="#4FBF85"></ellipse><ellipse cx="590" cy="752" rx="24" ry="16" fill="#2EAD6B" transform="rotate(-15 590 752)"></ellipse>
+</g>
+
+<g id="S1A_Door_FX_Spotlight">
+<polygon points="900,0 1020,0 1380,900 540,900" fill="url(#s1aCone)"></polygon>
+<rect x="930" y="0" width="60" height="16" rx="4" fill="#E2D5BF"></rect>
+<ellipse cx="960" cy="930" rx="420" ry="40" fill="#FFFFFF" opacity="0.35"></ellipse>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#s1aEdge)"></rect>
+</g>
+<g id="S1A_Door_FX_Grain"><rect x="0" y="0" width="1920" height="1080" filter="url(#s1aGrain)" opacity="0.05"></rect></g>
+</svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

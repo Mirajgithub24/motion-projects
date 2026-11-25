@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Scene 3E: mountain of parcels</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap">
+<style>
+body{margin:0}
+.s3e-box{position:absolute;box-sizing:border-box;border-radius:3px;box-shadow:inset 0 9px 0 rgba(255,255,255,0.22),inset 0 -8px 0 rgba(90,61,43,0.18),0 3px 6px rgba(90,61,43,0.2)}
+.s3e-box .tp{position:absolute;left:44%;top:0;width:12%;height:100%;background:#EAD2AE}
+.s3e-box .lb{position:absolute;left:8%;bottom:14%;width:24px;height:15px;background:#FFFFFF;border-bottom:3px solid #2B2B2B;box-sizing:border-box}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FDF6E9; font-family: 'Manrope', system-ui, sans-serif; color: #0F1B2D">
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<linearGradient id="s3eSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDF6E6"></stop><stop offset="1" stop-color="#FFE3BD"></stop></linearGradient>
+</defs>
+<g id="S3E_BG_Sky">
+<rect x="0" y="0" width="1920" height="930" fill="url(#s3eSky)"></rect>
+<circle cx="1640" cy="190" r="90" fill="#FFFDF5"></circle>
+<g fill="#FFFFFF" opacity="0.9"><ellipse cx="420" cy="430" rx="110" ry="24"></ellipse><ellipse cx="490" cy="414" rx="70" ry="22"></ellipse><ellipse cx="1700" cy="420" rx="90" ry="20"></ellipse><ellipse cx="1650" cy="406" rx="56" ry="18"></ellipse></g>
+</g>
+<g id="S3E_BG_Far">
+<path d="M0 930 L0 800 L90 800 L90 760 L200 760 L200 820 L300 820 L300 780 L400 780 L400 930 Z" fill="#F4D9B6"></path>
+<path d="M1750 930 L1750 790 L1830 790 L1830 750 L1920 750 L1920 930 Z" fill="#F4D9B6"></path>
+</g>
+<g id="S3E_Ground">
+<rect x="0" y="926" width="1920" height="154" fill="#E4D8C6"></rect>
+<rect x="0" y="926" width="1920" height="6" fill="#FFF8EA"></rect>
+<ellipse cx="1090" cy="940" rx="720" ry="26" fill="#5A3D2B" opacity="0.2"></ellipse>
+</g>
+</svg>
+
+<div id="S3E_Mountain" style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px">
+<sc-for list="{{boxes}}" as="b" hint-placeholder-count="12">
+<div class="s3e-box" style="left: {{b.x}}px; top: {{b.y}}px; width: {{b.w}}px; height: {{b.h}}px; background: {{b.bg}}; transform: rotate({{b.rot}}deg)"><div class="tp"></div><div class="lb"></div></div>
+</sc-for>
+</div>
+
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="A tiny delivery rider stands beside a mountain of parcels" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3E_FallingParcels">
+<g id="S3E_Falling_1" transform="translate(1010 60) rotate(-16)"><rect x="0" y="0" width="84" height="62" rx="3" fill="#C89B6D"></rect><rect x="36" y="0" width="12" height="62" fill="#EAD2AE"></rect><rect x="8" y="38" width="22" height="14" fill="#FFFFFF"></rect></g>
+<g id="S3E_Falling_2" transform="translate(1180 20) rotate(22)"><rect x="0" y="0" width="64" height="50" rx="3" fill="#B98958"></rect><rect x="27" y="0" width="10" height="50" fill="#EAD2AE"></rect></g>
+<g id="S3E_Falling_3" transform="translate(900 10) rotate(10)"><rect x="0" y="0" width="54" height="42" rx="3" fill="#D9B48A"></rect><rect x="22" y="0" width="9" height="42" fill="#FFF8EA"></rect></g>
+<g id="S3E_MotionLines" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"><path d="M1060 30 L1060 6"></path><path d="M1216 4 L1216 -10"></path><path d="M930 0 L930 -12"></path></g>
+</g>
+<g id="S3E_Rider" transform="translate(300 824) scale(1.6)">
+<ellipse cx="20" cy="62" rx="20" ry="4" fill="#5A3D2B" opacity="0.25"></ellipse>
+<g id="S3E_Rider_Legs"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect></g>
+<g id="S3E_Rider_Torso"><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect></g>
+<g id="S3E_Rider_Head"><circle cx="20" cy="16" r="8" fill="#B57A45"></circle></g>
+<g id="S3E_Rider_Helmet"><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+<g id="S3E_Rider_Parcel"><rect x="30" y="34" width="12" height="10" fill="#C89B6D"></rect></g>
+</g>
+<g id="S3E_ScaleArrow" fill="none" stroke="#3A4658" stroke-width="3" stroke-linecap="round"><path d="M250 830 L250 922"></path><path d="M242 838 L250 828 L258 838"></path><path d="M242 914 L250 924 L258 914"></path></g>
+</svg>
+
+<div id="S3E_Text" style="position: absolute; left: 72px; top: 64px; width: 620px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-weight: 800; font-size: 16px; letter-spacing: 0.16em; color: #A84700">SCENE 3E · PARCEL MOUNTAIN</div>
+<div style="font-weight: 800; font-size: 150px; line-height: 1; letter-spacing: -0.02em; color: #D95400">7,50,000</div>
+<div style="font-family: 'Hind Siliguri', sans-serif; font-weight: 700; font-size: 48px; line-height: 1.2">পার্সেল, প্রতিদিন</div>
+<div style="font-weight: 500; font-size: 24px; color: #3A4658">parcels, every single day</div>
+</div>
+<div style="position: absolute; left: 150px; top: 770px; font-weight: 700; font-size: 18px; color: #3A4658">one rider</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+makeBoxes() {
+var seed = 31;
+function r() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+var C = ['#C89B6D', '#B98958', '#D9B48A', '#C89B6D', '#BF9060', '#D2A878'];
+var out = [];
+var rows = 11;
+for (var k = 0; k < rows; k++) {
+var w = 1280 * (1 - k / (rows + 0.6));
+var x = 1090 - w / 2 + (r() * 30 - 15);
+var end = 1090 + w / 2;
+var base = 926 - (k + 1) * 70;
+while (x < end - 50) {
+var bw = 70 + Math.floor(r() * 70);
+if (x + bw > end) { bw = Math.round(end - x); }
+var bh = 60 + Math.floor(r() * 14);
+out.push({ x: Math.round(x), y: base + (70 - bh), w: bw, h: bh, rot: (r() * 6 - 3).toFixed(1), bg: C[Math.floor(r() * C.length)] });
+x += bw + 2;
+}
+}
+return out;
+}
+renderVals() {
+if (!this._boxes) { this._boxes = this.makeBoxes(); }
+return { boxes: this._boxes };
+}
+}
+</script>
+</body>
+</html>
