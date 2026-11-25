@@ -47,7 +47,10 @@ GitHub Releases (`Mirajgithub24/motion-projects`). These rules apply to every se
 - Everything the render needs must be committed (assets, voiceover, fonts via npm);
   the runner only has the repo.
 - Wait for the run to finish (`gh run list --repo Mirajgithub24/motion-projects --workflow render.yml --limit 1`,
-  then `gh run watch <id>`), and check the release exists (`gh release list --limit 3`).
+  then `gh run watch <id> --repo Mirajgithub24/motion-projects --exit-status`), and check the release with
+  `gh api "repos/Mirajgithub24/motion-projects/releases?per_page=1" --jq '.[0] | {tag_name, assets: [.assets[] | {name, size}]}'`
+  (`gh release list` does not work inside cloud sessions). The video length is in the run log
+  line starting with `Released`.
 - Finish by reporting the release tag, video length and file size.
 - If the workflow or its `gh release create` step fails, say so clearly (with the exact
   error from `gh run view <id> --log-failed`) and don't retry in a loop.
