@@ -4,8 +4,11 @@ Writes projects/<name>/transcript.json:
 { language, duration, model, segments: [{start, end, text, words: [{start, end, word, probability}]}] }
 """
 import json
+import subprocess
 import sys
 import time
+
+import numpy as np
 
 from faster_whisper import WhisperModel
 
@@ -14,9 +17,17 @@ language = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else None
 path = f"projects/{name}/voiceover.mp3"
 
 t0 = time.time()
+# Decode with ffmpeg ourselves: faster-whisper's PyAV decoder breaks with some av releases.
+pcm = subprocess.run(
+    ["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+    check=True,
+    capture_output=True,
+).stdout
+audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
+
 model = WhisperModel(model_name, device="cpu", compute_type="int8")
 segments, info = model.transcribe(
-    path,
+    audio,
     language=language,
     word_timestamps=True,
     beam_size=5,
