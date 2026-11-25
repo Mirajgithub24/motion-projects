@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Close-up of Rahim's fist in an orange jacket sleeve knocking on a green steel door" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<radialGradient id="s1bSpot" cx="0.45" cy="0.5" r="0.6"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.5"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></radialGradient>
+<pattern id="s1bLattice" width="180" height="300" patternUnits="userSpaceOnUse"><path d="M0 0 L180 300 M180 0 L0 300" stroke="#2EAD6B" stroke-width="16" fill="none"></path></pattern>
+<filter id="s1bGrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter>
+</defs>
+
+<g id="S1B_Knock_BG_WoodDoor">
+<rect x="0" y="0" width="1920" height="1080" fill="#C89B6D"></rect>
+<rect x="120" y="-40" width="700" height="330" fill="#B98958"></rect><rect x="940" y="-40" width="860" height="330" fill="#B98958"></rect>
+<path d="M120 290 L820 290 M940 290 L1800 290" stroke="#E3C39B" stroke-width="8"></path>
+</g>
+
+<g id="S1B_Knock_BG_Grill">
+<rect x="0" y="0" width="1920" height="300" fill="url(#s1bLattice)"></rect>
+<path d="M90 0 L90 300 M450 0 L450 300 M810 0 L810 300 M1170 0 L1170 300 M1530 0 L1530 300 M1890 0 L1890 300" stroke="#2EAD6B" stroke-width="30"></path>
+<path d="M98 0 L98 300 M458 0 L458 300 M818 0 L818 300 M1178 0 L1178 300 M1538 0 L1538 300" stroke="#7FD4A6" stroke-width="5"></path>
+</g>
+
+<g id="S1B_Knock_BG_SteelSheet">
+<rect x="0" y="300" width="1920" height="780" fill="#4FBF85"></rect>
+<rect x="0" y="286" width="1920" height="44" fill="#1F8A54"></rect>
+<rect x="60" y="390" width="1800" height="640" fill="none" stroke="#2EAD6B" stroke-width="14"></rect>
+<g fill="#1F8A54"><circle cx="110" cy="440" r="10"></circle><circle cx="1810" cy="440" r="10"></circle><circle cx="110" cy="980" r="10"></circle><circle cx="1810" cy="980" r="10"></circle><circle cx="960" cy="440" r="10"></circle><circle cx="960" cy="980" r="10"></circle></g>
+<g id="S1B_Knock_Sheet_Wear">
+<path d="M240 620 L330 600 M300 760 L420 742 M1500 880 L1640 860 M560 900 L640 892" stroke="#8ED9B0" stroke-width="5" stroke-linecap="round"></path>
+<ellipse cx="200" cy="900" rx="40" ry="16" fill="#B5683A" opacity="0.5"></ellipse><ellipse cx="1700" cy="520" rx="30" ry="12" fill="#B5683A" opacity="0.45"></ellipse><ellipse cx="700" cy="1010" rx="50" ry="10" fill="#B5683A" opacity="0.4"></ellipse>
+</g>
+<rect x="0" y="300" width="1920" height="780" fill="url(#s1bSpot)"></rect>
+</g>
+
+<g id="S1B_Knock_FX_Impact" fill="none" stroke-linecap="round">
+<path d="M792 470 A120 120 0 0 0 792 650" stroke="#FFFFFF" stroke-width="10"></path>
+<path d="M730 430 A180 180 0 0 0 730 690" stroke="#FFFFFF" stroke-width="8" opacity="0.7"></path>
+<path d="M664 396 A240 240 0 0 0 664 724" stroke="#FFFFFF" stroke-width="6" opacity="0.4"></path>
+<path d="M850 410 L800 350 M830 716 L784 776 M770 560 L690 560" stroke="#FFD27A" stroke-width="10"></path>
+<circle cx="820" cy="380" r="8" fill="#FFD27A" stroke="none"></circle><circle cx="760" cy="760" r="6" fill="#FFD27A" stroke="none"></circle><circle cx="700" cy="480" r="5" fill="#FFFFFF" stroke="none"></circle>
+</g>
+
+<g id="S1B_Knock_Rahim_ArmShadow"><path d="M900 520 C900 470 1000 460 1160 470 L1920 440 L1920 860 L1200 720 C1000 720 900 660 900 600 Z" fill="#5A3D2B" opacity="0.2" transform="translate(-36 44)"></path></g>
+
+<g id="S1B_Knock_Rahim_Arm" transform="rotate(-5 1100 560)">
+<g id="S1B_Knock_Rahim_Forearm_R">
+<path d="M1310 438 L1960 350 L1960 790 L1310 668 Z" fill="#FF7A1A"></path>
+<path d="M1310 600 L1960 690 L1960 790 L1310 668 Z" fill="#E86A10"></path>
+<path d="M1440 420 L1500 412 L1500 706 L1440 694 Z" fill="#E9EEF3"></path>
+<path d="M1700 420 C1740 470 1740 620 1700 700" fill="none" stroke="#E86A10" stroke-width="6" stroke-linecap="round"></path>
+</g>
+<g id="S1B_Knock_Rahim_Cuff">
+<rect x="1262" y="436" width="64" height="236" rx="14" fill="#D95400"></rect>
+<path d="M1280 446 L1280 662 M1306 446 L1306 662" stroke="#B84E00" stroke-width="3"></path>
+</g>
+<g id="S1B_Knock_Rahim_Wrist"><rect x="1100" y="470" width="180" height="170" rx="40" fill="#B57A45"></rect><rect x="1100" y="590" width="180" height="50" rx="24" fill="#A96F3D"></rect></g>
+<g id="S1B_Knock_Rahim_Watch">
+<rect x="1186" y="456" width="60" height="200" rx="12" fill="#20242C"></rect>
+<rect x="1176" y="506" width="80" height="92" rx="14" fill="#3A4658"></rect>
+<rect x="1186" y="518" width="60" height="50" rx="6" fill="#CFEDEF"></rect>
+<path d="M1198 534 L1198 552 M1210 534 L1210 552 M1222 540 L1222 541 M1222 548 L1222 549 M1234 534 L1234 552" stroke="#20242C" stroke-width="5" stroke-linecap="round"></path>
+<path d="M1184 500 L1250 520" stroke="#8B97A8" stroke-width="2"></path>
+</g>
+<g id="S1B_Knock_Rahim_Hand_R">
+<rect x="920" y="440" width="230" height="220" rx="60" fill="#B57A45"></rect>
+<rect x="872" y="446" width="130" height="50" rx="25" fill="#B57A45"></rect>
+<rect x="862" y="498" width="140" height="52" rx="26" fill="#B57A45"></rect>
+<rect x="866" y="552" width="136" height="50" rx="25" fill="#B57A45"></rect>
+<rect x="882" y="604" width="120" height="46" rx="23" fill="#B57A45"></rect>
+<path d="M890 496 L1000 496 M882 550 L1000 550 M890 602 L1000 602" stroke="#8A5A30" stroke-width="4" stroke-linecap="round"></path>
+<g id="S1B_Knock_Rahim_Knuckles" fill="#C98D58"><ellipse cx="888" cy="470" rx="12" ry="16"></ellipse><ellipse cx="878" cy="524" rx="12" ry="17"></ellipse><ellipse cx="882" cy="577" rx="12" ry="16"></ellipse><ellipse cx="896" cy="627" rx="11" ry="14"></ellipse></g>
+<rect x="960" y="612" width="170" height="60" rx="30" fill="#A96F3D" transform="rotate(-8 1045 642)"></rect>
+<path d="M972 640 L1000 636" stroke="#E9C7A0" stroke-width="10" stroke-linecap="round"></path>
+</g>
+</g>
+<g id="S1B_Knock_FX_Grain"><rect x="0" y="0" width="1920" height="1080" filter="url(#s1bGrain)" opacity="0.05"></rect></g>
+</svg>

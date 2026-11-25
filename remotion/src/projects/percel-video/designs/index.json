@@ -1,0 +1,346 @@
+[
+ {
+  "id": "Main",
+  "file": "Main.dc.html",
+  "title": "Style frame: Rahim on a sunny Dhaka morning",
+  "layers": 11,
+  "svgs": 1,
+  "kb": 32
+ },
+ {
+  "id": "S1A",
+  "file": "S1A_Door.dc.html",
+  "title": "Scene 1A: apartment door",
+  "layers": 11,
+  "svgs": 1,
+  "kb": 9
+ },
+ {
+  "id": "S1B",
+  "file": "S1B_Knock.dc.html",
+  "title": "Scene 1B: Rahim knocking, close-up",
+  "layers": 7,
+  "svgs": 1,
+  "kb": 6
+ },
+ {
+  "id": "S1C",
+  "file": "S1C_Counter.dc.html",
+  "title": "Scene 1C: parcel counter background",
+  "layers": 13,
+  "svgs": 1,
+  "kb": 5
+ },
+ {
+  "id": "S2A",
+  "file": "S2A_NusratStudio.dc.html",
+  "title": "Scene 2A: Nusrat's home studio in Barishal",
+  "layers": 12,
+  "svgs": 1,
+  "kb": 13
+ },
+ {
+  "id": "S2B",
+  "file": "S2B_MerchantApp.dc.html",
+  "title": "Scene 2B: merchant panel phone mockup",
+  "layers": 11,
+  "svgs": 2,
+  "kb": 6
+ },
+ {
+  "id": "S2C",
+  "file": "S2C_BarishalStreet.dc.html",
+  "title": "Scene 2C: Barishal street",
+  "layers": 6,
+  "svgs": 1,
+  "kb": 16
+ },
+ {
+  "id": "S2D",
+  "file": "S2D_LocalHub.dc.html",
+  "title": "Scene 2D: local hub interior",
+  "layers": 11,
+  "svgs": 1,
+  "kb": 14
+ },
+ {
+  "id": "S2E",
+  "file": "S2E_SortingCenter.dc.html",
+  "title": "Scene 2E: Sorting center",
+  "layers": 31,
+  "svgs": 1,
+  "kb": 20
+ },
+ {
+  "id": "S2F",
+  "file": "S2F_Highway.dc.html",
+  "title": "Scene 2F: Line-haul highway at evening glow",
+  "layers": 8,
+  "svgs": 1,
+  "kb": 15
+ },
+ {
+  "id": "S2G",
+  "file": "S2G_DistrictTown.dc.html",
+  "title": "Scene 2G: District-town street in the morning",
+  "layers": 7,
+  "svgs": 1,
+  "kb": 18
+ },
+ {
+  "id": "S2Gv",
+  "file": "S2G_VillageRoad.dc.html",
+  "title": "Scene 2G: Village road",
+  "layers": 7,
+  "svgs": 1,
+  "kb": 13
+ },
+ {
+  "id": "S2H",
+  "file": "S2H_DoorstepHandover.dc.html",
+  "title": "Scene 2H: Doorstep handover in daylight",
+  "layers": 11,
+  "svgs": 1,
+  "kb": 17
+ },
+ {
+  "id": "S2I",
+  "file": "S2I_MoneyFlow.dc.html",
+  "title": "Scene 2I: Money flow",
+  "layers": 37,
+  "svgs": 10,
+  "kb": 10
+ },
+ {
+  "id": "S2J",
+  "file": "S2J_JourneyMap.dc.html",
+  "title": "Scene 2J: Journey map",
+  "layers": 29,
+  "svgs": 1,
+  "kb": 13
+ },
+ {
+  "id": "S3A",
+  "file": "S3A_HubMap.dc.html",
+  "title": "Scene 3A: courier hub map",
+  "layers": 18,
+  "svgs": 1,
+  "kb": 14
+ },
+ {
+  "id": "S3B",
+  "file": "S3B_700vs114.dc.html",
+  "title": "Scene 3B: 700 plus couriers, 114 licensed",
+  "layers": 6,
+  "svgs": 0,
+  "kb": 85
+ },
+ {
+  "id": "S3C",
+  "file": "S3C_HubNetwork.dc.html",
+  "title": "Scene 3C: hub network",
+  "layers": 21,
+  "svgs": 2,
+  "kb": 57
+ },
+ {
+  "id": "S3D",
+  "file": "S3D_Calculator.dc.html",
+  "title": "Scene 3D: calculator math",
+  "layers": 14,
+  "svgs": 1,
+  "kb": 10
+ },
+ {
+  "id": "S3E",
+  "file": "S3E_ParcelMountain.dc.html",
+  "title": "Scene 3E: mountain of parcels",
+  "layers": 13,
+  "svgs": 2,
+  "kb": 18
+ },
+ {
+  "id": "S4A",
+  "file": "S4A_70Note.dc.html",
+  "title": "Scene 4A: where the 70 taka goes",
+  "layers": 43,
+  "svgs": 1,
+  "kb": 11
+ },
+ {
+  "id": "S4B",
+  "file": "S4B_IncomeBar.dc.html",
+  "title": "Scene 4B: rider monthly income bar",
+  "layers": 25,
+  "svgs": 1,
+  "kb": 5
+ },
+ {
+  "id": "S4C",
+  "file": "S4C_DailyMath.dc.html",
+  "title": "Scene 4C: the rider's daily math",
+  "layers": 49,
+  "svgs": 1,
+  "kb": 16
+ },
+ {
+  "id": "S4D",
+  "file": "S4D_Staircase.dc.html",
+  "title": "Scene 4D: commission staircase",
+  "layers": 22,
+  "svgs": 1,
+  "kb": 8
+ },
+ {
+  "id": "S4E",
+  "file": "S4E_SplitScreen.dc.html",
+  "title": "Scene 4E: split screen, the unanswered call",
+  "layers": 10,
+  "svgs": 1,
+  "kb": 15
+ },
+ {
+  "id": "S4F",
+  "file": "S4F_CountingNotes.dc.html",
+  "title": "Scene 4F: counting notes under the streetlight",
+  "layers": 15,
+  "svgs": 1,
+  "kb": 14
+ },
+ {
+  "id": "S5A",
+  "file": "S5A_Timeline.dc.html",
+  "title": "Scene 5A: timeline 2020 to 2026",
+  "layers": 30,
+  "svgs": 1,
+  "kb": 6
+ },
+ {
+  "id": "S5B",
+  "file": "S5B_Lockdown2020.dc.html",
+  "title": "Scene 5B: 2020 lockdown city",
+  "layers": 17,
+  "svgs": 1,
+  "kb": 12
+ },
+ {
+  "id": "S5C",
+  "file": "S5C_TrustCrisis2021.dc.html",
+  "title": "Scene 5C: 2021 trust crisis",
+  "layers": 13,
+  "svgs": 1,
+  "kb": 10
+ },
+ {
+  "id": "S5D",
+  "file": "S5D_CODDominance.dc.html",
+  "title": "Scene 5D: cash on delivery dominance",
+  "layers": 14,
+  "svgs": 1,
+  "kb": 7
+ },
+ {
+  "id": "S5E",
+  "file": "S5E_BankRule.dc.html",
+  "title": "Scene 5E: cash pushed into the banking channel",
+  "layers": 13,
+  "svgs": 1,
+  "kb": 8
+ },
+ {
+  "id": "S5F",
+  "file": "S5F_Competition.dc.html",
+  "title": "Scene 5F: competition storm",
+  "layers": 13,
+  "svgs": 1,
+  "kb": 13
+ },
+ {
+  "id": "S5G",
+  "file": "S5G_RidersMultiply.dc.html",
+  "title": "Scene 5G: five riders become thousands",
+  "layers": 14,
+  "svgs": 211,
+  "kb": 130
+ },
+ {
+  "id": "S5H",
+  "file": "S5H_DhakaVsRest.dc.html",
+  "title": "Scene 5H: Dhaka versus the rest of Bangladesh",
+  "layers": 17,
+  "svgs": 1,
+  "kb": 10
+ },
+ {
+  "id": "S6A",
+  "file": "S6A_Street2030.dc.html",
+  "title": "Scene 6A: Bangladesh street in 2030",
+  "layers": 13,
+  "svgs": 1,
+  "kb": 16
+ },
+ {
+  "id": "S6B",
+  "file": "S6B_BarChart2030.dc.html",
+  "title": "Scene 6B: parcels per day, 2025 versus 2030",
+  "layers": 25,
+  "svgs": 1,
+  "kb": 8
+ },
+ {
+  "id": "S6C",
+  "file": "S6C_ThreePillars.dc.html",
+  "title": "Scene 6C: Three pillars for the next five years",
+  "layers": 20,
+  "svgs": 1,
+  "kb": 12
+ },
+ {
+  "id": "S6D",
+  "file": "S6D_GigMosaic.dc.html",
+  "title": "Scene 6D: one million plus gig workers",
+  "layers": 9,
+  "svgs": 1,
+  "kb": 8
+ },
+ {
+  "id": "S6E",
+  "file": "S6E_LabourReform.dc.html",
+  "title": "Scene 6E: Labour reform document",
+  "layers": 11,
+  "svgs": 1,
+  "kb": 5
+ },
+ {
+  "id": "S7A",
+  "file": "S7A_AerialDusk.dc.html",
+  "title": "Scene 7A: Aerial Dhaka in evening glow",
+  "layers": 8,
+  "svgs": 1,
+  "kb": 16
+ },
+ {
+  "id": "S7B",
+  "file": "S7B_RainDoorstep.dc.html",
+  "title": "Scene 7B: Doorstep handover in the rain",
+  "layers": 12,
+  "svgs": 1,
+  "kb": 18
+ },
+ {
+  "id": "S7C",
+  "file": "S7C_RahimCloseup.dc.html",
+  "title": "Scene 7C: Final close-up of Rahim",
+  "layers": 7,
+  "svgs": 1,
+  "kb": 9
+ },
+ {
+  "id": "S7D",
+  "file": "S7D_EndCard.dc.html",
+  "title": "Scene 7D: End card",
+  "layers": 13,
+  "svgs": 3,
+  "kb": 7
+ }
+]

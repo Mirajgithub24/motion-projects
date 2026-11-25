@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<radialGradient id="s7dGlow"><stop offset="0" stop-color="#FFB877" stop-opacity="0.75"></stop><stop offset="0.5" stop-color="#FFD9AC" stop-opacity="0.4"></stop><stop offset="1" stop-color="#FFD9AC" stop-opacity="0"></stop></radialGradient>
+<symbol id="s7dRider" overflow="visible">
+<circle cx="-40" cy="0" r="20" fill="#20242C"></circle><circle cx="-40" cy="0" r="10" fill="#E6DCCB"></circle>
+<circle cx="44" cy="0" r="20" fill="#20242C"></circle><circle cx="44" cy="0" r="10" fill="#E6DCCB"></circle>
+<path d="M-40 0 L-6 -10 L24 -34 L44 0" fill="none" stroke="#3A4658" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M-2 -40 C8 -48 24 -46 30 -38 L26 -28 L0 -28 Z" fill="#2F7F8F"></path>
+<rect x="-56" y="-62" width="34" height="30" fill="#C89B6D"></rect><rect x="-43" y="-62" width="6" height="30" fill="#EAD2AE"></rect>
+<path d="M-18 -30 L6 -14 L0 4" fill="none" stroke="#4A505C" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M-22 -30 C-22 -58 -8 -74 4 -78 L14 -74 C16 -60 10 -46 2 -30 Z" fill="#FF7A1A"></path>
+<path d="M6 -70 L20 -48 L32 -42" fill="none" stroke="#FF7A1A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="12" cy="-90" r="12" fill="#B57A45"></circle>
+<path d="M-2 -90 C-2 -108 26 -108 26 -92 L16 -92 C12 -92 10 -88 10 -84 L0 -82 Z" fill="#FFFFFF"></path>
+</symbol>
+</defs>
+
+<g id="S7D_BG_Glow">
+<circle cx="960" cy="470" r="760" fill="url(#s7dGlow)"></circle>
+</g>
+
+<g id="S7D_BG_Skyline">
+<path d="M0 1080 L0 900 L90 900 L90 850 L220 850 L220 910 L360 910 L360 830 L470 830 L470 880 L640 880 L640 920 L820 920 L820 860 L960 860 L960 900 L1120 900 L1120 840 L1250 840 L1250 910 L1420 910 L1420 870 L1560 870 L1560 820 L1690 820 L1690 890 L1830 890 L1830 860 L1920 860 L1920 1080 Z" fill="#F6E3C6"></path>
+<g fill="#FFF8EA" opacity="0.9"><rect x="110" y="872" width="16" height="20"></rect><rect x="160" y="872" width="16" height="20"></rect><rect x="384" y="852" width="16" height="20"></rect><rect x="430" y="852" width="16" height="20"></rect><rect x="846" y="884" width="16" height="20"></rect><rect x="900" y="884" width="16" height="20"></rect><rect x="1146" y="864" width="16" height="20"></rect><rect x="1200" y="864" width="16" height="20"></rect><rect x="1584" y="844" width="16" height="20"></rect><rect x="1640" y="844" width="16" height="20"></rect></g>
+<rect x="0" y="986" width="1920" height="94" fill="#EAD9BD"></rect>
+<rect x="0" y="982" width="1920" height="6" fill="#FFF8EA"></rect>
+<g id="S7D_RoadMarks" fill="#FFF8EA"><rect x="100" y="1034" width="150" height="8"></rect><rect x="500" y="1034" width="150" height="8"></rect><rect x="900" y="1034" width="150" height="8"></rect><rect x="1300" y="1034" width="150" height="8"></rect><rect x="1700" y="1034" width="150" height="8"></rect></g>
+</g>
+
+<g id="S7D_RiderRow">
+<use href="#s7dRider" x="260" y="966"></use>
+<use href="#s7dRider" x="620" y="966"></use>
+<use href="#s7dRider" x="1300" y="966"></use>
+<use href="#s7dRider" x="1660" y="966"></use>
+</g>
+
+<g id="S7D_RouteLine">
+<path d="M200 250 C380 150 560 240 700 180" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 18"></path>
+<path d="M1220 180 C1380 240 1540 150 1720 250" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 18"></path>
+<path d="M200 250 C184 228 184 206 200 206 C216 206 216 228 200 250 Z" fill="#2F7F8F"></path><circle cx="200" cy="220" r="5" fill="#FFFFFF"></circle>
+<path d="M1720 250 C1704 228 1704 206 1720 206 C1736 206 1736 228 1720 250 Z" fill="#E5484D"></path><circle cx="1720" cy="220" r="5" fill="#FFFFFF"></circle>
+</g>
+
+<g id="S7D_ParcelIcon">
+<ellipse cx="960" cy="262" rx="90" ry="10" fill="#5A3D2B" opacity="0.16"></ellipse>
+<path d="M880 150 L960 120 L1040 150 L1040 232 L960 262 L880 232 Z" fill="#C89B6D"></path>
+<path d="M880 150 L960 180 L1040 150 L960 120 Z" fill="#E3C39B"></path>
+<path d="M960 180 L960 262 L1040 232 L1040 150 Z" fill="#B4875A"></path>
+<path d="M914 137 L994 167 L994 196 L1006 191 L1006 163 L926 133 Z" fill="#FFF8EA"></path>
+<path d="M896 180 L930 193 L930 215 L896 202 Z" fill="#FFFFFF"></path>
+</g>
+
+<g id="S7D_TapeStrips">
+<rect x="-40" y="60" width="300" height="34" fill="#F9DC9C" transform="rotate(-18 110 77)"></rect>
+<rect x="1660" y="60" width="300" height="34" fill="#F9DC9C" transform="rotate(18 1810 77)"></rect>
+</g>
+</svg>

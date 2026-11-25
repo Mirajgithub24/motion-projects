@@ -1,4 +1,4 @@
-# Brief: <project name>
+# Brief: percel-video
 
 Copy `projects/_template/` to `projects/<name>/`, fill in **Part B**, add your files to
 `assets/` and drop the narration in as `voiceover.mp3`.
@@ -234,11 +234,58 @@ No brand fonts provided. Use friendly, rounded Google Fonts:
 4. Write the plan into this table **before building**, commit it with the video,
    and list it in the final report.
 
-| # | Section | Voiceover cue | On-screen text | Assets to use | Camera |
-|---|---------|---------------|----------------|---------------|--------|
-| 1 | Hook    | (from transcript) | (from transcript) | (best-fit asset) | Push-in |
-| … | …       | …             | …              | …             | …      |
-| N | Closing | (last line)   | Logo + call to action | logo | Pull-out |
+
+### Scene plan (filled in from the transcript)
+
+Generated from `remotion/src/projects/percel-video/plan.ts` with
+`node --experimental-strip-types remotion/tools/plan-table.mjs`. Times are video
+time (voiceover + 0.5 s lead-in); cue times are voiceover seconds from
+`transcript.json`. Cuts sit in measured pauses. Scenes longer than 6 s are split
+into shots of the same design, one camera move each.
+
+| # | Time (video) | Section | Voiceover cue (VO seconds) | On-screen text | Assets to use | Camera |
+|---|---|---|---|---|---|---|
+| 1 | 0:00.0–0:04.7 | Hook | টোকা (2.98) | (door 4-বি, শান্তি নীড়; the door jolts on the knock) | S1A_Door.dc.html | Push-in |
+| 2 | 0:04.7–0:07.9 | Hook | ভাই, আপনার পার্সেল / এমন টোকা (4.4 / 7.15) | ঠক ঠক | S1B_Knock.dc.html | Push-in |
+| 3 | 0:07.9–0:11.1 | Hook | সাড়ে সাত লাখ (8.81) | 7,50,000 প্রতিদিনের পার্সেল | S1C_Counter.dc.html | Pull-out |
+| 4 | 0:11.1–0:22.6 | Question / title | মানুষটা (14.74) | পার্সেলের পেছনের মানুষ · The People Behind the Parcel | Main.dc.html | Push-in → pan → pull-out (3 shots) |
+| 5 | 0:22.6–0:26.4 | Journey | ফেসবুকে / শাড়ি (24.00 / 24.68) | (Nusrat's home studio, Barishal) | S2A_NusratStudio.dc.html | Push-in |
+| 6 | 0:26.4–0:31.5 | Journey | অর্ডার এলে / মার্চেন্ট প্যানেলে / বুকিং (26.1 / 29.08 / 30.16) | অর্ডার বুক করা হচ্ছে · ৳1,850 | S2B_MerchantApp.dc.html | Lateral pan |
+| 7 | 0:31.5–0:34.3 | Journey | কাছের হাবে (33.27) | (local hub: রুট কোড board) | S2D_LocalHub.dc.html | Lateral pan |
+| 8 | 0:34.3–0:37.9 | Journey | সর্টিং সেন্টারে (34.41) | (sorting center: cages for 8 divisions) | S2E_SortingCenter.dc.html | Pull-out |
+| 9 | 0:37.9–0:49.2 | Last mile | হাতে দেন / টাকা নেন (41.98 / 43.34) | (handover: parcel out, cash in) | S2H_DoorstepHandover.dc.html | Push-in → pull-out |
+| 10 | 0:49.2–0:56.1 | Money flow | delivery charge / 1% COD / seller (49.75 / 50.91 / 54.49) | টাকা কোথায় যায়? ৳1,850 − ৳70 − ৳18.50 = ৳1,761.50 | S2I_MoneyFlow.dc.html | Push-in → pan |
+| 11 | 0:56.1–1:01.2 | Money flow | অর্থাৎ / চলমান ব্যাংক (55.56 / 58.64) | একটি পার্সেলের যাত্রা | S2J_JourneyMap.dc.html | Pull-out |
+| 12 | 1:01.2–1:09.1 | Couriers | সাতশোর বেশি / একশো চোদ্দ (63.46 / 67.36) | 700+ কুরিয়ার প্রতিষ্ঠান vs 114 লাইসেন্সপ্রাপ্ত | S3B_700vs114.dc.html | Pull-out → push-in |
+| 13 | 1:09.1–1:17.7 | Couriers | এর মধ্যে / পাঠাও (68.62 / 71.60) | দেশজুড়ে কুরিয়ার হাব | S3A_HubMap.dc.html | Push-in → pan |
+| 14 | 1:17.7–1:22.4 | Couriers | তিনশো হাব / আটটি (78.85 / 79.89) | হাবের জাল · 300 স্থানীয় হাব · 8 আঞ্চলিক সর্টিং সেন্টার | S3C_HubNetwork.dc.html | Push-in |
+| 15 | 1:22.4–1:40.7 | Daily math | সাড়ে সাত লাখ / গুণ আশি / ছয় কোটি / দুই হাজার কোটি (84.15 / 93.96 / 95.94 / 97.75) | 7,50,000 × ৳80 = ৳6 crore/day · ৳2,190 crore/year | S3D_Calculator.dc.html | Pull-out → push-in → pan → pull-out (4 shots) |
+| 16 | 1:40.7–1:55.0 | Daily math | শুধু ডেলিভারি ফি / রাইডারের আয় (100.59 / 108.57) | 7,50,000 পার্সেল, প্রতিদিন · one rider | S3E_ParcelMountain.dc.html | Pull-out → push to the rider → hold (3 shots) |
+| 17 | 1:55.0–2:04.9 | Rider's share | পনেরো টাকা / তিরিশটি / গুণ (120.50 / 122.24 / 124.66) | 30 parcels × ৳15 per parcel | S4C_DailyMath.dc.html | Push-in → pan |
+| 18 | 2:04.9–2:08.2 | Rider's share | ৪৫০ টাকা (126.30) | দিনের শেষে, হাতে যা থাকে ৳450 | S4F_CountingNotes.dc.html | Push-in |
+| 19 | 2:08.2–2:15.5 | Rider's share | ১১,৭০০ / ৫,০০০ / ১৬,৭০০ (129.32 / 131.54 / 133.21) | What a rider takes home · ≈ ৳16,700 | S4B_IncomeBar.dc.html | Push-in → pull-out |
+| 20 | 2:15.5–2:22.8 | Rider's share | ৭০ টাকার মধ্যে / ১৫ টাকা / পাঁচ ভাগের এক ভাগ (136.49 / 139.37 / 140.49) | Where does ৳70 go? · Rider ৳15 | S4A_70Note.dc.html | Push-in → push to the rider slice |
+| 21 | 2:22.8–2:38.3 | Commission | কমিশন / 95% / 90% / 85% (144.61 / 148.83 / 152.72 / 154.74) | সফলতা কমলে, কমিশনও কমে · 95% ৳16 · 90% ৳11 · ≤85% ৳7 | S4D_Staircase.dc.html | Push-in → pan → pan (3 shots) |
+| 22 | 2:38.3–2:43.8 | Commission | ফোন না ধরলে (159.00) | No answer · কল ধরছে না | S4E_SplitScreen.dc.html | Push-in |
+| 23 | 2:43.8–2:48.4 | Last five years | ২০২০ (163.31) | উত্থান, পতন, ঘুরে দাঁড়ানো | S5A_Timeline.dc.html | Lateral pan |
+| 24 | 2:48.4–2:53.1 | Last five years | একশো ছেষট্টি (167.86) | 2020 লকডাউন · +166% | S5B_Lockdown2020.dc.html | Push-in |
+| 25 | 2:53.1–2:57.6 | Last five years | আস্থায় বড় ধাক্কা (172.63) | 2021 আস্থার সংকট | S5C_TrustCrisis2021.dc.html | Pull-out |
+| 26 | 2:57.6–3:02.9 | Last five years | ৯৫ শতাংশের বেশি (179.22) | >95% COD ক্যাশ অন ডেলিভারি | S5D_CODDominance.dc.html | Push-in |
+| 27 | 3:02.9–3:07.5 | Last five years | বাংলাদেশ ব্যাংক / ব্যাংকিং চ্যানেলে (182.92 / 185.92) | নগদ টাকা এখন ব্যাংকিং চ্যানেলে | S5E_BankRule.dc.html | Lateral pan |
+| 28 | 3:07.5–3:14.3 | Competition | প্রতিযোগিতার / বন্ধ / ছোট (187.68 / 191.08 / 193.00) | প্রতিযোগিতার ঝড় · CLOSED · SHRINKING · GROWING | S5F_Competition.dc.html | Push-in → pan |
+| 29 | 3:14.3–3:21.8 | Competition | ২০১৬ / পাঁচ জন / স্টেডফাস্ট (194.40 / 196.00 / 198.02) | পাঁচজন থেকে হাজার হাজার · 5 → Thousands | S5G_RidersMultiply.dc.html | Push-in → pull-out |
+| 30 | 3:21.8–3:30.2 | Competition | পাঠাও / দুই তৃতীয়াংশ (201.58 / 207.22) | পার্সেল যাচ্ছে ঢাকার বাইরে · 2/3 ঢাকার বাইরে | S5H_DhakaVsRest.dc.html | Push-in → pan |
+| 31 | 3:30.2–3:34.7 | Competition | গ্রামই এখন বড় বাজার (211.35) | (village road; design has no on-screen text) | S2G_VillageRoad.dc.html | Push-in |
+| 32 | 3:34.7–3:43.1 | 2030 | ২০৩০ (217.15) | 2030 | S6A_Street2030.dc.html | Lateral pan → push-in |
+| 33 | 3:43.1–3:52.4 | 2030 | ৭.৫ লাখ / ১৫ লাখ / প্রশ্ন (224.04 / 226.10 / 228.07) | ~7.5 lakh → ~15 lakh · Who will carry the extra 7.5 lakh? | S6B_BarChart2030.dc.html | Push-in → pan |
+| 34 | 3:52.4–4:10.9 | What changes | তিনটি পরিবর্তন / ডিজিটাল পেমেন্ট / ডেটা / রাইডারের অধিকার (232.12 / 236.95 / 242.98 / 248.41) | Three pillars · Digital payments · Data and automation · Rider rights | S6C_ThreePillars.dc.html | Push-in on each pillar in turn (5 shots) |
+| 35 | 4:10.9–4:14.1 | What changes | দশ লাখেরও বেশি (251.27) | 1 million+ · ১০ লাখ+ গিগ কর্মী | S6D_GigMosaic.dc.html | Pull-out |
+| 36 | 4:14.1–4:26.0 | What changes | শ্রম সংস্কার / শ্রমিক / সুপারিশ (254.31 / 256.59 / 259.19) | Labour reform · শ্রম সংস্কার · রাইডারও একজন শ্রমিক | S6E_LabourReform.dc.html | Push-in → pan → pull-out (3 shots) |
+| 37 | 4:26.0–4:35.6 | Closing | এই খাত (265.28) | (aerial Dhaka at dusk; no on-screen text) | S7A_AerialDusk.dc.html | Pull-out → pan |
+| 38 | 4:35.6–4:43.1 | Closing | মোটরসাইকেলে, সাইকেলে (279.21 / 280.11) | (district-town street: cargo cycle, CNG) | S2G_DistrictTown.dc.html | Lateral pan → push-in |
+| 39 | 4:43.1–4:49.4 | Closing | ধন্যবাদ (287.38) | ধন্যবাদ, ভাই! · Thank you, brother! | S7B_RainDoorstep.dc.html | Push-in → push to the bubble |
+| 40 | 4:49.4–4:54.4 | Closing | পার্সেলের পেছনে (290.62) | (Rahim close-up in the rain) | S7C_RahimCloseup.dc.html | Slow push-in |
+| 41 | 4:54.4–4:58.1 | Closing | একজন মানুষ (294.95) | পার্সেলের পেছনের মানুষ · ফলো করুন / আপনার মতামত কমেন্টে জানান | S7D_EndCard.dc.html | Locked off: title holds still |
 
 ## Music
 - Music: yes if a music file is in `assets/`. Otherwise no music, just the voiceover.
@@ -254,3 +301,30 @@ No brand fonts provided. Use friendly, rounded Google Fonts:
 - The call to action is taken from the last line of the voiceover.
 - Overrides to Part A: bouncier springs for small elements, as described under
   Mood / style.
+
+### Decisions made while building (2026-11-25)
+- **Scene order follows the voiceover.** File order is kept except where the
+  narration says things in a different order, so numbers never appear before they
+  are spoken: S3B before S3A (700+/114 is said first), S4C → S4F → S4B → S4A
+  (৳15 × 30 = ৳450, then the monthly total, then "৳15 of your ৳70"), S2Gv after
+  S5H ("গ্রামই এখন বড় বাজার") and S2G at 4:35 ("মোটরসাইকেলে, সাইকেলে").
+- **Main.dc.html (style frame) is used as the title scene** for "the person who
+  brought it… how much does he get?" It is a complete scene with the video's title.
+- **Not used:** S2C (Barishal street) and S2F (night highway). The journey
+  narration (22–37 s) only has room for four scenes at the 2.5 s minimum.
+  V4A–V4F are alternates of S4A–S4F. C1–C7, K1–K7 and Palette are reference
+  sheets (characters, props, kit, palette), not scenes.
+- **Fonts:** Poppins (headings) and Nunito (small body text) as briefed. Neither has
+  Bengali glyphs, so Bengali falls back to Hind Siliguri, the designs' own Bengali
+  face (same foundry as Poppins).
+- **Colors:** page grounds are the soft green gradient; cream walls and grounds
+  inside illustrations are shifted to light greens; orange UI graphics (frames,
+  bars, graph lines, pins, buttons, deep-orange text) become brand green. People,
+  uniforms, props and skies keep their design colors.
+- **Design-board labels** such as "SCENE 3A · HUB MAP" are hidden; they annotate
+  the storyboard and are not on-screen copy.
+- **Text sizes** follow the designs, including small captions under 40 px (design
+  wins for layout and text).
+- **Music:** none (no music file in assets). **Captions:** none.
+- **Audio:** the voiceover is gain-matched and peak-limited to −14.1 LUFS, true peak
+  −1.3 dBTP (`assets/audio/voiceover_mix.m4a`); speed and edit are unchanged.

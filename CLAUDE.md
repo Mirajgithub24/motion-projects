@@ -26,8 +26,8 @@ GitHub Releases (`Mirajgithub24/motion-projects`). These rules apply to every se
 - Before publishing, extract a few frames from the render and look at them. Fix what is off.
 
 ## Rendering
-- Render to `out/<name>.mp4`: H.264, CRF 20, preset veryfast, 1080p unless `brief.md`
-  says otherwise, AAC audio. Use:
+- Render to `out/<name>.mp4`: H.264, CRF 20, preset veryfast, yuv420p, 1080p unless
+  `brief.md` says otherwise, AAC 192 kbps audio, `+faststart`. Use:
 
       scripts/render.sh <name>
 

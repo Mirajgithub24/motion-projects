@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S3C_Map" transform="translate(640 70) scale(1.18)">
+<g id="S3C_Map_Shadow" transform="translate(10 14)"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#5A3D2B" opacity="0.14"></path></g>
+<g id="S3C_Map_Land"><path d="M150 40 L200 90 L250 110 L270 170 L330 190 L420 180 L500 170 L560 200 L550 260 L500 290 L470 340 L480 400 L520 430 L560 470 L590 540 L600 640 L580 740 L555 770 L540 700 L520 620 L490 560 L450 540 L420 580 L370 600 L330 640 L280 660 L230 650 L180 660 L140 640 L130 560 L110 500 L90 430 L110 370 L70 320 L60 260 L100 220 L90 160 L120 100 Z" fill="#FFFFFF" stroke="#E2D5BF" stroke-width="4" stroke-linejoin="round"></path></g>
+<g id="S3C_Backbone" fill="none" stroke="#FF7A1A" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10">
+<path id="S3C_Link_Dhaka_Chattogram" d="M330 380 L510 590"></path>
+<path id="S3C_Link_Dhaka_Sylhet" d="M330 380 L490 220"></path>
+<path id="S3C_Link_Dhaka_Khulna" d="M330 380 L160 560"></path>
+<path id="S3C_Link_Dhaka_Rajshahi" d="M330 380 L100 300"></path>
+<path id="S3C_Link_Dhaka_Mymensingh" d="M330 380 L340 260"></path>
+<path id="S3C_Link_Dhaka_Barishal" d="M330 380 L300 570"></path>
+<path id="S3C_Link_Mymensingh_Rangpur" d="M340 260 L170 130"></path>
+<path id="S3C_Link_Rajshahi_Rangpur" d="M100 300 L170 130"></path>
+<path id="S3C_Link_Khulna_Barishal" d="M160 560 L300 570"></path>
+</g>
+</g>
+</svg>

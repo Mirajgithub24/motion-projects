@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="S2I_BG" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S2I_BG_Shapes">
+<circle cx="1700" cy="140" r="260" fill="#FFE9C9" opacity="0.7"></circle>
+<circle cx="180" cy="980" r="220" fill="#DFF1E8" opacity="0.8"></circle>
+<path d="M0 900 C300 860 620 920 960 880 C1300 840 1620 900 1920 860 L1920 1080 L0 1080 Z" fill="#FBEBD0" opacity="0.7"></path>
+</g>
+</svg>

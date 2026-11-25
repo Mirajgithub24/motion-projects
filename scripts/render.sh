@@ -18,10 +18,16 @@ if [ -z "$browser" ]; then
 fi
 
 mkdir -p "$root/out"
-npx remotion render src/index.ts "$name" "$root/out/$name.mp4" \
+npx remotion render src/index.ts "$name" "$root/out/$name.raw.mp4" \
   --public-dir "$root/projects/$name" \
-  --codec h264 --crf 20 --x264-preset veryfast --audio-codec aac \
+  --codec h264 --crf 20 --x264-preset veryfast --pixel-format yuv420p \
+  --audio-codec aac --audio-bitrate 192k \
   --overwrite ${browser:+--browser-executable "$browser"}
+
+# +faststart (index at the front, so playback starts before the download ends).
+# Remotion ships its own ffmpeg, so this works where ffmpeg is not installed.
+npx remotion ffmpeg -v error -y -i "$root/out/$name.raw.mp4" -c copy -movflags +faststart "$root/out/$name.mp4"
+rm -f "$root/out/$name.raw.mp4"
 
 # Remotion ships its own ffprobe, so this works where ffmpeg is not installed.
 npx remotion ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$root/out/$name.mp4" || true

@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Rahim, a delivery rider in an orange jacket, rides a motorbike loaded with parcels down a bright, colourful Dhaka street on a sunny morning" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDF6E6"></stop><stop offset="0.55" stop-color="#FFEBC9"></stop><stop offset="1" stop-color="#FFD9AC"></stop></linearGradient>
+<linearGradient id="gRoad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4D8C6"></stop><stop offset="1" stop-color="#D2C4AF"></stop></linearGradient>
+<radialGradient id="gSun"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"></stop><stop offset="0.3" stop-color="#FFF3CF" stop-opacity="0.7"></stop><stop offset="1" stop-color="#FFE2A8" stop-opacity="0"></stop></radialGradient>
+<linearGradient id="gShade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A3D2B" stop-opacity="0.28"></stop><stop offset="1" stop-color="#5A3D2B" stop-opacity="0"></stop></linearGradient>
+<pattern id="pWinA" width="64" height="76" patternUnits="userSpaceOnUse"><rect x="13" y="13" width="36" height="46" fill="#FFF8EA"></rect><rect x="16" y="16" width="30" height="40" fill="#7FBFCB"></rect><rect x="30" y="16" width="2" height="40" fill="#FFF8EA"></rect><rect x="16" y="16" width="14" height="14" fill="#A9D9E0"></rect><rect x="11" y="59" width="40" height="4" fill="#FFF8EA"></rect></pattern>
+<pattern id="pWinB" width="64" height="76" patternUnits="userSpaceOnUse"><rect x="13" y="13" width="36" height="46" fill="#FFF8EA"></rect><rect x="16" y="16" width="14" height="40" fill="#2EAD6B"></rect><rect x="32" y="16" width="14" height="40" fill="#2EAD6B"></rect><rect x="16" y="24" width="30" height="2" fill="#1F8A54"></rect><rect x="16" y="34" width="30" height="2" fill="#1F8A54"></rect><rect x="16" y="44" width="30" height="2" fill="#1F8A54"></rect></pattern>
+<pattern id="pWinFar" width="36" height="44" patternUnits="userSpaceOnUse"><rect x="8" y="8" width="14" height="20" fill="#FBE9CF"></rect></pattern>
+<pattern id="pAwnO" width="44" height="10" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="22" height="10" fill="#FF7A1A"></rect></pattern>
+<pattern id="pAwnT" width="44" height="10" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="22" height="10" fill="#2F7F8F"></rect></pattern>
+<pattern id="pAwnR" width="44" height="10" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="22" height="10" fill="#E5484D"></rect></pattern>
+<pattern id="pShutter" width="20" height="12" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="20" height="2" fill="#1F8A54"></rect></pattern>
+<filter id="fGrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter>
+</defs>
+
+<g id="SF_BG_Sky">
+<rect x="0" y="0" width="1920" height="780" fill="url(#gSky)"></rect>
+<circle cx="1430" cy="170" r="330" fill="url(#gSun)"></circle>
+<circle cx="1430" cy="170" r="84" fill="#FFFDF5"></circle>
+<g id="Sky_Clouds" fill="#FFFFFF" opacity="0.85">
+<ellipse cx="900" cy="96" rx="120" ry="26"></ellipse><ellipse cx="980" cy="80" rx="80" ry="26"></ellipse><ellipse cx="840" cy="84" rx="60" ry="20"></ellipse>
+<ellipse cx="1150" cy="150" rx="70" ry="16"></ellipse><ellipse cx="1196" cy="140" rx="46" ry="16"></ellipse>
+</g>
+</g>
+
+<g id="SF_BG_Far">
+<path d="M0 740 L0 290 L120 290 L120 250 L260 250 L260 320 L420 320 L420 240 L560 240 L560 280 L820 280 L820 120 L1010 120 L1010 150 L1100 150 L1100 240 L1330 240 L1330 170 L1480 170 L1480 230 L1700 230 L1700 150 L1860 150 L1860 200 L1920 200 L1920 740 Z" fill="#F4D9B6"></path>
+<rect x="0" y="130" width="1920" height="580" fill="url(#pWinFar)" opacity="0.7"></rect>
+<line x1="900" y1="120" x2="900" y2="74" stroke="#E2BF94" stroke-width="4"></line>
+<rect x="1730" y="118" width="60" height="32" fill="#E9C9A0"></rect>
+</g>
+
+<g id="SF_BG_Mid">
+<g id="Mid_Building_1">
+<rect x="0" y="230" width="330" height="520" fill="#BFE3D6"></rect>
+<rect x="300" y="230" width="30" height="520" fill="#A5D1C2"></rect>
+<rect x="0" y="222" width="330" height="12" fill="#FFF8EA"></rect>
+<rect x="6" y="244" width="290" height="230" fill="url(#pWinA)"></rect>
+<path d="M30 492 Q160 520 296 494" fill="none" stroke="#2B2B2B" stroke-width="2" opacity="0.6"></path>
+<rect x="60" y="500" width="40" height="44" fill="#FF7A1A"></rect><rect x="112" y="506" width="34" height="50" fill="#FFF8EA"></rect><rect x="160" y="508" width="44" height="40" fill="#E5484D"></rect><rect x="218" y="504" width="36" height="46" fill="#2F7F8F"></rect>
+<rect x="30" y="570" width="270" height="54" rx="6" fill="#2F7F8F"></rect>
+<text x="165" y="610" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="36" fill="#FFFFFF">নদী টেলিকম</text>
+<rect x="30" y="640" width="270" height="100" fill="#2B4A55"></rect>
+<rect x="46" y="652" width="34" height="44" fill="#FFF8EA"></rect><rect x="90" y="652" width="34" height="44" fill="#FFD27A"></rect><rect x="134" y="652" width="34" height="44" fill="#A9D9E0"></rect>
+<circle cx="236" cy="672" r="17" fill="#A9703F"></circle><path d="M206 740 C206 704 220 692 236 692 C252 692 268 704 268 740 Z" fill="#FFF8EA"></path>
+<rect x="30" y="712" width="270" height="28" fill="#C89B6D"></rect>
+<path d="M18 628 L312 628 L326 656 L4 656 Z" fill="#FFF8EA"></path><path d="M18 628 L312 628 L326 656 L4 656 Z" fill="url(#pAwnT)"></path>
+</g>
+<g id="Mid_Building_2">
+<rect x="330" y="310" width="370" height="440" fill="#FBE6C4"></rect>
+<rect x="670" y="310" width="30" height="440" fill="#EFD3A8"></rect>
+<rect x="330" y="302" width="370" height="12" fill="#FFF8EA"></rect>
+<rect x="430" y="262" width="70" height="40" rx="6" fill="#2F7F8F"></rect><rect x="436" y="254" width="58" height="10" rx="5" fill="#27586B"></rect>
+<rect x="340" y="326" width="322" height="152" fill="url(#pWinB)"></rect>
+<rect x="340" y="486" width="330" height="8" fill="#EFD3A8"></rect>
+<rect x="360" y="508" width="310" height="56" rx="6" fill="#FF7A1A"></rect>
+<text x="515" y="549" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="36" fill="#0F1B2D">শাপলা স্টোর</text>
+<rect x="360" y="596" width="310" height="144" fill="#6B3F1D"></rect>
+<rect x="372" y="640" width="286" height="5" fill="#C89B6D"></rect><rect x="372" y="684" width="286" height="5" fill="#C89B6D"></rect>
+<rect x="380" y="614" width="20" height="26" fill="#2F7F8F"></rect><rect x="406" y="620" width="16" height="20" fill="#E5484D"></rect><rect x="428" y="616" width="22" height="24" fill="#2EAD6B"></rect><rect x="458" y="622" width="16" height="18" fill="#FFF8EA"></rect><rect x="482" y="616" width="20" height="24" fill="#FF7A1A"></rect><rect x="510" y="620" width="18" height="20" fill="#FFD27A"></rect>
+<rect x="382" y="660" width="18" height="24" fill="#FFF8EA"></rect><rect x="406" y="656" width="22" height="28" fill="#FF7A1A"></rect><rect x="436" y="662" width="16" height="22" fill="#2F7F8F"></rect><rect x="460" y="658" width="20" height="26" fill="#FFD27A"></rect><rect x="488" y="664" width="16" height="20" fill="#E5484D"></rect>
+<circle cx="604" cy="664" r="18" fill="#8A5A30"></circle><path d="M572 740 C572 700 588 686 604 686 C620 686 638 700 638 740 Z" fill="#2F7F8F"></path>
+<path d="M346 572 L684 572 L700 606 L330 606 Z" fill="#FFF8EA"></path><path d="M346 572 L684 572 L700 606 L330 606 Z" fill="url(#pAwnO)"></path>
+<g id="Mid_FruitCrates">
+<rect x="372" y="708" width="92" height="36" fill="#C89B6D"></rect><rect x="372" y="708" width="92" height="6" fill="#B4875A"></rect>
+<circle cx="388" cy="704" r="11" fill="#FF9A3D"></circle><circle cx="410" cy="702" r="11" fill="#FF9A3D"></circle><circle cx="432" cy="704" r="11" fill="#FF9A3D"></circle><circle cx="452" cy="703" r="10" fill="#FF9A3D"></circle><circle cx="399" cy="692" r="11" fill="#FFB05C"></circle><circle cx="422" cy="691" r="11" fill="#FFB05C"></circle>
+<rect x="476" y="708" width="92" height="36" fill="#C89B6D"></rect><rect x="476" y="708" width="92" height="6" fill="#B4875A"></rect>
+<circle cx="492" cy="704" r="11" fill="#2EAD6B"></circle><circle cx="514" cy="702" r="11" fill="#4FBF85"></circle><circle cx="536" cy="704" r="11" fill="#2EAD6B"></circle><circle cx="556" cy="703" r="10" fill="#4FBF85"></circle><circle cx="525" cy="691" r="11" fill="#2EAD6B"></circle>
+</g>
+</g>
+<g id="Mid_Building_3">
+<rect x="700" y="180" width="550" height="570" fill="#F6B893"></rect>
+<rect x="1220" y="180" width="30" height="570" fill="#E9A47C"></rect>
+<rect x="700" y="172" width="550" height="12" fill="#FFF8EA"></rect>
+<rect x="716" y="196" width="492" height="80" fill="url(#pWinA)"></rect>
+<rect x="716" y="386" width="492" height="156" fill="url(#pWinA)"></rect>
+<rect x="760" y="300" width="320" height="62" rx="6" fill="#E5484D"></rect>
+<text x="920" y="345" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="38" fill="#FFFFFF">রঙধনু টেইলার্স</text>
+<rect x="720" y="594" width="250" height="146" fill="#7A4A22"></rect>
+<g id="Mid_SareeDisplay">
+<rect x="730" y="600" width="34" height="140" fill="#2F7F8F"></rect><rect x="730" y="700" width="34" height="10" fill="#FFD27A"></rect>
+<rect x="768" y="600" width="34" height="140" fill="#E5484D"></rect><rect x="768" y="700" width="34" height="10" fill="#FFD27A"></rect>
+<rect x="806" y="600" width="34" height="140" fill="#FF7A1A"></rect><rect x="806" y="700" width="34" height="10" fill="#FFF8EA"></rect>
+<rect x="844" y="600" width="34" height="140" fill="#2EAD6B"></rect><rect x="844" y="700" width="34" height="10" fill="#FFD27A"></rect>
+<rect x="882" y="600" width="34" height="140" fill="#FFD27A"></rect><rect x="882" y="700" width="34" height="10" fill="#E5484D"></rect>
+<rect x="920" y="600" width="34" height="140" fill="#B86FA8"></rect><rect x="920" y="700" width="34" height="10" fill="#FFF8EA"></rect>
+</g>
+<path d="M708 566 L982 566 L996 598 L700 598 Z" fill="#FFF8EA"></path><path d="M708 566 L982 566 L996 598 L700 598 Z" fill="url(#pAwnR)"></path>
+<rect x="1010" y="590" width="200" height="150" fill="#FFF8EA"></rect><rect x="1016" y="596" width="188" height="144" fill="#2EAD6B"></rect><rect x="1016" y="596" width="188" height="144" fill="url(#pShutter)"></rect>
+<rect x="1108" y="596" width="4" height="144" fill="#1F8A54"></rect>
+</g>
+<g id="Mid_Building_4_TeaStall">
+<rect x="1250" y="300" width="370" height="450" fill="#A9D8D8"></rect>
+<rect x="1590" y="300" width="30" height="450" fill="#8FC6C6"></rect>
+<rect x="1250" y="292" width="370" height="12" fill="#FFF8EA"></rect>
+<rect x="1500" y="252" width="64" height="40" rx="6" fill="#27586B"></rect>
+<rect x="1262" y="316" width="322" height="152" fill="url(#pWinB)"></rect>
+<rect x="1304" y="500" width="150" height="46" rx="5" fill="#1F7A4D"></rect>
+<text x="1379" y="534" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="30" fill="#FFF8EA">চা ঘর</text>
+<rect x="1300" y="590" width="274" height="100" fill="#5A7F86"></rect>
+<path d="M1280 566 L1592 540 L1592 556 L1280 584 Z" fill="#B8C4D1"></path>
+<path d="M1280 584 L1592 556 L1592 564 L1280 592 Z" fill="#8B97A8"></path>
+<path d="M1320 580 L1320 563 M1370 576 L1370 559 M1420 572 L1420 554 M1470 567 L1470 550 M1520 563 L1520 546 M1570 558 L1570 542" stroke="#8B97A8" stroke-width="2"></path>
+<rect x="1292" y="588" width="8" height="158" fill="#7A4A22"></rect><rect x="1574" y="562" width="8" height="184" fill="#7A4A22"></rect>
+<circle cx="1506" cy="640" r="18" fill="#8A5A30"></circle>
+<path d="M1474 700 C1474 668 1490 660 1506 660 C1522 660 1540 668 1540 700 Z" fill="#FFF8EA"></path>
+<rect x="1302" y="690" width="272" height="56" fill="#B4875A"></rect>
+<rect x="1302" y="690" width="272" height="7" fill="#C89B6D"></rect>
+<rect x="1320" y="660" width="20" height="30" rx="4" fill="#FFFFFF" opacity="0.75"></rect><rect x="1318" y="655" width="24" height="7" fill="#E5484D"></rect><rect x="1323" y="672" width="14" height="16" fill="#C89B6D"></rect>
+<rect x="1348" y="660" width="20" height="30" rx="4" fill="#FFFFFF" opacity="0.75"></rect><rect x="1346" y="655" width="24" height="7" fill="#2EAD6B"></rect><rect x="1351" y="668" width="14" height="20" fill="#FFD27A"></rect>
+<path d="M1400 690 L1400 668 C1400 656 1432 656 1432 668 L1432 690 Z" fill="#8B97A8"></path>
+<path d="M1432 672 L1448 662" stroke="#8B97A8" stroke-width="5" stroke-linecap="round"></path>
+<path d="M1412 650 C1404 636 1420 630 1412 614" fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round"></path>
+<path d="M1426 646 C1420 634 1434 628 1428 612" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="3" stroke-linecap="round"></path>
+</g>
+<g id="Mid_Building_5">
+<rect x="1620" y="210" width="300" height="540" fill="#F9DC9C"></rect>
+<rect x="1620" y="202" width="300" height="12" fill="#FFF8EA"></rect>
+<rect x="1632" y="226" width="280" height="228" fill="url(#pWinA)"></rect>
+<rect x="1660" y="474" width="240" height="56" rx="6" fill="#1F7A4D"></rect>
+<text x="1780" y="515" text-anchor="middle" font-family="'Hind Siliguri', sans-serif" font-weight="700" font-size="36" fill="#FFF8EA">বই বিতান</text>
+<rect x="1660" y="570" width="240" height="170" fill="#7A4A22"></rect>
+<rect x="1672" y="618" width="216" height="5" fill="#C89B6D"></rect><rect x="1672" y="672" width="216" height="5" fill="#C89B6D"></rect>
+<rect x="1678" y="584" width="12" height="34" fill="#E5484D"></rect><rect x="1692" y="590" width="10" height="28" fill="#FFF8EA"></rect><rect x="1704" y="582" width="14" height="36" fill="#2F7F8F"></rect><rect x="1720" y="588" width="10" height="30" fill="#FFD27A"></rect><rect x="1732" y="584" width="12" height="34" fill="#FF7A1A"></rect><rect x="1746" y="590" width="10" height="28" fill="#2EAD6B"></rect><rect x="1758" y="584" width="14" height="34" fill="#FFF8EA"></rect><rect x="1774" y="588" width="10" height="30" fill="#E5484D"></rect><rect x="1786" y="582" width="12" height="36" fill="#2F7F8F"></rect><rect x="1800" y="590" width="12" height="28" fill="#FFD27A"></rect><rect x="1814" y="584" width="12" height="34" fill="#B86FA8"></rect><rect x="1828" y="588" width="12" height="30" fill="#FF7A1A"></rect><rect x="1842" y="584" width="14" height="34" fill="#2EAD6B"></rect><rect x="1858" y="590" width="10" height="28" fill="#FFF8EA"></rect>
+<rect x="1680" y="640" width="14" height="32" fill="#2F7F8F"></rect><rect x="1696" y="636" width="12" height="36" fill="#FFD27A"></rect><rect x="1710" y="642" width="12" height="30" fill="#E5484D"></rect><rect x="1724" y="638" width="14" height="34" fill="#FFF8EA"></rect><rect x="1740" y="640" width="10" height="32" fill="#2EAD6B"></rect><rect x="1752" y="636" width="14" height="36" fill="#FF7A1A"></rect>
+<path d="M1648 536 L1912 536 L1920 568 L1636 568 Z" fill="#FFF8EA"></path><path d="M1648 536 L1912 536 L1920 568 L1636 568 Z" fill="url(#pAwnT)"></path>
+</g>
+<g id="Mid_PowerLines" fill="none" stroke="#2B2B2B" stroke-width="2" stroke-opacity="0.75">
+<rect x="648" y="140" width="14" height="612" fill="#8A7A66" stroke="none"></rect>
+<rect x="658" y="140" width="4" height="612" fill="#6E5F4D" stroke="none"></rect>
+<rect x="608" y="170" width="94" height="8" fill="#6E5F4D" stroke="none"></rect>
+<rect x="628" y="226" width="54" height="62" fill="#9AA6B8" stroke="none"></rect>
+<rect x="1634" y="168" width="12" height="584" fill="#8A7A66" stroke="none"></rect>
+<rect x="1598" y="196" width="84" height="8" fill="#6E5F4D" stroke="none"></rect>
+<path d="M0 200 Q330 292 655 176"></path><path d="M0 232 Q330 334 655 182"></path><path d="M0 180 Q320 250 655 172"></path>
+<path d="M655 176 Q1150 332 1640 200"></path><path d="M655 182 Q1150 374 1640 206"></path><path d="M655 200 Q1150 296 1640 214"></path><path d="M655 230 Q1100 420 1640 222"></path>
+<path d="M1640 200 Q1790 262 1920 190"></path><path d="M1640 206 Q1790 292 1920 222"></path>
+<circle cx="670" cy="198" r="14"></circle><ellipse cx="640" cy="206" rx="18" ry="10"></ellipse><circle cx="1652" cy="220" r="12"></circle>
+<path d="M655 240 C700 330 740 262 762 302"></path>
+</g>
+<g id="Mid_Birds" fill="#2B2B2B">
+<ellipse cx="1050" cy="247" rx="10" ry="7"></ellipse><circle cx="1058" cy="241" r="5"></circle><path d="M1040 248 L1030 254 L1042 252 Z"></path>
+<ellipse cx="1100" cy="250" rx="10" ry="7"></ellipse><circle cx="1092" cy="244" r="5"></circle><path d="M1110 251 L1120 257 L1108 255 Z"></path>
+<ellipse cx="1247" cy="251" rx="10" ry="7"></ellipse><circle cx="1255" cy="245" r="5"></circle><path d="M1237 252 L1227 258 L1239 256 Z"></path>
+</g>
+<g id="Mid_Sidewalk">
+<rect x="0" y="740" width="1920" height="34" fill="#F0E0C6"></rect>
+<rect x="0" y="740" width="1920" height="3" fill="#FFF8EA"></rect>
+<rect x="0" y="770" width="1920" height="10" fill="#C9B595"></rect>
+<rect x="0" y="743" width="1920" height="12" fill="url(#gShade)" opacity="0.5"></rect>
+</g>
+<g id="Mid_TeaCustomer">
+<circle cx="1352" cy="628" r="15" fill="#8A5A30"></circle>
+<path d="M1337 620 C1338 606 1366 606 1367 620 Z" fill="#161616"></path>
+<path d="M1332 746 L1334 668 C1334 650 1370 650 1372 668 L1374 746 Z" fill="#FF7A1A"></path>
+<rect x="1333" y="690" width="40" height="7" fill="#D9E1EA"></rect>
+<path d="M1370 680 L1392 664" stroke="#FF7A1A" stroke-width="10" stroke-linecap="round"></path>
+<path d="M1388 654 L1400 654 L1398 668 L1390 668 Z" fill="#B5683A"></path>
+</g>
+<g id="Mid_PottedPlant">
+<path d="M1226 746 L1232 712 L1262 712 L1268 746 Z" fill="#B5683A"></path>
+<ellipse cx="1247" cy="694" rx="26" ry="22" fill="#2EAD6B"></ellipse><ellipse cx="1232" cy="678" rx="14" ry="16" fill="#4FBF85"></ellipse><ellipse cx="1262" cy="680" rx="12" ry="14" fill="#1F8A54"></ellipse>
+</g>
+<g id="Mid_Rickshaw">
+<path d="M1640 800 L1930 800 L1900 812 L1600 812 Z" fill="#5A3D2B" opacity="0.18"></path>
+<circle cx="1744" cy="748" r="44" fill="none" stroke="#2B2B2B" stroke-width="5"></circle>
+<path d="M1744 704 L1744 792 M1700 748 L1788 748 M1713 717 L1775 779 M1775 717 L1713 779" stroke="#6E6E6E" stroke-width="1.5"></path>
+<circle cx="1884" cy="748" r="44" fill="none" stroke="#2B2B2B" stroke-width="5"></circle>
+<path d="M1884 704 L1884 792 M1840 748 L1928 748 M1853 717 L1915 779 M1915 717 L1853 779" stroke="#6E6E6E" stroke-width="1.5"></path>
+<path d="M1694 700 C1682 616 1766 596 1806 640 L1796 700 Z" fill="#2F7F8F"></path>
+<path d="M1706 694 C1700 636 1762 618 1794 648" fill="none" stroke="#FFD27A" stroke-width="5"></path>
+<path d="M1722 694 C1720 654 1760 642 1782 660" fill="none" stroke="#E5484D" stroke-width="5"></path>
+<rect x="1698" y="700" width="98" height="40" fill="#E5484D"></rect>
+<rect x="1698" y="716" width="98" height="6" fill="#FFD27A"></rect>
+<path d="M1796 722 L1884 748 L1868 656 M1852 660 L1884 652" fill="none" stroke="#2B2B2B" stroke-width="6" stroke-linecap="round"></path>
+<path d="M1812 688 L1840 688" stroke="#2B2B2B" stroke-width="9" stroke-linecap="round"></path>
+</g>
+</g>
+
+<g id="SF_Road">
+<rect x="0" y="780" width="1920" height="300" fill="url(#gRoad)"></rect>
+<rect x="0" y="780" width="1920" height="26" fill="url(#gShade)" opacity="0.6"></rect>
+<g id="Road_Markings" fill="#FFF8EA" opacity="0.9">
+<path d="M120 1010 L330 1010 L320 1024 L104 1024 Z"></path>
+<path d="M620 1010 L830 1010 L824 1024 L610 1024 Z"></path>
+<path d="M1120 1010 L1330 1010 L1330 1024 L1118 1024 Z"></path>
+<path d="M1620 1010 L1830 1010 L1836 1024 L1624 1024 Z"></path>
+</g>
+<g id="Road_Texture" fill="#BBAA92" opacity="0.6">
+<ellipse cx="460" cy="930" rx="120" ry="8"></ellipse><ellipse cx="1500" cy="960" rx="160" ry="9"></ellipse><ellipse cx="1260" cy="1050" rx="90" ry="6"></ellipse><ellipse cx="300" cy="860" rx="70" ry="5"></ellipse>
+</g>
+<path d="M655 780 L640 780 L420 900 L470 900 Z" fill="#5A3D2B" opacity="0.12"></path>
+</g>
+
+<g id="SF_Rahim_Bike">
+<path d="M700 878 L1220 878 L1120 912 L560 912 Z" fill="#5A3D2B" opacity="0.2"></path>
+<ellipse cx="960" cy="882" rx="250" ry="10" fill="#5A3D2B" opacity="0.3"></ellipse>
+
+<g id="Bike_ExhaustSmoke" fill="#FFFFFF">
+<circle cx="686" cy="812" r="16" opacity="0.7"></circle><circle cx="654" cy="800" r="22" opacity="0.5"></circle><circle cx="616" cy="806" r="28" opacity="0.3"></circle>
+</g>
+
+<g id="Rahim_LegUpper_L"><path d="M897 624 L988 690" stroke="#2B2F38" stroke-width="42" stroke-linecap="round"></path></g>
+<g id="Rahim_LegLower_L"><path d="M988 690 L968 792" stroke="#2B2F38" stroke-width="34" stroke-linecap="round"></path></g>
+<g id="Rahim_ArmUpper_L"><path d="M974 500 L1016 566" stroke="#D9620F" stroke-width="32" stroke-linecap="round"></path></g>
+<g id="Rahim_Forearm_L"><path d="M1016 566 L1062 584" stroke="#D9620F" stroke-width="26" stroke-linecap="round"></path></g>
+
+<g id="Bike_WheelRear" transform="translate(780 800)">
+<circle cx="0" cy="0" r="78" fill="#20242C" stroke="#12151B" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="56" fill="#E4D8C6" stroke="#9AA6B8" stroke-width="6"></circle>
+<path d="M0 -56 L0 56 M-56 0 L56 0 M-40 -40 L40 40 M40 -40 L-40 40" stroke="#8B97A8" stroke-width="2"></path>
+<circle cx="0" cy="0" r="15" fill="#6C7A8F"></circle>
+<path d="M30 -70 A76 76 0 0 1 70 -30" fill="none" stroke="#5A6270" stroke-width="3" stroke-linecap="round"></path>
+</g>
+<g id="Bike_WheelFront" transform="translate(1140 800)">
+<circle cx="0" cy="0" r="78" fill="#20242C" stroke="#12151B" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="56" fill="#E4D8C6" stroke="#9AA6B8" stroke-width="6"></circle>
+<path d="M0 -56 L0 56 M-56 0 L56 0 M-40 -40 L40 40 M40 -40 L-40 40" stroke="#8B97A8" stroke-width="2"></path>
+<circle cx="0" cy="0" r="30" fill="none" stroke="#8B97A8" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="13" fill="#6C7A8F"></circle>
+<path d="M30 -70 A76 76 0 0 1 70 -30" fill="none" stroke="#5A6270" stroke-width="3" stroke-linecap="round"></path>
+</g>
+
+<g id="Bike_Body">
+<path d="M960 782 L900 800 L716 812" fill="none" stroke="#B8C4D1" stroke-width="18" stroke-linecap="round"></path>
+<path d="M716 812 L770 808" fill="none" stroke="#6C7A8F" stroke-width="20" stroke-linecap="round"></path>
+<path d="M780 800 L930 770 M930 770 L862 644 M862 644 L1068 602 M1068 610 L1000 762 M930 770 L1000 762" fill="none" stroke="#3A4658" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M1072 600 L1140 800" stroke="#B8C4D1" stroke-width="10" stroke-linecap="round"></path>
+<path d="M1062 764 A86 86 0 0 1 1206 745" fill="none" stroke="#2F7F8F" stroke-width="12" stroke-linecap="round"></path>
+<path d="M702 764 A86 86 0 0 1 846 745" fill="none" stroke="#2F7F8F" stroke-width="12" stroke-linecap="round"></path>
+<path d="M925 694 L1006 688 L1012 772 L928 778 Z" fill="#6C7A8F"></path>
+<path d="M950 664 L1000 660 L1004 690 L954 694 Z" fill="#8B97A8"></path>
+<path d="M952 672 L1002 668 M953 680 L1003 676" stroke="#56627A" stroke-width="3"></path>
+<circle cx="968" cy="736" r="22" fill="#56627A"></circle><circle cx="968" cy="736" r="9" fill="#B8C4D1"></circle>
+<path d="M830 652 L940 652 L926 702 L858 706 Z" fill="#27707F"></path>
+<path d="M800 630 L760 622 L752 642 L806 654 Z" fill="#27707F"></path>
+<rect x="744" y="624" width="14" height="18" rx="3" fill="#E5484D"></rect>
+<path d="M800 628 C830 615 910 618 942 630 L940 654 L805 654 Z" fill="#2B2B2B"></path>
+<path d="M940 628 C950 590 1040 585 1062 612 L1050 650 C1010 660 960 658 940 652 Z" fill="#2F7F8F"></path>
+<path d="M956 612 C972 598 1024 596 1046 610" fill="none" stroke="#A9D9E0" stroke-width="5" stroke-linecap="round"></path>
+<path d="M700 618 L832 618 M790 618 L800 648 M720 618 L740 640" fill="none" stroke="#8B97A8" stroke-width="6" stroke-linecap="round"></path>
+<path d="M1068 602 L1056 572 M1038 570 L1074 574" fill="none" stroke="#3A4658" stroke-width="9" stroke-linecap="round"></path>
+<path d="M1060 572 L1072 532" stroke="#3A4658" stroke-width="4" stroke-linecap="round"></path>
+<ellipse cx="1076" cy="522" rx="15" ry="11" fill="#3A4658"></ellipse><ellipse cx="1078" cy="522" rx="10" ry="7" fill="#A9D9E0"></ellipse>
+<circle cx="1100" cy="628" r="25" fill="#3A4658"></circle>
+<ellipse cx="1116" cy="628" rx="10" ry="19" fill="#FFF3CC"></ellipse>
+</g>
+
+<g id="Bike_PhoneMount" transform="rotate(-14 1088 560)">
+<rect x="1076" y="540" width="24" height="40" rx="4" fill="#12151B"></rect>
+<rect x="1079" y="544" width="18" height="32" rx="2" fill="#FFF8EA"></rect>
+<rect x="1081" y="548" width="14" height="4" fill="#FF7A1A"></rect>
+<rect x="1081" y="556" width="10" height="3" fill="#2F7F8F"></rect><rect x="1081" y="562" width="12" height="3" fill="#2F7F8F"></rect>
+</g>
+
+<g id="Bike_Parcels">
+<rect x="704" y="560" width="112" height="58" fill="#C89B6D"></rect>
+<rect x="704" y="560" width="112" height="10" fill="#D9B48A"></rect>
+<rect x="752" y="560" width="14" height="58" fill="#EAD2AE"></rect>
+<rect x="716" y="584" width="30" height="22" fill="#FFFFFF"></rect>
+<path d="M720 590 L720 602 M724 590 L724 602 M729 590 L729 602 M733 590 L733 602 M738 590 L738 602 M742 590 L742 602" stroke="#2B2B2B" stroke-width="2"></path>
+<rect x="722" y="512" width="82" height="48" fill="#B98958"></rect>
+<rect x="722" y="512" width="82" height="8" fill="#C89B6D"></rect>
+<rect x="756" y="512" width="12" height="48" fill="#EAD2AE"></rect>
+<rect x="774" y="530" width="22" height="16" fill="#FFFFFF"></rect>
+<path d="M734 512 C734 490 792 488 794 512 Z" fill="#E3C39B"></path>
+<path d="M746 500 L782 500" stroke="#FFFFFF" stroke-width="3"></path>
+<path d="M712 618 L716 508 Q762 478 800 506 L808 618" fill="none" stroke="#2B2B2B" stroke-width="4"></path>
+<path d="M736 618 L742 494 M786 618 L784 494" fill="none" stroke="#2EAD6B" stroke-width="3"></path>
+</g>
+
+<g id="Rahim_Backpack" transform="rotate(14 868 528)">
+<rect x="826" y="462" width="86" height="132" rx="10" fill="#27384F"></rect>
+<rect x="826" y="462" width="86" height="22" rx="10" fill="#FF7A1A"></rect>
+<rect x="826" y="556" width="86" height="8" fill="#E9EEF3"></rect>
+<rect x="852" y="502" width="34" height="30" rx="3" fill="none" stroke="#FFF8EA" stroke-width="3"></rect>
+<path d="M860 517 L878 517 M872 510 L879 517 L872 524" fill="none" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+
+<g id="Rahim_LegUpper_R">
+<path d="M890 624 L976 694" stroke="#4A505C" stroke-width="44" stroke-linecap="round"></path>
+<path d="M918 668 L948 646 L964 664 L934 688 Z" fill="#3A3F4A"></path>
+</g>
+<g id="Rahim_LegLower_R"><path d="M976 694 L952 786" stroke="#4A505C" stroke-width="36" stroke-linecap="round"></path></g>
+<g id="Rahim_Foot_R">
+<path d="M930 786 L966 784 L994 802 L992 814 L930 814 Z" fill="#20242C"></path>
+<path d="M930 811 L992 811" stroke="#FFF8EA" stroke-width="4"></path>
+</g>
+
+<g id="Rahim_Torso">
+<path d="M866 630 C868 580 905 500 946 472 L978 478 C992 500 988 530 975 560 L922 638 Z" fill="#FF7A1A"></path>
+<path d="M866 630 C868 590 890 540 912 510 C902 560 900 600 922 638 Z" fill="#E86A10"></path>
+<path d="M893 556 L965 578 L960 590 L889 568 Z" fill="#E9EEF3"></path>
+<path d="M876 600 L942 620 L936 632 L872 612 Z" fill="#E9EEF3"></path>
+<path d="M968 484 L914 606" stroke="#5A3D2B" stroke-width="6" stroke-linecap="round"></path>
+<rect x="948" y="512" width="20" height="18" rx="2" fill="none" stroke="#FFF8EA" stroke-width="2.5"></rect>
+<path d="M953 521 L963 521 M960 517 L964 521 L960 525" fill="none" stroke="#FFF8EA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<g id="Rahim_CashPouch">
+<rect x="900" y="600" width="38" height="26" rx="5" fill="#5A3D2B" transform="rotate(18 919 613)"></rect>
+<path d="M906 606 L934 616" stroke="#8A5A30" stroke-width="3" stroke-linecap="round"></path>
+</g>
+
+<g id="Rahim_Neck"><path d="M966 478 L980 452" stroke="#B57A45" stroke-width="22" stroke-linecap="round"></path></g>
+
+<g id="Rahim_Head">
+<path d="M946 438 L956 462 L968 456 L960 436 Z" fill="#161616"></path>
+<path d="M956 440 L960 400 L1010 398 L1018 420 L1031 438 L1021 444 L1023 456 L1015 462 L1012 474 C1000 482 975 478 962 462 Z" fill="#B57A45"></path>
+<path d="M968 462 C985 478 1002 480 1013 472 L1016 458 C1000 466 985 462 972 452 Z" fill="#5A3A22" opacity="0.35"></path>
+<g id="Rahim_Face_Eyes"><ellipse cx="1006" cy="429" rx="5" ry="4" fill="#161616"></ellipse><circle cx="1008" cy="428" r="1.3" fill="#FFFFFF"></circle></g>
+<g id="Rahim_Face_Eyebrows"><path d="M996 418 L1014 416" stroke="#161616" stroke-width="4" stroke-linecap="round"></path><path d="M1007 413 L1005 421" stroke="#B57A45" stroke-width="2"></path></g>
+<g id="Rahim_Face_Mouth_Smile"><path d="M1007 455 Q1016 463 1023 454" fill="none" stroke="#5A2E1C" stroke-width="2.5" stroke-linecap="round"></path></g>
+</g>
+<g id="Rahim_Helmet">
+<path d="M944 438 C934 388 968 356 1004 360 C1028 364 1040 386 1040 404 L1012 404 C1000 404 992 414 990 430 L986 448 L950 452 Z" fill="#FFFFFF"></path>
+<path d="M944 438 C938 410 948 384 964 372 C954 398 956 424 962 450 L950 452 Z" fill="#DDE4EC"></path>
+<path d="M952 398 C968 370 1006 366 1036 392" fill="none" stroke="#FF7A1A" stroke-width="9" stroke-linecap="round"></path>
+<path d="M978 384 L990 380 M1002 388 L1008 384" stroke="#B8C4D1" stroke-width="1.5"></path>
+<circle cx="966" cy="428" r="8" fill="#2EAD6B"></circle><circle cx="966" cy="428" r="3" fill="#FFF8EA"></circle>
+<path d="M976 448 L1002 476" stroke="#2B2B2B" stroke-width="3" stroke-linecap="round"></path>
+<path d="M1012 404 L1046 398 L1046 406 L1014 412 Z" fill="#27384F"></path>
+</g>
+
+<g id="Rahim_ArmUpper_R">
+<path d="M962 498 L1002 566" stroke="#FF7A1A" stroke-width="34" stroke-linecap="round"></path>
+</g>
+<g id="Rahim_Forearm_R">
+<path d="M1002 566 L1048 584" stroke="#FF7A1A" stroke-width="28" stroke-linecap="round"></path>
+<path d="M1016 558 L1010 584" stroke="#E9EEF3" stroke-width="8"></path>
+<rect x="1036" y="570" width="10" height="26" rx="2" fill="#20242C" transform="rotate(-20 1041 583)"></rect>
+</g>
+<g id="Rahim_Hand_R"><circle cx="1058" cy="582" r="13" fill="#B57A45"></circle><path d="M1050 576 L1066 578" stroke="#8A5A30" stroke-width="2"></path></g>
+
+<g id="Bike_SpeedLines" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.9">
+<path d="M560 600 L660 600"></path><path d="M500 680 L640 680"></path><path d="M580 760 L650 760"></path>
+</g>
+<g id="Bike_Dust" fill="#FFF8EA">
+<circle cx="690" cy="866" r="14" opacity="0.8"></circle><circle cx="660" cy="872" r="10" opacity="0.7"></circle><circle cx="632" cy="866" r="7" opacity="0.6"></circle>
+</g>
+</g>
+
+<g id="SF_FG">
+<g id="FG_FlameTree">
+<path d="M1920 40 C1820 70 1720 80 1600 130" fill="none" stroke="#6B3F1D" stroke-width="12" stroke-linecap="round"></path>
+<path d="M1780 76 C1760 110 1740 140 1700 170" fill="none" stroke="#6B3F1D" stroke-width="7" stroke-linecap="round"></path>
+<ellipse cx="1860" cy="40" rx="90" ry="40" fill="#1F8A54"></ellipse><ellipse cx="1760" cy="60" rx="80" ry="34" fill="#2EAD6B"></ellipse><ellipse cx="1650" cy="110" rx="70" ry="30" fill="#4FBF85"></ellipse><ellipse cx="1720" cy="160" rx="60" ry="26" fill="#2EAD6B"></ellipse><ellipse cx="1880" cy="120" rx="70" ry="34" fill="#2EAD6B"></ellipse><ellipse cx="1820" cy="170" rx="50" ry="22" fill="#1F8A54"></ellipse>
+<g fill="#E5484D"><circle cx="1690" cy="90" r="13"></circle><circle cx="1716" cy="104" r="11"></circle><circle cx="1790" cy="44" r="13"></circle><circle cx="1830" cy="96" r="12"></circle><circle cx="1750" cy="150" r="12"></circle><circle cx="1884" cy="70" r="12"></circle><circle cx="1626" cy="128" r="10"></circle></g>
+<g fill="#FF7A1A"><circle cx="1704" cy="80" r="9"></circle><circle cx="1808" cy="54" r="9"></circle><circle cx="1846" cy="110" r="8"></circle><circle cx="1768" cy="162" r="8"></circle><circle cx="1900" cy="60" r="8"></circle><circle cx="1642" cy="118" r="7"></circle></g>
+</g>
+<g id="FG_Leaves">
+<path d="M0 1080 C40 960 120 900 240 876 C206 962 124 1042 64 1080 Z" fill="#2EAD6B"></path>
+<path d="M14 1070 C70 990 140 930 232 882" fill="none" stroke="#8ED9B0" stroke-width="4" stroke-linecap="round"></path>
+<path d="M0 990 C30 906 80 862 156 838 C144 902 92 964 0 1046 Z" fill="#1F8A54"></path>
+<path d="M4 1020 C50 950 96 892 150 846" fill="none" stroke="#4FBF85" stroke-width="4" stroke-linecap="round"></path>
+</g>
+</g>
+
+<g id="SF_FX_SunGlare"><circle cx="1430" cy="170" r="520" fill="url(#gSun)" opacity="0.45"></circle></g>
+<g id="SF_FX_Grain"><rect x="0" y="0" width="1920" height="1080" filter="url(#fGrain)" opacity="0.05"></rect></g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<pattern id="s2bDots" width="48" height="48" patternUnits="userSpaceOnUse"><circle cx="24" cy="24" r="2.5" fill="#EAD9BD"></circle></pattern>
+<radialGradient id="s2bGlow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></radialGradient>
+</defs>
+<g id="S2B_App_BG">
+<rect x="0" y="0" width="1920" height="1080" fill="#FDF6E9"></rect>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#s2bDots)"></rect>
+<circle cx="960" cy="540" r="640" fill="url(#s2bGlow)"></circle>
+<circle cx="330" cy="840" r="210" fill="#BFE3D6" opacity="0.6"></circle>
+<circle cx="1640" cy="230" r="170" fill="#F9DC9C" opacity="0.6"></circle>
+<circle cx="1560" cy="900" r="110" fill="#F6B893" opacity="0.5"></circle>
+</g>
+<g id="S2B_App_PhoneShadow"><ellipse cx="960" cy="1020" rx="270" ry="20" fill="#5A3D2B" opacity="0.2"></ellipse></g>
+</svg>

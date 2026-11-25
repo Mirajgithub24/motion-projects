@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<linearGradient id="s3eSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDF6E6"></stop><stop offset="1" stop-color="#FFE3BD"></stop></linearGradient>
+</defs>
+<g id="S3E_BG_Sky">
+<rect x="0" y="0" width="1920" height="930" fill="url(#s3eSky)"></rect>
+<circle cx="1640" cy="190" r="90" fill="#FFFDF5"></circle>
+<g fill="#FFFFFF" opacity="0.9"><ellipse cx="420" cy="430" rx="110" ry="24"></ellipse><ellipse cx="490" cy="414" rx="70" ry="22"></ellipse><ellipse cx="1700" cy="420" rx="90" ry="20"></ellipse><ellipse cx="1650" cy="406" rx="56" ry="18"></ellipse></g>
+</g>
+<g id="S3E_BG_Far">
+<path d="M0 930 L0 800 L90 800 L90 760 L200 760 L200 820 L300 820 L300 780 L400 780 L400 930 Z" fill="#F4D9B6"></path>
+<path d="M1750 930 L1750 790 L1830 790 L1830 750 L1920 750 L1920 930 Z" fill="#F4D9B6"></path>
+</g>
+<g id="S3E_Ground">
+<rect x="0" y="926" width="1920" height="154" fill="#E4D8C6"></rect>
+<rect x="0" y="926" width="1920" height="6" fill="#FFF8EA"></rect>
+<ellipse cx="1090" cy="940" rx="720" ry="26" fill="#5A3D2B" opacity="0.2"></ellipse>
+</g>
+</svg>

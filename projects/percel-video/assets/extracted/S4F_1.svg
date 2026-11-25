@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Evening glow. Rahim stands in the warm pool of a streetlight counting a few small notes, his motorbike parked beside him with his helmet on the tank." style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9DDF2"></stop><stop offset="0.55" stop-color="#FFD3C2"></stop><stop offset="1" stop-color="#FFC08A"></stop></linearGradient>
+<linearGradient id="gGround" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0D2BE"></stop><stop offset="1" stop-color="#E2BFAA"></stop></linearGradient>
+<linearGradient id="gCone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6D6" stop-opacity="0.8"></stop><stop offset="1" stop-color="#FFF6D6" stop-opacity="0.12"></stop></linearGradient>
+<radialGradient id="gLamp"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"></stop><stop offset="1" stop-color="#FFF3CC" stop-opacity="0"></stop></radialGradient>
+</defs>
+
+<g id="S4F_BG_Sky">
+<rect x="0" y="0" width="1920" height="900" fill="url(#gSky)"></rect>
+<circle cx="1620" cy="170" r="44" fill="#FFFFFF" opacity="0.85"></circle>
+<circle cx="1638" cy="158" r="40" fill="#EBDDF0"></circle>
+<g fill="#FFFFFF" opacity="0.8"><circle cx="1280" cy="120" r="3"></circle><circle cx="1460" cy="230" r="2.5"></circle><circle cx="1790" cy="300" r="3"></circle><circle cx="720" cy="90" r="2.5"></circle></g>
+<ellipse cx="520" cy="560" rx="360" ry="34" fill="#FFFFFF" opacity="0.35"></ellipse>
+</g>
+<g id="S4F_BG_Far">
+<path d="M0 900 L0 640 L140 640 L140 600 L300 600 L300 680 L470 680 L470 620 L640 620 L640 700 L1380 700 L1380 600 L1520 600 L1520 540 L1680 540 L1680 620 L1800 620 L1800 580 L1920 580 L1920 900 Z" fill="#DCC7E0"></path>
+<g fill="#FFF3CC"><rect x="180" y="640" width="16" height="22" opacity="0.9"></rect><rect x="520" y="660" width="16" height="22" opacity="0.8"></rect><rect x="1560" y="580" width="16" height="22" opacity="0.9"></rect><rect x="1620" y="640" width="16" height="22" opacity="0.7"></rect><rect x="1840" y="620" width="16" height="22" opacity="0.8"></rect><rect x="1420" y="650" width="16" height="22" opacity="0.8"></rect></g>
+</g>
+<g id="S4F_BG_Mid">
+<path d="M0 900 L0 740 L200 740 L200 700 L380 700 L380 770 L600 770 L600 740 L700 740 L700 900 Z" fill="#F0C2B4"></path>
+<path d="M1500 900 L1500 720 L1640 720 L1640 680 L1820 680 L1820 740 L1920 740 L1920 900 Z" fill="#F0C2B4"></path>
+<g fill="#FFF3CC"><rect x="60" y="780" width="22" height="30"></rect><rect x="250" y="750" width="22" height="30" opacity="0.8"></rect><rect x="440" y="810" width="22" height="30"></rect><rect x="1680" y="730" width="22" height="30"></rect><rect x="1860" y="790" width="22" height="30" opacity="0.8"></rect></g>
+<path d="M0 500 Q430 600 853 470 M0 530 Q430 640 853 480" fill="none" stroke="#8A7A8F" stroke-width="2" opacity="0.5"></path>
+<path d="M853 470 Q1400 560 1920 440" fill="none" stroke="#8A7A8F" stroke-width="2" opacity="0.4"></path>
+</g>
+<g id="S4F_Ground">
+<rect x="0" y="900" width="1920" height="180" fill="url(#gGround)"></rect>
+<rect x="0" y="896" width="1920" height="8" fill="#FBE3D2"></rect>
+<g fill="#FFF8EA" opacity="0.8"><path d="M140 1020 L350 1020 L342 1034 L126 1034 Z"></path><path d="M1500 1020 L1710 1020 L1716 1034 L1504 1034 Z"></path></g>
+</g>
+<g id="S4F_Streetlight_Pole">
+<rect x="846" y="250" width="14" height="652" fill="#8A7A66"></rect>
+<rect x="856" y="250" width="4" height="652" fill="#6E5F4D"></rect>
+<path d="M853 262 C853 200 960 196 1042 214" fill="none" stroke="#8A7A66" stroke-width="10" stroke-linecap="round"></path>
+<rect x="836" y="880" width="34" height="22" fill="#6E5F4D"></rect>
+</g>
+<g id="S4F_FX_LightCone">
+<polygon points="1019,238 1071,238 1440,900 690,900" fill="url(#gCone)"></polygon>
+<ellipse cx="1065" cy="904" rx="390" ry="34" fill="#FFF6D6" opacity="0.8"></ellipse>
+</g>
+
+<g id="S4F_Bike" transform="translate(540 20)">
+<ellipse cx="960" cy="882" rx="250" ry="10" fill="#5A3D2B" opacity="0.28"></ellipse>
+<g id="Bike_WheelRear" transform="translate(780 800)">
+<circle cx="0" cy="0" r="78" fill="#20242C" stroke="#12151B" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="56" fill="#EBCDB8" stroke="#9AA6B8" stroke-width="6"></circle>
+<path d="M0 -56 L0 56 M-56 0 L56 0 M-40 -40 L40 40 M40 -40 L-40 40" stroke="#8B97A8" stroke-width="2"></path>
+<circle cx="0" cy="0" r="15" fill="#6C7A8F"></circle>
+</g>
+<g id="Bike_WheelFront" transform="translate(1140 800)">
+<circle cx="0" cy="0" r="78" fill="#20242C" stroke="#12151B" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="56" fill="#EBCDB8" stroke="#9AA6B8" stroke-width="6"></circle>
+<path d="M0 -56 L0 56 M-56 0 L56 0 M-40 -40 L40 40 M40 -40 L-40 40" stroke="#8B97A8" stroke-width="2"></path>
+<circle cx="0" cy="0" r="30" fill="none" stroke="#8B97A8" stroke-width="4"></circle>
+<circle cx="0" cy="0" r="13" fill="#6C7A8F"></circle>
+</g>
+<g id="Bike_Body">
+<path d="M900 790 L884 876" stroke="#3A4658" stroke-width="7" stroke-linecap="round"></path>
+<path d="M960 782 L900 800 L716 812" fill="none" stroke="#B8C4D1" stroke-width="18" stroke-linecap="round"></path>
+<path d="M716 812 L770 808" fill="none" stroke="#6C7A8F" stroke-width="20" stroke-linecap="round"></path>
+<path d="M780 800 L930 770 M930 770 L862 644 M862 644 L1068 602 M1068 610 L1000 762 M930 770 L1000 762" fill="none" stroke="#3A4658" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M1072 600 L1140 800" stroke="#B8C4D1" stroke-width="10" stroke-linecap="round"></path>
+<path d="M1062 764 A86 86 0 0 1 1206 745" fill="none" stroke="#2F7F8F" stroke-width="12" stroke-linecap="round"></path>
+<path d="M702 764 A86 86 0 0 1 846 745" fill="none" stroke="#2F7F8F" stroke-width="12" stroke-linecap="round"></path>
+<path d="M925 694 L1006 688 L1012 772 L928 778 Z" fill="#6C7A8F"></path>
+<path d="M950 664 L1000 660 L1004 690 L954 694 Z" fill="#8B97A8"></path>
+<circle cx="968" cy="736" r="22" fill="#56627A"></circle><circle cx="968" cy="736" r="9" fill="#B8C4D1"></circle>
+<path d="M830 652 L940 652 L926 702 L858 706 Z" fill="#27707F"></path>
+<path d="M800 630 L760 622 L752 642 L806 654 Z" fill="#27707F"></path>
+<rect x="744" y="624" width="14" height="18" rx="3" fill="#E5484D"></rect>
+<path d="M800 628 C830 615 910 618 942 630 L940 654 L805 654 Z" fill="#2B2B2B"></path>
+<path d="M940 628 C950 590 1040 585 1062 612 L1050 650 C1010 660 960 658 940 652 Z" fill="#2F7F8F"></path>
+<path d="M956 612 C972 598 1024 596 1046 610" fill="none" stroke="#A9D9E0" stroke-width="5" stroke-linecap="round"></path>
+<path d="M700 618 L832 618 M790 618 L800 648 M720 618 L740 640" fill="none" stroke="#8B97A8" stroke-width="6" stroke-linecap="round"></path>
+<path d="M1068 602 L1056 572 M1038 570 L1074 574" fill="none" stroke="#3A4658" stroke-width="9" stroke-linecap="round"></path>
+<path d="M1060 572 L1072 532" stroke="#3A4658" stroke-width="4" stroke-linecap="round"></path>
+<ellipse cx="1076" cy="522" rx="15" ry="11" fill="#3A4658"></ellipse>
+<circle cx="1100" cy="628" r="25" fill="#3A4658"></circle>
+<ellipse cx="1116" cy="628" rx="10" ry="19" fill="#FFF3CC"></ellipse>
+</g>
+<g id="Bike_HelmetOnTank" transform="translate(10 148)">
+<path d="M944 438 C934 388 968 356 1004 360 C1028 364 1040 386 1040 404 L1040 448 L950 452 Z" fill="#FFFFFF"></path>
+<path d="M944 438 C938 410 948 384 964 372 C954 398 956 424 962 450 L950 452 Z" fill="#DDE4EC"></path>
+<path d="M952 398 C968 370 1006 366 1036 392" fill="none" stroke="#FF7A1A" stroke-width="9" stroke-linecap="round"></path>
+<circle cx="966" cy="428" r="8" fill="#2EAD6B"></circle><circle cx="966" cy="428" r="3" fill="#FFF8EA"></circle>
+<path d="M1000 410 L1040 410 L1040 440 L1004 442 Z" fill="#27384F" opacity="0.85"></path>
+</g>
+</g>
+
+<g id="S4F_Rahim" transform="translate(1020 900) scale(1.35)">
+<ellipse cx="6" cy="2" rx="84" ry="8" fill="#5A3D2B" opacity="0.28"></ellipse>
+<g id="Rahim_ArmUpper_L"><path d="M6 -316 L22 -270" stroke="#D9620F" stroke-width="26" stroke-linecap="round"></path></g>
+<g id="Rahim_Forearm_L"><path d="M22 -270 L56 -268" stroke="#D9620F" stroke-width="22" stroke-linecap="round"></path></g>
+<g id="Rahim_LegUpper_L"><path d="M-6 -192 L-10 -104" stroke="#3A3F4A" stroke-width="34" stroke-linecap="round"></path></g>
+<g id="Rahim_LegLower_L"><path d="M-10 -104 L-12 -20" stroke="#3A3F4A" stroke-width="30" stroke-linecap="round"></path></g>
+<g id="Rahim_Foot_L"><path d="M-30 -16 L4 -16 L22 -6 L22 2 L-30 2 Z" fill="#12151B"></path></g>
+<g id="Rahim_LegUpper_R"><path d="M8 -192 L12 -104" stroke="#4A505C" stroke-width="36" stroke-linecap="round"></path></g>
+<g id="Rahim_LegLower_R"><path d="M12 -104 L12 -20" stroke="#4A505C" stroke-width="32" stroke-linecap="round"></path></g>
+<g id="Rahim_Foot_R"><path d="M-6 -16 L28 -16 L46 -6 L46 2 L-6 2 Z" fill="#20242C"></path><path d="M-6 0 L46 0" stroke="#FFF8EA" stroke-width="3"></path></g>
+<g id="Rahim_Torso"><path d="M-34 -188 C-40 -260 -32 -312 -18 -332 L26 -332 C40 -310 42 -250 36 -188 Z" fill="#FF7A1A"></path><path d="M-34 -188 C-40 -260 -32 -312 -18 -332 L-6 -332 C-18 -300 -22 -250 -16 -188 Z" fill="#E86A10"></path><rect x="-37" y="-264" width="76" height="10" fill="#E9EEF3"></rect><rect x="-36" y="-228" width="74" height="10" fill="#E9EEF3"></rect><path d="M22 -330 L-28 -204" stroke="#5A3D2B" stroke-width="5" stroke-linecap="round"></path><rect x="6" y="-310" width="20" height="18" rx="2" fill="none" stroke="#FFF8EA" stroke-width="2.5"></rect><path d="M11 -301 L21 -301 M18 -305 L22 -301 L18 -297" fill="none" stroke="#FFF8EA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M-16 -332 L24 -332" stroke="#FFF6D6" stroke-width="4" stroke-linecap="round" opacity="0.9"></path></g>
+<g id="Rahim_CashPouch"><rect x="-46" y="-212" width="36" height="26" rx="5" fill="#5A3D2B"></rect><path d="M-42 -204 L-14 -204" stroke="#8A5A30" stroke-width="3" stroke-linecap="round"></path><path d="M-44 -212 L-36 -222 L-18 -222 L-12 -212" fill="none" stroke="#8A5A30" stroke-width="3"></path></g>
+<g id="Rahim_Neck"><path d="M2 -330 L4 -348" stroke="#B57A45" stroke-width="20" stroke-linecap="round"></path></g>
+<g id="Rahim_Head" transform="rotate(10 2 -340)">
+<path d="M-20 -350 L-20 -394 L24 -396 L30 -378 L41 -362 L32 -357 L34 -347 L27 -342 L25 -333 C14 -325 -8 -329 -18 -343 Z" fill="#B57A45"></path>
+<path d="M-14 -343 C0 -328 16 -327 25 -333 L28 -345 C14 -338 0 -340 -10 -350 Z" fill="#5A3A22" opacity="0.35"></path>
+<ellipse cx="-8" cy="-366" rx="5" ry="8" fill="#A06A3A"></ellipse>
+<g id="Rahim_Hair"><path d="M-24 -360 C-32 -398 -8 -416 18 -410 L24 -414 L26 -404 L32 -402 L27 -394 L-2 -390 L-6 -372 L-16 -358 Z" fill="#161616"></path><path d="M-18 -404 C-4 -414 12 -414 24 -408" fill="none" stroke="#FFF6D6" stroke-width="3" stroke-linecap="round" opacity="0.7"></path></g>
+<g id="Rahim_Face_Eyes_LookDown"><path d="M14 -372 Q19 -368 24 -372" fill="none" stroke="#161616" stroke-width="3" stroke-linecap="round"></path></g>
+<g id="Rahim_Face_Eyebrows"><path d="M10 -382 L27 -383" stroke="#161616" stroke-width="3.5" stroke-linecap="round"></path><path d="M20 -387 L18 -379" stroke="#B57A45" stroke-width="2"></path></g>
+<g id="Rahim_Face_Mouth_SoftSmile"><path d="M21 -346 Q27 -341 32 -346" fill="none" stroke="#5A2E1C" stroke-width="2.5" stroke-linecap="round"></path></g>
+</g>
+<g id="Rahim_Hand_L"><circle cx="62" cy="-266" r="11" fill="#A06A3A"></circle></g>
+<g id="Rahim_Notes" transform="translate(58 -264)">
+<g transform="rotate(-28)"><rect x="-12" y="-52" width="26" height="46" rx="3" fill="#2EAD6B"></rect><ellipse cx="1" cy="-29" rx="7" ry="10" fill="#FFF8EA"></ellipse></g>
+<g transform="rotate(-4)"><rect x="-12" y="-54" width="26" height="46" rx="3" fill="#F9DC9C"></rect><ellipse cx="1" cy="-31" rx="7" ry="10" fill="#FFF8EA"></ellipse></g>
+<g transform="rotate(22)"><rect x="-12" y="-52" width="26" height="46" rx="3" fill="#FF9A3D"></rect><ellipse cx="1" cy="-29" rx="7" ry="10" fill="#FFF8EA"></ellipse></g>
+</g>
+<g id="Rahim_ArmUpper_R"><path d="M2 -316 L4 -264" stroke="#FF7A1A" stroke-width="28" stroke-linecap="round"></path></g>
+<g id="Rahim_Forearm_R"><path d="M4 -264 L42 -254" stroke="#FF7A1A" stroke-width="24" stroke-linecap="round"></path><path d="M20 -272 L16 -246" stroke="#E9EEF3" stroke-width="7"></path><rect x="30" y="-266" width="8" height="24" rx="2" fill="#20242C"></rect></g>
+<g id="Rahim_Hand_R"><circle cx="50" cy="-252" r="11" fill="#B57A45"></circle></g>
+</g>
+
+<g id="S4F_Streetlight_Head">
+<path d="M1004 212 L1086 212 L1076 238 L1014 238 Z" fill="#6E5F4D"></path>
+<ellipse cx="1045" cy="240" rx="26" ry="7" fill="#FFFDF5"></ellipse>
+<circle cx="1045" cy="244" r="110" fill="url(#gLamp)"></circle>
+</g>
+<g id="S4F_FX_Motes" fill="#FFFFFF">
+<circle cx="960" cy="420" r="3" opacity="0.9"></circle><circle cx="1130" cy="520" r="2.5" opacity="0.8"></circle><circle cx="900" cy="640" r="3" opacity="0.7"></circle><circle cx="1220" cy="700" r="3" opacity="0.8"></circle><circle cx="1090" cy="360" r="2" opacity="0.9"></circle><circle cx="820" cy="780" r="2.5" opacity="0.7"></circle>
+</g>
+</svg>

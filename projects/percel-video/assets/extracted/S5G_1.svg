@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="Five delivery riders on the left and an arrow pointing to a large crowd of riders on the right" style="position: absolute; left: 0; top: 0; display: block">
+<g id="S5G_BG_Shapes">
+<circle cx="330" cy="640" r="300" fill="#FFEBC9" opacity="0.7"></circle>
+<ellipse cx="1340" cy="700" rx="600" ry="400" fill="#FFEBC9" opacity="0.55"></ellipse>
+<ellipse cx="1340" cy="960" rx="560" ry="40" fill="#5A3D2B" opacity="0.14"></ellipse>
+<ellipse cx="330" cy="836" rx="270" ry="18" fill="#5A3D2B" opacity="0.16"></ellipse>
+</g>
+<g id="S5G_Five">
+<g id="S5G_Five_Rider_1" transform="translate(90 620) scale(3.3)"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect><circle cx="20" cy="16" r="8" fill="#B57A45"></circle><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+<g id="S5G_Five_Rider_2" transform="translate(186 626) scale(3.3)"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect><circle cx="20" cy="16" r="8" fill="#8A5A30"></circle><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+<g id="S5G_Five_Rider_3" transform="translate(282 620) scale(3.3)"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect><circle cx="20" cy="16" r="8" fill="#C68E5A"></circle><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+<g id="S5G_Five_Rider_4" transform="translate(378 626) scale(3.3)"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect><circle cx="20" cy="16" r="8" fill="#A9703F"></circle><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+<g id="S5G_Five_Rider_5" transform="translate(474 620) scale(3.3)"><rect x="13" y="44" width="6" height="18" fill="#3A3F4A"></rect><rect x="21" y="44" width="6" height="18" fill="#3A3F4A"></rect><path d="M8 26 Q20 20 32 26 L30 46 L10 46 Z" fill="#FF7A1A"></path><rect x="10" y="36" width="20" height="3" fill="#E9EEF3"></rect><circle cx="20" cy="16" r="8" fill="#B57A45"></circle><path d="M11 15 A9 9 0 0 1 29 15 Z" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"></path><rect x="18.5" y="6" width="3" height="9" fill="#FF7A1A"></rect></g>
+</g>
+<g id="S5G_Arrow" fill="none" stroke="#FF7A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<path d="M640 720 C700 690 740 690 790 706" stroke-dasharray="2 26"></path>
+<path d="M776 676 L812 712 L770 738"></path>
+</g>
+</svg>

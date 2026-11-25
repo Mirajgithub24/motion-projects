@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+<defs>
+<pattern id="S4B_pDays" width="220" height="16.154" patternUnits="userSpaceOnUse" patternTransform="translate(0 300)"><rect x="0" y="0" width="220" height="2" fill="#FFF8EA" opacity="0.5"></rect></pattern>
+</defs>
+<g id="S4B_BG_Soft">
+<circle cx="410" cy="600" r="380" fill="#FFFFFF" opacity="0.6"></circle>
+</g>
+<g id="S4B_Bar_Shadow">
+<path d="M520 900 L640 936 L420 936 L300 900 Z" fill="#5A3D2B" opacity="0.14"></path>
+</g>
+<g id="S4B_Bar_Ground">
+<rect x="200" y="900" width="560" height="4" rx="2" fill="#E2D5BF"></rect>
+</g>
+<g id="S4B_Bar_Fixed">
+<rect x="300" y="720" width="220" height="180" fill="#2F7F8F"></rect>
+<rect x="300" y="720" width="26" height="180" fill="#FFFFFF" opacity="0.14"></rect>
+</g>
+<g id="S4B_Bar_Commission">
+<path d="M300 720 V318 A18 18 0 0 1 318 300 H502 A18 18 0 0 1 520 318 V720 Z" fill="#FF7A1A"></path>
+<rect x="300" y="316" width="220" height="404" fill="url(#S4B_pDays)"></rect>
+<path d="M300 720 V318 A18 18 0 0 1 318 300 H326 V720 Z" fill="#FFFFFF" opacity="0.16"></path>
+</g>
+<g id="S4B_Bar_SplitLine">
+<rect x="300" y="717" width="220" height="6" fill="#FDF6E9"></rect>
+</g>
+<g id="S4B_Leaders" fill="none" stroke="#3A4658" stroke-width="2.5" stroke-linecap="round">
+<path d="M532 510 H596"></path><circle cx="532" cy="510" r="5" fill="#3A4658" stroke="none"></circle>
+<path d="M532 810 H596"></path><circle cx="532" cy="810" r="5" fill="#3A4658" stroke="none"></circle>
+</g>
+<g id="S4B_Plus" fill="none" stroke="#3A4658" stroke-width="5" stroke-linecap="round">
+<path d="M236 720 H264 M250 706 V734"></path>
+</g>
+</svg>
